@@ -28,6 +28,7 @@ public class frontPage extends AppCompatActivity {
             }
         });
     }
+
 //
 //    public void openfirst_page() {
 //        Intent intent = new Intent(frontPage.this,first_page.class);
