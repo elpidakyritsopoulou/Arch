@@ -12,25 +12,27 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class frontPage extends AppCompatActivity {
 
-    private Button welcome_button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.front_page);
 
-        welcome_button = (Button) findViewById(R.id.welcome_button);
+        Button welcome_button = (Button) findViewById(R.id.welcome_button);
         welcome_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openfirstpage();
+
+                Intent intent = new Intent(frontPage.this, first_page.class);
+                startActivity(intent);
+
             }
         });
     }
-
-    public void openfirstpage() {
-        Intent intent = new Intent(this,first_page.class);
-        startActivity(intent);
-    }
+//
+//    public void openfirst_page() {
+//        Intent intent = new Intent(frontPage.this,first_page.class);
+//        startActivity(intent);
+//    }
 
 }
 
