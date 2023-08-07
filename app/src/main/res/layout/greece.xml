@@ -43,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="233dp"
                 android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/Patras" />
+                app:srcCompat="@drawable/patras" />
 
             <TextView
                 android:id="@+id/textView13"
