@@ -2,8 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/orange_background"
     android:visibility="visible">
 
 
@@ -17,7 +19,7 @@
         <ImageView
             android:id="@+id/logo"
             android:layout_width="match_parent"
-            android:layout_height="282dp"
+            android:layout_height="280dp"
             android:outlineAmbientShadowColor="#CACACA"
             android:src="@drawable/logo"
             tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck"></ImageView>
@@ -36,7 +38,7 @@
         <ImageView
             android:id="@+id/ImageViewAthens"
             android:layout_width="match_parent"
-            android:layout_height="334dp"
+            android:layout_height="280dp"
             android:contentDescription="@string/todo"
             android:outlineAmbientShadowColor="#CACACA"
             android:src="@drawable/athens">
@@ -56,8 +58,8 @@
 
         <ImageView
             android:id="@+id/ImageViewItaly"
-            android:layout_width="match_parent"
-            android:layout_height="427dp"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
             android:contentDescription="TODO"
             android:outlineAmbientShadowColor="#CACACA"
             android:src="@drawable/italy"
@@ -77,14 +79,14 @@
         <ImageView
             android:id="@+id/ImageViewSpain"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="280dp"
             android:src="@drawable/spain"
             tools:ignore="ContentDescription"></ImageView>
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="67dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:text="Spain"
