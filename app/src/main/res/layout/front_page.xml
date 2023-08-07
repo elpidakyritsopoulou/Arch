@@ -15,35 +15,37 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:text="@string/bringing_cultural_heritage_to_the_digital_era_unifying_past_present_and_future"/>
 
     <Button
         android:id="@+id/welcome_button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_below="@+id/logo"
         android:layout_alignBottom="@+id/logo"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="456dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="-75dp"
         android:onClick="goTofirst_page"
         android:text="Welcome" />
 
     <ImageView
         android:id="@+id/EE_logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/logo"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/welcome_button"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="0dp"
         app:srcCompat="@drawable/ee_logo" />
 
-
 </RelativeLayout>
+
