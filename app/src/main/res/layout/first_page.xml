@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
+    android:visibility="visible">
 
 
     <LinearLayout
@@ -14,12 +14,39 @@
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
+        <SearchView
+            android:layout_width="411dp"
+            android:layout_height="82dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/orange"
+            android:orientation="horizontal" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:fadeScrollbars="false"
+            android:fadingEdgeLength="5050dp"
+            android:outlineAmbientShadowColor="#CACACA"
+            android:src="@drawable/logo"></ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="The Most Adorable Places"
+            android:textSize="30dp" />
+
         <ImageView
             android:id="@+id/ImageViewAthens"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:outlineAmbientShadowColor="#CACACA"
-            android:src="@drawable/athens"></ImageView>
+            android:src="@drawable/athens">
+
+        </ImageView>
 
         <ImageView
             android:id="@+id/ImageViewItaly"
