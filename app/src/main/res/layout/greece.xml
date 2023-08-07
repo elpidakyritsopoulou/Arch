@@ -22,6 +22,15 @@
             tools:ignore="MissingConstraints">
 
             <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:gravity="center_horizontal"
+                android:text="GREECE "
+                android:textColor="@color/orange"
+                android:textSize="70sp" />
+
+            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="76dp"
