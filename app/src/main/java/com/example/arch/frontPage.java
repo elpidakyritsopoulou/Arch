@@ -15,5 +15,7 @@ public class frontPage {
         startActivity(intent);
     }
 
+    public void goTofirst_page(View view) {
+    }
 }
 
