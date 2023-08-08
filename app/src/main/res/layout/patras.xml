@@ -70,20 +70,38 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
-                    android:layout_height="233dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/patras" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@tools:sample/avatars"
+                    tools:srcCompat="@drawable/patras" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@tools:sample/avatars"
+                    tools:srcCompat="@drawable/patras" />
+
             </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="117dp" />
+                android:layout_height="34dp" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="352dp"
                 android:layout_height="161dp"
                 android:fontFamily="sans-serif-thin"
-                android:text="dgeawrhejtttttttttytythfgjeyjfghnjhrtdgeghnjhrt"
+                android:gravity="center"
+                android:text="i patra einai gtp"
                 android:textSize="34sp"
                 android:textStyle="bold" />
 
