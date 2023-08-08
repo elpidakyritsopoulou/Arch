@@ -39,11 +39,10 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/patraphoto"
                 android:layout_width="match_parent"
                 android:layout_height="233dp"
-                android:src="@drawable/patrasgr"
-                 />
+                android:src="@drawable/patrasgr" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -54,7 +53,7 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/athensphoto"
                 android:layout_width="match_parent"
                 android:layout_height="233dp"
                 android:src="@drawable/athens"

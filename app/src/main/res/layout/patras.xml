@@ -33,7 +33,7 @@
                 >
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/backbutton"
                     android:layout_width="52dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"

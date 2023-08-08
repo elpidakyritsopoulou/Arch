@@ -27,8 +27,11 @@
             android:exported="true">
         </activity>
         <activity
+            android:name=".Greece"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".patras"
-            android:parentActivityName=".Greece"
             android:exported="true">
         </activity>
     </application>
