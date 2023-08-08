@@ -39,7 +39,8 @@
                     android:layout_gravity="left"
                     android:contentDescription="@string/patras"
                     app:cornerRadius="50dp"
-                    app:icon="@drawable/car_ui_icon_arrow_back" />
+                    app:icon="@drawable/car_ui_icon_arrow_back"
+                    android:onClick="startSecondActivity"/>
 
                 <Space
                     android:layout_width="250dp"
