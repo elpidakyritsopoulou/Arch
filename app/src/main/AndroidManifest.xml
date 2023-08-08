@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Arch"
         tools:targetApi="31">
         <activity
-            android:name=".patras"
+            android:name=".frontPage"
             android:exported="true"
             android:theme="@style/Theme.Arch.NoActionBar">
             <intent-filter>
@@ -20,6 +20,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".first_page"
+            android:parentActivityName=".frontPage"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".patras"
+            android:parentActivityName=".Greece"
+            android:exported="true">
         </activity>
     </application>
 

@@ -20,19 +20,11 @@ public class frontPage extends AppCompatActivity {
         welcome_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(frontPage.this, first_page.class);
-                startActivity(intent);
-
+                startActivity(new Intent(frontPage.this, first_page.class));
             }
         });
     }
 
-//
-//    public void openfirst_page() {
-//        Intent intent = new Intent(frontPage.this,first_page.class);
-//        startActivity(intent);
-//    }
 
 }
 
