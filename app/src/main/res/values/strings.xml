@@ -11,4 +11,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="todo">TODO</string>
     <string name="bringing_cultural_heritage_to_the_digital_era_unifying_past_present_and_future">Bringing Cultural Heritage to the Digital Era; Unifying Past, Present and Future</string>
+    <string name="patras">Patras</string>
+    <string name="athens">Athens</string>
 </resources>

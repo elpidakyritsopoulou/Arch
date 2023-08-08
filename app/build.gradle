@@ -29,6 +29,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    buildToolsVersion '33.0.1'
 }
 
 dependencies {
@@ -39,7 +40,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.6.0'
     implementation 'androidx.navigation:navigation-ui:2.6.0'
     implementation 'com.android.car.ui:car-ui-lib:2.5.0'
-    implementation 'androidx.wear.tiles:tiles-material:1.2.0-rc01'
+//    implementation 'androidx.wear.tiles:tiles-material:1.2.0-rc01'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -51,5 +52,7 @@ dependencies {
             because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
         }
     }
+    //noinspection GradleCompatible
+    implementation  "com.android.support:support-core-utils:27.1.0"
 
 }
