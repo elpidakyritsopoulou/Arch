@@ -27,7 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="top"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                tools:ignore="ExtraText">
 
                 >
 
@@ -36,6 +37,7 @@
                     android:layout_width="52dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
+                    android:contentDescription="@string/patras"
                     app:cornerRadius="50dp"
                     app:icon="@drawable/car_ui_icon_arrow_back" />
 
