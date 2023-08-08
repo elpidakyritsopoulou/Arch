@@ -51,8 +51,8 @@
                     android:layout_width="76dp"
                     android:layout_height="71dp"
                     android:layout_gravity="right|top|fill_vertical"
-                    android:src="@tools:sample/avatars"
-                    tools:srcCompat="@drawable/logo" />
+                    android:src="@drawable/logo" />
+
             </LinearLayout>
 
             <TextView
@@ -73,23 +73,21 @@
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/patras" />
+                    app:srcCompat="@drawable/patrasgr" />
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    tools:srcCompat="@drawable/patras" />
+                    android:src="@drawable/patrasgr"/>
 
                 <ImageView
                     android:id="@+id/imageView4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@tools:sample/avatars"
-                    tools:srcCompat="@drawable/patras" />
+                    android:src="@drawable/patrasgr"/>
 
             </LinearLayout>
 
