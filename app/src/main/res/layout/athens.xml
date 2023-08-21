@@ -39,7 +39,7 @@
                     android:layout_width="52dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:contentDescription="@string/patras"
+                    android:contentDescription="@string/athens"
                     android:onClick="startSecondActivity"
                     app:cornerRadius="50dp"
                     app:icon="@drawable/car_ui_icon_arrow_back" />
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Patras "
+                android:text="Athens"
                 android:textColor="@color/orange"
                 android:textSize="70sp" />
 
@@ -75,28 +75,28 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/patrasgr" />
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/athens1" />
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/patrasgr" />
+                    android:src="@drawable/athens1" />
 
                 <ImageView
                     android:id="@+id/imageView4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/patrasgr" />
+                    android:src="@drawable/athens" />
 
             </LinearLayout>
 
-            <!--            <Space-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="34dp" />-->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="34dp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -104,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:gravity="center"
-                android:text="Patras is the largest city in the Peloponnese and the third largest in Greece, after Athens and Thessaloniki, with a population of 173.600 inhabitants, while the population of the Municipality of Patras is 215.922 inhabitants according to the 2021 census. "
+                android:text="Athens has been the capital of Greece since 1834 and is the country's largest and most densely populated city. The Athens basin, including Piraeus, has a population of 3,059,764 inhabitants. The name of the city of Athens comes from the patron goddess Athena. It is located in Attica, in eastern Central Greece, and is one of the oldest cities in the world, with its recorded history dating back to 3,200 BC."
                 android:textSize="12sp"
                 android:textStyle="bold" />
 
@@ -114,12 +114,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:gravity="center"
-                android:text="The wider metropolitan area includes approximately 305,000 inhabitants. Patras is the capital of the Regional Unit of Achaia, the Region of Western Greece, and the seat of the municipality of the same name. "
+                android:text="The legacy of the classical era is still evident in the city, represented by ancient monuments and works of art, the most famous of which is the Parthenon, considered an emblematic monument of ancient Western civilization. Roman and Byzantine monuments still remain in the city, as well as a small number of Ottoman monuments, while in its historical core there are elements that reflect the historical continuity of the city."
                 android:textSize="12sp"
                 android:textStyle="bold" />
-
-
-
 
 
         </LinearLayout>

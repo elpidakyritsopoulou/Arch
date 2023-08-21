@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     android:background="@color/orange_background">
 
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:contentDescription="@string/Greece"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/car_ui_icon_arrow_back"
+        android:onClick="startSecondActivity"/>
+
     <ScrollView
         android:id="@+id/back"
         android:layout_width="match_parent"
@@ -24,7 +34,7 @@
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:text="GREECE "
                 android:textColor="@color/orange"
@@ -33,7 +43,7 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="76dp"
+                android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:text="Patras"
                 android:textSize="45dp" />
@@ -41,13 +51,13 @@
             <ImageView
                 android:id="@+id/patraphoto"
                 android:layout_width="match_parent"
-                android:layout_height="233dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/patrasgr" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
-                android:layout_height="76dp"
+                android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:text="Athens"
                 android:textSize="45dp" />
@@ -55,29 +65,29 @@
             <ImageView
                 android:id="@+id/athensphoto"
                 android:layout_width="match_parent"
-                android:layout_height="233dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/athens"
                  />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
-                android:layout_height="76dp"
+                android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:text="Thessaloniki"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="350dp"
-                android:layout_height="233dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:src="@drawable/thessaloniki"
                  />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
-                android:layout_height="76dp"
+                android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:text="Tripoli"
                 android:textSize="45sp" />
@@ -85,7 +95,7 @@
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="233dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/tripolis"
                 />
 
