@@ -1,124 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="top|left"
-    android:background="@color/orange_background"
-    android:hapticFeedbackEnabled="true">
+    android:background="@color/orange"
+    android:backgroundTint="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal">
 
-    <ScrollView
-        android:id="@+id/back"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/orange_background"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
-
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical"
-            tools:ignore="MissingConstraints">
+            android:gravity="center_horizontal"
+            android:text="Athens "
+            android:textColor="@color/orange"
+            android:textSize="70sp" />
+
+        <!--                    <Space-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="34dp" />-->
+
+
+        <HorizontalScrollView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="top"
-                android:orientation="horizontal"
-                tools:ignore="ExtraText">
 
-                >
+                android:layout_width="910dp"
+                android:layout_height="202dp"
+                android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/backbutton"
-                    android:layout_width="52dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:contentDescription="@string/athens"
-                    android:onClick="startSecondActivity"
-                    app:cornerRadius="50dp"
-                    app:icon="@drawable/car_ui_icon_arrow_back" />
-
-                <Space
-                    android:layout_width="250dp"
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
                 <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="76dp"
-                    android:layout_height="71dp"
-                    android:layout_gravity="right|top|fill_vertical"
-                    android:src="@drawable/logo" />
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:text="Athens"
-                android:textColor="@color/orange"
-                android:textSize="70sp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    android:id="@+id/imageView9"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/athens" />
 
                 <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/athens1" />
-
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:id="@+id/imageView7"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
                     android:layout_weight="1"
                     android:src="@drawable/athens1" />
 
                 <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:id="@+id/imageView8"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
                     android:layout_weight="1"
                     android:src="@drawable/athens" />
 
             </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="34dp" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="casual"
-                android:gravity="center"
-                android:text="Athens has been the capital of Greece since 1834 and is the country's largest and most densely populated city. The Athens basin, including Piraeus, has a population of 3,059,764 inhabitants. The name of the city of Athens comes from the patron goddess Athena. It is located in Attica, in eastern Central Greece, and is one of the oldest cities in the world, with its recorded history dating back to 3,200 BC."
-                android:textSize="12sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="casual"
-                android:gravity="center"
-                android:text="The legacy of the classical era is still evident in the city, represented by ancient monuments and works of art, the most famous of which is the Parthenon, considered an emblematic monument of ancient Western civilization. Roman and Byzantine monuments still remain in the city, as well as a small number of Ottoman monuments, while in its historical core there are elements that reflect the historical continuity of the city."
-                android:textSize="12sp"
-                android:textStyle="bold" />
+        </HorizontalScrollView>
 
 
-        </LinearLayout>
-    </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Athens has been the capital of Greece since 1834 and is the country's largest and most densely populated city. The Athens basin, including Piraeus, has a population of 3,059,764 inhabitants. The name of the city of Athens comes from the patron goddess Athena. It is located in Attica, in eastern Central Greece, and is one of the oldest cities in the world, with its recorded history dating back to 3,200 BC. "
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="The legacy of the classical era is still evident in the city, represented by ancient monuments and works of art, the most famous of which is the Parthenon, considered an emblematic monument of ancient Western civilization. Roman and Byzantine monuments still remain in the city, as well as a small number of Ottoman monuments, while in its historical core there are elements that reflect the historical continuity of the city. "
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
