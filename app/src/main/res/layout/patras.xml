@@ -73,24 +73,24 @@
                 android:layout_width="550dp"
                 android:layout_height="190dp"
                 android:layout_weight="1"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/patrasgr" />
+                android:src="@drawable/patrasgr"
+                 />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="550dp"
                 android:layout_height="190dp"
                 android:layout_weight="1"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/patrasgr" />
+                android:src="@drawable/patrasgr"
+                 />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="550dp"
                 android:layout_height="190dp"
                 android:layout_weight="1"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/patrasgr" />
+                android:src="@drawable/patrasgr"
+                 />
         </LinearLayout>
 
         <TextView
