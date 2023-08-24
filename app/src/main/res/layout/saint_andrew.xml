@@ -22,7 +22,6 @@
             android:orientation="horizontal"
             tools:ignore="ExtraText">
 
-            >
 
             <Button
                 android:id="@+id/backbutton"
@@ -53,21 +52,50 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Patras "
+            android:text="Saint Andrew"
             android:textColor="@color/orange"
-            android:textSize="70sp" />
+            android:textSize="60sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="34dp" />
 
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/patrascover"
-            android:layout_width="550dp"
-            android:layout_height="190dp"
-            android:layout_weight="1"
-            android:src="@drawable/patrasgr" />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/saint_andrew1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:src="@drawable/saint_andrew1" />
+
+                <ImageView
+                    android:id="@+id/saint_andrew2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:src="@drawable/saint_andrew2" />
+
+                <ImageView
+                    android:id="@+id/saint_andrew3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:src="@drawable/saint_andrew3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
 
         <Space
             android:layout_width="match_parent"
@@ -79,7 +107,9 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Patras is the largest city in the Peloponnese and the third largest in Greece, after Athens and Thessaloniki, with a population of 173.600 inhabitants, while the population of the Municipality of Patras is 215.922 inhabitants according to the 2021 census. "
+            android:text="In the southern coastal area of Patras, near the place of the martyrdom of Apostle Andrew, there are two churches dedicated to the patron saint of the city, the newest of which is one of the largest in the Balkans and is today the cathedral - symbol of Patras.
+The old temple was originally built at the end of the 5th century on the ruins of an ancient temple of Demeter.  Architecturally, it belongs to the type of the three-aisled basilica. In the south aisle is the tomb of Agios Andreas, lined with marble, while next to the church, in an underground vaulted cave, there is a water spring, which is considered a holy water source.
+To the left of the old church is the imposing new church, in Byzantine style. "
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -89,21 +119,15 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The wider metropolitan area includes approximately 305,000 inhabitants. Patras is the capital of the Regional Unit of Achaia, the Region of Western Greece, and the seat of the municipality of the same name. "
+            android:text="It was founded in 1908 by King George I and inaugurated in 1974, after its construction was interrupted due to the instability of the ground and financial problems. Its dome is 46 metres high and on its roof is a five-metre-high gilded cross, while smaller crosses crown the domes of the twelve bell towers. The interior has an area of 2,500 square metres and a capacity of more than 8,000 people.  In the church is kept the casket of St. Andrew, which was given to Patras from Italy in 1964, as well as part of the cross of his martyrdom.
+The church celebrates on 30 November and on the Sunday closest to 26 September (the anniversary of the re-collection of the Holy Cara).
+"
             android:textSize="12sp"
             android:textStyle="bold" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="34dp" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Read more"
-            tools:visibility="visible" />
 
     </LinearLayout>
 

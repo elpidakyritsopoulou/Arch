@@ -22,7 +22,6 @@
             android:orientation="horizontal"
             tools:ignore="ExtraText">
 
-            >
 
             <Button
                 android:id="@+id/backbutton"
@@ -53,21 +52,50 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Patras "
+            android:text="Patras Castle"
             android:textColor="@color/orange"
-            android:textSize="70sp" />
+            android:textSize="60sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="34dp" />
 
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/patrascover"
-            android:layout_width="550dp"
-            android:layout_height="190dp"
-            android:layout_weight="1"
-            android:src="@drawable/patrasgr" />
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/patras_castle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/patras_castle1" />
+
+                <ImageView
+                    android:id="@+id/patras_castle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/patras_castle2" />
+
+                <ImageView
+                    android:id="@+id/patras_castle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:src="@drawable/patras_castle3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
 
         <Space
             android:layout_width="match_parent"
@@ -79,7 +107,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Patras is the largest city in the Peloponnese and the third largest in Greece, after Athens and Thessaloniki, with a population of 173.600 inhabitants, while the population of the Municipality of Patras is 215.922 inhabitants according to the 2021 census. "
+            android:text="The Castle of Patras is located on the foothills of Mount Panachaiko. Its foundation dates back to the 6th century AD during the reign of Justinian. Its construction was carried out with building material from the ancient Acropolis, which was located on the same spot and had already collapsed.
+The history of the castle is long and closely linked to the history of the city.
+The Castle of Patras consists of a wide outer enclosure with towers and bastions, surrounded on three sides by a deep moat. In the northeast corner, where a natural embankment rises, there is a second (inner) enclosure with strong towers, also protected by a moat.
+"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -89,21 +120,17 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The wider metropolitan area includes approximately 305,000 inhabitants. Patras is the capital of the Regional Unit of Achaia, the Region of Western Greece, and the seat of the municipality of the same name. "
+            android:text="From 1950 to 1975 the castle belonged to the Municipality of Patreon and then it was granted to the Ministry of Culture - 6th Ephorate of Byzantine Antiquities and operates as an archaeological site.
+The interior of the castle appears today flattened and tree-lined, with no obvious traces of the buildings that once existed (temples, mosques, barracks, etc.).
+However, no systematic excavation has been carried out to date, in order to reveal the traces of the long history of the site, which dates back to ancient times.
+
+"
             android:textSize="12sp"
             android:textStyle="bold" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="34dp" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Read more"
-            tools:visibility="visible" />
 
     </LinearLayout>
 
