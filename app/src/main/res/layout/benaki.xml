@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:backgroundTint="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Benaki Museum"
+            android:textColor="@color/orange"
+            android:textSize="34sp" />
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:layout_width="910dp"
+                android:layout_height="202dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/benaki1" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/benaki2" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/benaki3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="The Benaki Museum of Greek Culture in Athens will tell you Greek history through artworks and collectibles from the 6th century BC, ancient Greece and Greco-Roman civilization, to the years of the Byzantine Empire, the establishment of the Greek state in the early 19th century and even later.
+The Benaki Museum, founded and endowed in 1930 by Antonis Benakis in memory of his father Emmanuel Benakis, is housed in the Benaki family mansion in Athens in a beautiful neoclassical building directly opposite the National Garden and the building of the Greek Parliament and is certainly one of the most popular museums in Athens.
+ Since then, tens of thousands of other works representative of Greek history have been added, including jewellery, ceramic objects, marble portraits, manuscripts, religious icons, household utensils, clothes and textiles.
+Today, the Museum houses over 100,000 objects from Greek history from prehistoric to modern times, hosts temporary exhibitions and maintains a state-of-the-art conservation and restoration workshop.
+Its reopening in 2000 led to the creation of satellite museums focused on specific collections, allowing the main museum to focus on Greek culture throughout the country's history.
+Scattered in various locations, the museum is among the most important cultural institutions in Greece and showcases the many eras, cultures and civilizations that have influenced Greece's development.
+The result is a museum that uniquely tells the story of Greece from the Neolithic period to the 20th century and highlights Greek culture as a continuous evolution rather than a series of isolated, disconnected events.
+
+"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

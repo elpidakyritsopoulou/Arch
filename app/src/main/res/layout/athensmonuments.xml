@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Patras Monuments "
+                android:text="Athens Monuments "
                 android:textColor="@color/orange"
                 android:textSize="70sp" />
 
@@ -49,44 +49,53 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Cathedral of Saint Andrew"
+                android:text="Acropolis"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/patraphoto"
-                android:layout_width="371dp"
+                android:layout_width="360dp"
                 android:layout_height="310dp"
-                android:src="@drawable/agios1" />
+                android:src="@drawable/athenswallpaper" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Archaeological Museum of Patras"
+                android:text="Panathenaic Stadium"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/athensphoto"
-                android:layout_width="371dp"
+                android:layout_width="match_parent"
                 android:layout_height="225dp"
-                android:src="@drawable/mouseio" />
+                android:src="@drawable/stadiocover" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Patras Castle"
+                android:text="Benaki Museum"
                 android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="(Museum of Greek Culture)"
+                android:textSize="24sp" />
+
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="373dp"
+                android:layout_width="match_parent"
                 android:layout_height="275dp"
-                android:src="@drawable/kastro" />
+                android:src="@drawable/beanki" />
 
 
         </LinearLayout>
     </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>ayout>

@@ -64,10 +64,10 @@
 
         <ImageView
             android:id="@+id/patrascover"
-            android:layout_width="550dp"
-            android:layout_height="190dp"
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
             android:layout_weight="1"
-            android:src="@drawable/patrasgr" />
+            android:src="@drawable/patracover" />
 
         <Space
             android:layout_width="match_parent"

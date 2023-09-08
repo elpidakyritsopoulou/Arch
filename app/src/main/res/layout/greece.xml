@@ -50,8 +50,8 @@
 
             <ImageView
                 android:id="@+id/patraphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="295dp"
+                android:layout_height="201dp"
                 android:src="@drawable/patrasgr" />
 
             <TextView
@@ -64,10 +64,9 @@
 
             <ImageView
                 android:id="@+id/athensphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/athens"
-                 />
+                android:layout_width="308dp"
+                android:layout_height="214dp"
+                android:src="@drawable/athenswallpaper" />
 
             <TextView
                 android:id="@+id/textView14"
@@ -79,10 +78,9 @@
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/thessaloniki"
-                 />
+                android:layout_width="310dp"
+                android:layout_height="196dp"
+                android:src="@drawable/thessaloniki" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -94,10 +92,9 @@
 
             <ImageView
                 android:id="@+id/imageView8"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/tripolis"
-                />
+                android:layout_width="322dp"
+                android:layout_height="211dp"
+                android:src="@drawable/tripolis" />
 
         </LinearLayout>
     </ScrollView>

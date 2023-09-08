@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:backgroundTint="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Cathedral of Saint Andrew "
+            android:textColor="@color/orange"
+            android:textSize="34sp" />
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:layout_width="910dp"
+                android:layout_height="202dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/athens1" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/athens2" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/athens3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="The greatest and finest sanctuary of ancient Athens, dedicated primarily to its patron, the goddess Athena, dominates the centre of the modern city from the rocky crag known as the Acropolis. The most celebrated myths of ancient Athens, its greatest religious festivals, earliest cults and several decisive events in the city's history are all connected to this sacred precinct. The monuments of the Acropolis stand in harmony with their natural setting and combine different orders and styles of Classical art in a most innovative manner and have influenced art and culture for many centuries.
+The Acropolis of the fifth century BC is the most accurate reflection of the splendour, power and wealth of Athens at its greatest peak, the golden age of Perikles.
+Athenians and foreigners alike worked on this project, receiving a salary of one drachma a day. The most important buildings visible on the Acropolis today - that is, the Parthenon, the Propylaia, the Erechtheion and the temple of Athena Nike, were erected during this period under the supervision of the greatest architects, sculptors and artists of their time. The temples on the north side of the Acropolis housed primarily the earlier Athenian cults and those of the Olympian gods, while the southern part of the Acropolis was dedicated to the cult of Athena in her many qualities: as Polias (patron of the city), Parthenos, Pallas, Promachos (goddess of war), Ergane (goddess of manual labour) and Nike (Victory). After the end of the Peloponnesian war in 404 BC and until the first century BC no other important buildings were erected on the Acropolis.
+"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
