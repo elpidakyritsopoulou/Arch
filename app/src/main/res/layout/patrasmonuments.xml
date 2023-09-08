@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/orange_background">
 
-    <Button
-        android:id="@+id/backbutton"
-        android:layout_width="52dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:contentDescription="@string/Greece"
-        app:cornerRadius="50dp"
-        app:icon="@drawable/car_ui_icon_arrow_back"
-        android:onClick="startSecondActivity"/>
-
     <ScrollView
         android:id="@+id/back"
         android:layout_width="match_parent"
@@ -31,73 +21,71 @@
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/Greece"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="ITALY "
+                android:text="Patras Monuments "
                 android:textColor="@color/orange"
                 android:textSize="70sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Matera"
+                android:text="Cathedral of Saint Andrew"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/patraphoto"
-                android:layout_width="match_parent"
-                android:layout_height="321dp"
-                android:src="@drawable/Materaphoto" />
+                android:layout_width="519dp"
+                android:layout_height="310dp"
+                android:src="@drawable/agios1" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Maratea"
+                android:text="Archaeological Museum of Patras"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/athensphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/Materaphoto"
-                />
+                android:layout_width="435dp"
+                android:layout_height="225dp"
+                android:src="@drawable/mouseio" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Murcia"
+                android:text="Patras Castle"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/thessaloniki"
-                />
+                android:layout_height="275dp"
+                android:src="@drawable/kastro" />
 
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal"
-                android:text="Santiago de Compostela"
-                android:textSize="45sp" />
-
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/tripolis"
-                />
 
         </LinearLayout>
     </ScrollView>
