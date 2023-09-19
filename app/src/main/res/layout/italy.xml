@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/orange_background">
 
-    <Button
-        android:id="@+id/backbutton"
-        android:layout_width="52dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:contentDescription="@string/Greece"
-        app:cornerRadius="50dp"
-        app:icon="@drawable/car_ui_icon_arrow_back"
-        android:onClick="startSecondActivity"/>
-
     <ScrollView
         android:id="@+id/back"
         android:layout_width="match_parent"
@@ -23,20 +13,29 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/Greece"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back"
+                android:onClick="startSecondActivity"/>
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="ITALY "
+                android:text="@string/italy"
                 android:textColor="@color/orange"
                 android:textSize="70sp" />
 
@@ -49,25 +48,10 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/patraphoto"
+                android:id="@+id/materaphoto"
                 android:layout_width="match_parent"
-                android:layout_height="321dp"
-                android:src="@drawable/Materaphoto" />
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal"
-                android:text="Maratea"
-                android:textSize="45dp" />
-
-            <ImageView
-                android:id="@+id/athensphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/Materaphoto"
-                />
+                android:layout_height="658dp"
+                android:src="@drawable/materaphoto" />
 
             <TextView
                 android:id="@+id/textView14"
@@ -78,7 +62,7 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/murciaphoto"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/thessaloniki"

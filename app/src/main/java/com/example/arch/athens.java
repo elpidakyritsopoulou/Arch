@@ -17,11 +17,19 @@ public class athens extends AppCompatActivity {
         setContentView(R.layout.athens);
 
         Button backbutton = (Button) findViewById(R.id.backbutton);
+        Button readmore = (Button) findViewById(R.id.button);
 
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(athens.this, Greece.class));
+            }
+        });
+
+        readmore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(athens.this, athens_monuments.class));
             }
         });
     }

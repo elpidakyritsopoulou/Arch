@@ -15,4 +15,12 @@
     <string name="athens">Athens</string>
     <string name="Greece">Greece</string>
     <string name="archaeological_museum">Archaeological Museum</string>
+    <string name="italy">ITALY</string>
+    <string name="acropolis_links">Acropolis Links
+    <a href="https://www.visitgreece.gr/experiences/culture/archaeological-sites-and-monuments/acropolis-of-athens/"></a>
+        <a href="https://whc.unesco.org/en/list/404/"></a>
+        <a href="https://www.theacropolismuseum.gr/en/"></a>
+    </string>
+
+
 </resources>
