@@ -21,11 +21,19 @@ public class patras extends AppCompatActivity {
         setContentView(R.layout.patras);
 
         Button backbutton = (Button) findViewById(R.id.backbutton);
+        Button readmore = (Button) findViewById(R.id.button);
 
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(patras.this, Greece.class));
+            }
+        });
+
+        readmore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(patras.this, patras_monuments.class));
             }
         });
                             }

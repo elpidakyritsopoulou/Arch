@@ -111,12 +111,38 @@ Athenians and foreigners alike worked on this project, receiving a salary of one
 "
             android:textSize="12sp"
             android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+        <ImageButton
+            android:id="@+id/link1"
+            android:layout_width="98dp"
+            android:layout_height="115dp"
+            android:background="@drawable/link"
+            android:gravity="left|bottom"
+            android:text="@string/acropolis_links">
 
-        <TextView
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/link2"
+            android:layout_width="98dp"
+            android:layout_height="115dp"
+            android:gravity="center"
             android:text="@string/acropolis_links"
-            android:layout_width="match_parent"
-            android:layout_height="144dp"></TextView>
-
+            android:background="@drawable/link">
+        </ImageButton>
+    <ImageButton
+        android:id="@+id/link3"
+        android:layout_width="98dp"
+        android:layout_height="115dp"
+        android:gravity="right|bottom"
+        android:text="@string/acropolis_links"
+        android:background="@drawable/link">
+    </ImageButton>
+    </LinearLayout>
 
     </LinearLayout>
 
