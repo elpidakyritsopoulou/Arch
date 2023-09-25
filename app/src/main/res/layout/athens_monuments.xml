@@ -64,38 +64,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
+                android:text="Odeon of Herodus Atticus"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/herodusatticus"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:src="@drawable/odeon_of_herodus_atticus_cover" />
+
+            <TextView
+                android:id="@+id/panathenaic_stadium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
                 android:text="Panathenaic Stadium"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/athensphoto"
-                android:layout_width="match_parent"
-                android:layout_height="225dp"
-                android:src="@drawable/stadiocover" />
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal"
-                android:text="Benaki Museum"
-                android:textSize="45dp" />
-
-            <TextView
-                android:id="@+id/benaki_museum2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal"
-                android:text="(Museum of Greek Culture)"
-                android:textSize="24sp" />
-
-
-            <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/panathenaic_stadium1"
                 android:layout_width="match_parent"
                 android:layout_height="275dp"
-                android:src="@drawable/beanki" />
-
+                android:src="@drawable/panathenaic_stadium_cover" />
 
         </LinearLayout>
     </ScrollView>
