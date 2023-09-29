@@ -116,32 +116,32 @@ Athenians and foreigners alike worked on this project, receiving a salary of one
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     >
-        <ImageButton
-            android:id="@+id/link1"
-            android:layout_width="98dp"
-            android:layout_height="115dp"
-            android:background="@drawable/link"
-            android:gravity="left|bottom"
-            android:text="@string/acropolis_links">
 
-        </ImageButton>
+    <ImageButton
+        android:id="@+id/link1"
+        android:layout_width="72dp"
+        android:layout_height="83dp"
+        android:background="@drawable/link"
+        android:gravity="left|bottom"
+        android:text="@string/acropolis_links">
 
-        <ImageButton
-            android:id="@+id/link2"
-            android:layout_width="98dp"
-            android:layout_height="115dp"
-            android:gravity="center"
-            android:text="@string/acropolis_links"
-            android:background="@drawable/link">
-        </ImageButton>
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/link2"
+        android:layout_width="81dp"
+        android:layout_height="83dp"
+        android:background="@drawable/link"
+        android:gravity="center"
+        android:text="@string/acropolis_links"></ImageButton>
+
     <ImageButton
         android:id="@+id/link3"
         android:layout_width="98dp"
-        android:layout_height="115dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/link"
         android:gravity="right|bottom"
-        android:text="@string/acropolis_links"
-        android:background="@drawable/link">
-    </ImageButton>
+        android:text="@string/acropolis_links"></ImageButton>
     </LinearLayout>
 
     </LinearLayout>
