@@ -1,21 +1,15 @@
 package com.example.arch;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
-
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.net.URL;
-
-public class saint_andrew extends AppCompatActivity {
+public class rio_antirion_bridge extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.saint_andrew);
+        setContentView(R.layout.rio_antirio_bridge);
 
     }
 
-    }
+   }

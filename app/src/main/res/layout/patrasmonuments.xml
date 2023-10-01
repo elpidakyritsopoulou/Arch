@@ -53,38 +53,38 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/patraphoto"
+                android:id="@+id/saint_andrew_photo"
                 android:layout_width="371dp"
                 android:layout_height="310dp"
-                android:src="@drawable/agios1" />
+                android:src="@drawable/saint_andrew_cover" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Archaeological Museum of Patras"
+                android:text="Roman Odeon"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/athensphoto"
+                android:id="@+id/roman_odeon_photo"
                 android:layout_width="371dp"
                 android:layout_height="225dp"
-                android:src="@drawable/mouseio" />
+                android:src="@drawable/roman_odeon_cover" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Patras Castle"
+                android:text="Rion-Antirion Bridge"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/rion_antirion_photo"
                 android:layout_width="373dp"
                 android:layout_height="275dp"
-                android:src="@drawable/kastro" />
+                android:src="@drawable/rion_antirion_cover" />
 
 
         </LinearLayout>

@@ -66,5 +66,13 @@
             android:name=".Odeon_of_Herodus_Atticus"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".rio_antirion_bridge"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".roman_odeon"
+            android:exported="true">
+        </activity>
     </application>
 </manifest>
