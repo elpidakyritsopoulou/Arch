@@ -117,4 +117,46 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/link1"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:background="@drawable/link_512"
+            android:gravity="left|bottom"
+            android:text="@string/acropolis_links"></ImageButton>
+
+        <Space
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/link2"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:background="@drawable/link_512"
+            android:gravity="center"
+            android:text="@string/acropolis_links"></ImageButton>
+
+        <Space
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/link3"
+            android:layout_width="51dp"
+            android:layout_height="45dp"
+            android:background="@drawable/link_512"
+            android:gravity="right|bottom"
+            android:text="@string/acropolis_links"></ImageButton>
+    </LinearLayout>
+
 </LinearLayout>
