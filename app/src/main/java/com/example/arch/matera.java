@@ -27,7 +27,7 @@ public class matera extends AppCompatActivity {
         readmore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(matera.this, athens_monuments.class));
+                startActivity(new Intent(matera.this, matera_monuments.class));
             }
         });
     }

@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/orange_background">
 
-    <Button
-        android:id="@+id/backbutton"
-        android:layout_width="52dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:contentDescription="@string/Greece"
-        app:cornerRadius="50dp"
-        app:icon="@drawable/car_ui_icon_arrow_back"
-        android:onClick="startSecondActivity"/>
-
     <ScrollView
         android:id="@+id/back"
         android:layout_width="match_parent"
@@ -31,71 +21,69 @@
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="ITALY "
+                android:text="Maratea Monuments "
                 android:textColor="@color/orange"
-                android:textSize="70sp" />
+                android:textSize="60sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Matera"
+                android:text="The Statue of the Christ the Redeemer"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/materaphoto"
-                android:layout_width="295dp"
-                android:layout_height="201dp"
-                android:src="@drawable/matera" />
+                android:id="@+id/christ_redeemer"
+                android:layout_width="371dp"
+                android:layout_height="310dp"
+                android:src="@drawable/christ_redeemer_cover" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Maratea"
+                android:text="The Basilica of St Blaise"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/marateaphoto"
-                android:layout_width="308dp"
-                android:layout_height="214dp"
-                android:src="@drawable/maratea" />
+                android:id="@+id/st_blaise_photo"
+                android:layout_width="371dp"
+                android:layout_height="225dp"
+                android:src="@drawable/st_blaise_cover" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Assisi"
+                android:text="Castrocucco Castle"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/assisiphoto"
-                android:layout_width="310dp"
-                android:layout_height="196dp"
-                android:src="@drawable/assisi" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal"
-                android:text="Perugia"
-                android:textSize="45sp" />
-
-            <ImageView
-                android:id="@+id/perugiaphoto"
-                android:layout_width="322dp"
-                android:layout_height="211dp"
-                android:src="@drawable/perugia" />
-
+                android:id="@+id/castrocucco_castle_photo"
+                android:layout_width="373dp"
+                android:layout_height="275dp"
+                android:src="@drawable/castrocucco_castle_cover" />
 
 
         </LinearLayout>

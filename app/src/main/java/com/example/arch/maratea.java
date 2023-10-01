@@ -27,7 +27,7 @@ public class maratea extends AppCompatActivity {
         readmore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(maratea.this, athens_monuments.class));
+                startActivity(new Intent(maratea.this, maratea_monuments.class));
             }
         });
     }

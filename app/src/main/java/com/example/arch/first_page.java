@@ -19,7 +19,7 @@ public class first_page extends frontPage {
 
         ImageView logo = (ImageView) findViewById(R.id.ImageViewAthens);
         ImageView logoItaly = (ImageView) findViewById(R.id.ImageViewItaly);
-        ImageView logoSpain = (ImageView) findViewById(R.id.ImageViewSpain);
+//        ImageView logoSpain = (ImageView) findViewById(R.id.ImageViewSpain);
 
         logo.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -27,8 +27,6 @@
             android:exported="true"
             android:parentActivityName=".frontPage"
             >
-
-
         </activity>
         <activity
             android:name=".Greece"
@@ -72,6 +70,58 @@
         </activity>
         <activity
             android:name=".rio_antirion_bridge"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Italy"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".maratea"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".matera"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".matera_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".assisi"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".perugia"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".The_Murgia_Park"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".The_Castello_Tramontano"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".The_Sassi"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".maratea_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".The_Statue_of_the_Christ_the_Redeemer"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".The_Basilica_of_St_Blaise"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Castrocucco_Castle"
             android:exported="true">
         </activity>
     </application>
