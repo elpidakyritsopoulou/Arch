@@ -54,9 +54,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Acropolis"
+            android:text="Odeon of Herodus Atticus"
             android:textColor="@color/orange"
-            android:textSize="34sp" />
+            android:textSize="37sp" />
 
 
 

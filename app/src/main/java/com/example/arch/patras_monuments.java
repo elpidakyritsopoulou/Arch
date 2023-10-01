@@ -13,7 +13,7 @@ public class patras_monuments extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.patrasmonuments);
+        setContentView(R.layout.patras_monuments);
 
         ImageView saint_andrew_photo = (ImageView) findViewById(R.id.saint_andrew_photo);
         ImageView roman_odeon_photo = (ImageView) findViewById(R.id.roman_odeon_photo);
