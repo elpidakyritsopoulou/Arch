@@ -74,5 +74,26 @@
             android:name=".rio_antirion_bridge"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".corfu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".corfu_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".oldfortess"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".newfortess"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".paleopolis"
+            android:exported="true">
+        </activity>
+
     </application>
 </manifest>

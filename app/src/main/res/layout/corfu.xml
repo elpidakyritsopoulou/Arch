@@ -49,11 +49,11 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/CorfuText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Athens"
+            android:text="Corfu"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -63,11 +63,11 @@
 
 
         <ImageView
-            android:id="@+id/patrascover"
+            android:id="@+id/corfucover"
             android:layout_width="match_parent"
-            android:layout_height="535dp"
+            android:layout_height="344dp"
             android:layout_weight="1"
-            android:src="@drawable/athenscover" />
+            android:src="@drawable/corfu" />
 
         <Space
             android:layout_width="match_parent"
@@ -79,9 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Athens has been the capital of Greece since 1834 and is the country's largest and most densely populated city. The Athens basin, including Piraeus, has a population of 3,059,764 inhabitants. The name of the city of Athens comes from the patron goddess Athena. It is located in Attica, in eastern Central Greece, and is one of the oldest cities in the world, with its recorded history dating back to 3,200 BC.
-The legacy of the classical era is still evident in the city, represented by ancient monuments and works of art, the most famous of which is the Parthenon, considered an emblematic monument of ancient Western civilization. Roman and Byzantine monuments still remain in the city, as well as a small number of Ottoman monuments, while in its historical core there are elements that reflect the historical continuity of the city.
-"
+            android:text="Corfu  or Kerkyra  is a Greek island in the Ionian Sea, of the Ionian Islands,] and, including its small satellite islands, forms the margin of the northwestern frontier of Greece. The island is part of the Corfu regional unit, and is administered by three municipalities with the islands of Othonoi, Ereikoussa, and Mathraki. The principal city of the island (pop. 32,095) is also named Corfu. Corfu is home to the Ionian University."
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -90,7 +88,7 @@ The legacy of the classical era is still evident in the city, represented by anc
             android:layout_height="34dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/readmore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
