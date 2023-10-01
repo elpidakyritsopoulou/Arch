@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_background"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange_background"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/Greece"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Assisi Monuments "
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
+
+            <TextView
+                android:id="@+id/acropoli"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Basilica of San Francesco"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/san_francesco_photo"
+                android:layout_width="360dp"
+                android:layout_height="310dp"
+                android:src="@drawable/san_francesco_cover" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="The Woods of San Francesco"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/woods_francesco_photo"
+                android:layout_width="517dp"
+                android:layout_height="252dp"
+                android:src="@drawable/woods_francesco_cover" />
+
+            <TextView
+                android:id="@+id/panathenaic_stadium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Temple of Minerva"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/minerva_photo"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:src="@drawable/minerva_cover" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

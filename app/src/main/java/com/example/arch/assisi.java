@@ -27,7 +27,7 @@ public class assisi extends AppCompatActivity {
         readmore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(assisi.this, athens_monuments.class));
+                startActivity(new Intent(assisi.this, assisi_monuments.class));
             }
         });
     }
