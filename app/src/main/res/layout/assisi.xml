@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Assisi"
+            android:textColor="@color/orange"
+            android:textSize="70sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+
+        <ImageView
+            android:id="@+id/assisicover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/assisi" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="casual"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Athens has been the capital of Greece since 1834 and is the country's largest and most densely populated city. The Athens basin, including Piraeus, has a population of 3,059,764 inhabitants. The name of the city of Athens comes from the patron goddess Athena. It is located in Attica, in eastern Central Greece, and is one of the oldest cities in the world, with its recorded history dating back to 3,200 BC.-->
+<!--The legacy of the classical era is still evident in the city, represented by ancient monuments and works of art, the most famous of which is the Parthenon, considered an emblematic monument of ancient Western civilization. Roman and Byzantine monuments still remain in the city, as well as a small number of Ottoman monuments, while in its historical core there are elements that reflect the historical continuity of the city.-->
+<!--"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Read more"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</ScrollView>
