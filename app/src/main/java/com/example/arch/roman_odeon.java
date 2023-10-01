@@ -18,7 +18,7 @@ public class roman_odeon extends AppCompatActivity {
 
     ImageButton link1 = (ImageButton) findViewById(R.id.link1);
     ImageButton link2 = (ImageButton) findViewById(R.id.link2);
-    ImageButton link3 = (ImageButton) findViewById(R.id.link3);
+
 
 
         link1.setOnClickListener(new View.OnClickListener() {
