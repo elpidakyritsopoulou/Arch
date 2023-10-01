@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,6 +22,8 @@
             android:gravity="top"
             android:orientation="horizontal"
             tools:ignore="ExtraText">
+
+            >
 
             <Button
                 android:id="@+id/backbutton"
@@ -71,6 +73,7 @@
                 android:orientation="horizontal">
 
 
+
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="550dp"
@@ -95,28 +98,6 @@
             </LinearLayout>
         </HorizontalScrollView>
 
-        <Space
-            android:layout_width="40dp"
-            android:layout_height="20dp">
-
-        </Space>
-
-        <TextView
-            android:id="@+id/panathenaic_stadium3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="The Panathenaic Stadium of Athens, or Kallimarmaro, which hosted the first modern Olympic Games in 1896, is located on the site of an ancient Greek Stadium and for many centuries hosted the organization of gymnastic games, athletics as we would say today.
-Its history dates back to 330 BC and it is considered the oldest operating stadium in the world with an age of over 2300 years.
-"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-        <Space
-            android:layout_width="40dp"
-            android:layout_height="20dp">
-
-        </Space>
 
         <TextView
             android:id="@+id/textView3"
@@ -124,14 +105,50 @@ Its history dates back to 330 BC and it is considered the oldest operating stadi
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="It is also the only stadium in the world in which three Olympic Games have been held to date (1896, 1906, 2004), and the only one in the world that is made entirely of white Penteli marble from quarries opened exclusively for its construction.
+            android:text="The Panathenaic Stadium of Athens, or Kallimarmaro, which hosted the first modern Olympic Games in 1896, is located on the site of an ancient Greek Stadium and for many centuries hosted the organization of gymnastic games, athletics as we would say today.
+Its history dates back to 330 BC and it is considered the oldest operating stadium in the world with an age of over 2300 years.
+It is also the only stadium in the world in which three Olympic Games have been held to date (1896, 1906, 2004), and the only one in the world that is made entirely of white Penteli marble from quarries opened exclusively for its construction.
 "
             android:textSize="12sp"
             android:textStyle="bold" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/link1"
+                android:layout_width="51dp"
+                android:layout_height="45dp"
+                android:background="@drawable/link_512"
+                android:gravity="left|bottom"
+                android:text="@string/acropolis_links"></ImageButton>
+
+            <Space
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/link2"
+                android:layout_width="51dp"
+                android:layout_height="45dp"
+                android:background="@drawable/link_512"
+                android:gravity="center"
+                android:text="@string/acropolis_links"></ImageButton>
+
+        </LinearLayout>
 
 
 
     </LinearLayout>
 
-</LinearLayout>
+
+
+</ScrollView>

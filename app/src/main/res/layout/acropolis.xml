@@ -111,38 +111,53 @@ Athenians and foreigners alike worked on this project, receiving a salary of one
 "
             android:textSize="12sp"
             android:textStyle="bold" />
-<LinearLayout
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     >
 
-    <ImageButton
+            <ImageButton
         android:id="@+id/link1"
-        android:layout_width="72dp"
-        android:layout_height="83dp"
-        android:background="@drawable/link"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:background="@drawable/link_512"
         android:gravity="left|bottom"
-        android:text="@string/acropolis_links">
+        android:text="@string/acropolis_links"></ImageButton>
 
-    </ImageButton>
+            <Space
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
     <ImageButton
         android:id="@+id/link2"
-        android:layout_width="81dp"
-        android:layout_height="83dp"
-        android:background="@drawable/link"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:background="@drawable/link_512"
         android:gravity="center"
         android:text="@string/acropolis_links"></ImageButton>
 
-    <ImageButton
+            <Space
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
         android:id="@+id/link3"
-        android:layout_width="98dp"
-        android:layout_height="match_parent"
-        android:background="@drawable/link"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:background="@drawable/link_512"
         android:gravity="right|bottom"
         android:text="@string/acropolis_links"></ImageButton>
     </LinearLayout>
+
+
 
     </LinearLayout>
 

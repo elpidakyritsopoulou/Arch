@@ -87,14 +87,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Tripoli"
+                android:text="Corfu"
                 android:textSize="45sp" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="322dp"
                 android:layout_height="211dp"
-                android:src="@drawable/tripolis" />
+                android:src="@drawable/corfu" />
+
+
 
         </LinearLayout>
     </ScrollView>

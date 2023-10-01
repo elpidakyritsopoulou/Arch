@@ -66,5 +66,9 @@
             android:name=".Odeon_of_Herodus_Atticus"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".whitetower"
+            android:exported="true">
+        </activity>
     </application>
 </manifest>
