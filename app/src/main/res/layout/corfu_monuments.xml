@@ -4,17 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange_background">
-
-    <Button
-        android:id="@+id/backbutton"
-        android:layout_width="52dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:contentDescription="@string/Greece"
-        app:cornerRadius="50dp"
-        app:icon="@drawable/car_ui_icon_arrow_back"
-        android:onClick="startSecondActivity"/>
+    android:background="@color/orange_background"
+    tools:ignore="MissingDefaultResource">
 
     <ScrollView
         android:id="@+id/back"
@@ -31,72 +22,70 @@
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/Greece"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="GREECE "
+                android:text="Corfu Monuments "
                 android:textColor="@color/orange"
-                android:textSize="70sp" />
+                android:textSize="60sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/oldfortesstext"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Patras"
+                android:text="Old Fortess"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/patraphoto"
-                android:layout_width="295dp"
-                android:layout_height="201dp"
-                android:src="@drawable/patrasgr" />
+                android:id="@+id/oldfortess"
+                android:layout_width="360dp"
+                android:layout_height="267dp"
+                android:src="@drawable/old_fortress_cover" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/newfortesstext"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Athens"
+                android:text="New Fortess"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/athensphoto"
-                android:layout_width="308dp"
-                android:layout_height="214dp"
-                android:src="@drawable/athenswallpaper" />
+                android:id="@+id/newfortess"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:src="@drawable/newfortesscover" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/paleopolistext"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Thessaloniki"
+                android:text="Paleopolis"
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/thessalonikiphoto"
-                android:layout_width="310dp"
-                android:layout_height="196dp"
-                android:src="@drawable/thessaloniki"/>
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal"
-                android:text="Corfu"
-                android:textSize="45sp" />
-
-            <ImageView
-                android:id="@+id/corfuphoto"
-                android:layout_width="322dp"
-                android:layout_height="211dp"
-                android:src="@drawable/corfu" />
-
-
+                android:id="@+id/paleopolis"
+                android:layout_width="346dp"
+                android:layout_height="275dp"
+                android:src="@drawable/paleopolis_cover" />
 
         </LinearLayout>
     </ScrollView>
