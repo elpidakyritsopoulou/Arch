@@ -56,7 +56,7 @@
 
         <ImageView
             android:id="@+id/ImageViewItaly"
-            android:layout_width="wrap_content"
+            android:layout_width="320dp"
             android:layout_height="280dp"
             android:contentDescription="TODO"
             android:outlineAmbientShadowColor="#CACACA"
@@ -76,7 +76,7 @@
 
         <ImageView
             android:id="@+id/ImageViewSpain"
-            android:layout_width="match_parent"
+            android:layout_width="358dp"
             android:layout_height="280dp"
             android:src="@drawable/spain"
             tools:ignore="ContentDescription"></ImageView>

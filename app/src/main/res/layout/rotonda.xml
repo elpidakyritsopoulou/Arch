@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Acropolis"
+            android:text="R"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -75,24 +75,24 @@
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="550dp"
+                    android:layout_width="326dp"
                     android:layout_height="190dp"
                     android:layout_weight="1"
-                    android:src="@drawable/odeon_of_herodius_atticus1" />
+                    android:src="@drawable/lefkos1" />
 
                 <ImageView
                     android:id="@+id/imageView7"
                     android:layout_width="550dp"
                     android:layout_height="190dp"
                     android:layout_weight="1"
-                    android:src="@drawable/odeon_of_herodius_atticus2" />
+                    android:src="@drawable/lefkos2" />
 
                 <ImageView
                     android:id="@+id/imageView8"
                     android:layout_width="550dp"
                     android:layout_height="190dp"
                     android:layout_weight="1"
-                    android:src="@drawable/odeon_of_herodius_atticus3" />
+                    android:src="@drawable/lefkos3" />
 
             </LinearLayout>
         </HorizontalScrollView>
@@ -104,13 +104,16 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Odeon of Herodus Atticus (Herodeion) was the last monumental edifice to be built in antiquity (161 AD) in the Acropolis area and its construction was funded by Herodes Atticus in memory of his Roman wife Aspasia Anna Regillia.  It was used mainly as a venue  for music events and had a capacity of at least 5,000 people. It lasted intact until it was destroyed by the Heruli in 267 AD. The niches on the walls are now vacant, but in antiquity they used to house statues. The audience stands and the orchestra (stage) were restored using Pentelic marble  in the 1950s and the monument has since hosted several cultural events, mainly in the context of the Athens Festival which runs from May through October each year, featuring a variety of acclaimed Greek as well as International performances"
+            android:text="The White Tower of Thessaloniki is an Ottoman fortification of the 15th century (probably built between 1450-70). Today it is considered a characteristic monument of Thessaloniki and is all that has survived from the demolished Ottoman fortification of the city.
+The White Tower is a cylindrical structure 33,9 metres high and 22,7 metres in diameter. It has six floors, 34 metres high and 70 metres in circumference, which are connected by an internal staircase, which is spiral-shaped and in contact with the outer wall.
+Today it serves as a museum and is one of the most famous city-symbol buildings in Greece overlooking the beach of Thessaloniki.
+"
             android:textSize="12sp"
             android:textStyle="bold" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="138dp" />
+            android:layout_height="116dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -121,9 +124,10 @@
             <ImageButton
                 android:id="@+id/link1"
                 android:layout_width="51dp"
-                android:layout_height="48dp"
+                android:layout_height="45dp"
                 android:background="@drawable/link_512"
-                android:gravity="left|bottom"></ImageButton>
+                android:gravity="left|bottom"
+                android:text="@string/acropolis_links"></ImageButton>
 
             <Space
                 android:layout_width="37dp"
@@ -133,9 +137,10 @@
             <ImageButton
                 android:id="@+id/link2"
                 android:layout_width="51dp"
-                android:layout_height="48dp"
+                android:layout_height="45dp"
                 android:background="@drawable/link_512"
-                android:gravity="center"></ImageButton>
+                android:gravity="center"
+                android:text="@string/acropolis_links"></ImageButton>
 
             <Space
                 android:layout_width="37dp"
@@ -145,9 +150,10 @@
             <ImageButton
                 android:id="@+id/link3"
                 android:layout_width="51dp"
-                android:layout_height="48dp"
+                android:layout_height="45dp"
                 android:background="@drawable/link_512"
-                android:gravity="right|bottom"></ImageButton>
+                android:gravity="right|bottom"
+                android:text="@string/acropolis_links"></ImageButton>
         </LinearLayout>
 
 

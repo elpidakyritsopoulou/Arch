@@ -48,15 +48,15 @@
             <TextView
                 android:id="@+id/acropoli"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="201dp"
                 android:gravity="center_horizontal"
                 android:text="White Tower of Thessaloniki"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/acropolis"
-                android:layout_width="360dp"
-                android:layout_height="310dp"
+                android:layout_width="359dp"
+                android:layout_height="276dp"
                 android:src="@drawable/lefkos4" />
 
             <TextView
@@ -64,28 +64,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Odeon of Herodus Atticus"
-                android:textSize="45dp" />
+                android:text="Rotonda,Thessaloniki"
+                android:textSize="40dp" />
 
             <ImageView
                 android:id="@+id/herodusatticus"
                 android:layout_width="match_parent"
                 android:layout_height="225dp"
-                android:src="@drawable/odeon_of_herodus_atticus_cover" />
+                android:src="@drawable/rotonda_cover" />
 
             <TextView
                 android:id="@+id/panathenaic_stadium"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Panathenaic Stadium"
+                android:text="Arch of Galerius/Kamara"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/panathenaic_stadium1"
-                android:layout_width="match_parent"
+                android:layout_width="363dp"
                 android:layout_height="275dp"
-                android:src="@drawable/panathenaic_stadium_cover" />
+                android:src="@drawable/kamara_cover" />
 
         </LinearLayout>
     </ScrollView>

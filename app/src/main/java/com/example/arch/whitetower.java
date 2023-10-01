@@ -9,12 +9,12 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Odeon_of_Herodus_Atticus extends AppCompatActivity {
+public class whitetower extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.odeon_of_herodus_atticus);
+        setContentView(R.layout.whitetower);
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);
@@ -25,7 +25,7 @@ public class Odeon_of_Herodus_Atticus extends AppCompatActivity {
         link1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
-                goLink("https://www.discovergreece.com/experiences/odeon-of-herodes-atticus-athens");
+                goLink("https://www.lpth.gr/history-weg-74399.html");
 
             }
 
@@ -34,7 +34,7 @@ public class Odeon_of_Herodus_Atticus extends AppCompatActivity {
         link2.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
-                goLink("https://www.thisisathens.org/antiquities/odeon-herodes-atticus");
+                goLink("https://greeking.me/blog/greek-culture/thessaloniki-white-tower");
 
             }
 
@@ -43,7 +43,7 @@ public class Odeon_of_Herodus_Atticus extends AppCompatActivity {
         link3.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
-                goLink("https://whyathens.com/odeon-of-herodes-atticus/");
+                goLink("https://www.visitgreece.gr/experiences/culture/archaeological-sites-and-monuments/the-white-tower/");
 
             }
 
@@ -55,8 +55,7 @@ public class Odeon_of_Herodus_Atticus extends AppCompatActivity {
     };
 
 
-    }
-
+}
 
 
 
