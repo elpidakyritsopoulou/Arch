@@ -81,6 +81,10 @@
             android:exported="true">
         </activity>
         <activity
+            android:name=".matera_monuments"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".The_Sassi"
             android:exported="true">
         </activity>
