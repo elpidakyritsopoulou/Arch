@@ -23,8 +23,6 @@
             android:orientation="horizontal"
             tools:ignore="ExtraText">
 
-            >
-
             <Button
                 android:id="@+id/backbutton"
                 android:layout_width="52dp"
