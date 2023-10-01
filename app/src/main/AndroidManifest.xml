@@ -136,5 +136,22 @@
             android:name=".perugia"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".perugia_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".The_Roman_Aqueduct_in_Perugia"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".National_Gallery_of_Umbria"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".IV_November_Square"
+            android:exported="true">
+        </activity>
+
     </application>
 </manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_background"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange_background"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/Greece"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Perugia Monuments "
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
+
+            <TextView
+                android:id="@+id/november_squere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="IV November Square"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/november_square_photo"
+                android:layout_width="360dp"
+                android:layout_height="310dp"
+                android:src="@drawable/november_square_cover" />
+
+            <TextView
+                android:id="@+id/aqueduct_perugia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="The Roman Aqueduct in Perugia"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/aqueduct_perugia_photo"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:src="@drawable/aqueduct_rerugia_cover" />
+
+            <TextView
+                android:id="@+id/umbria"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="National Gallery of Umbria"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/umbriaphoto"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:src="@drawable/umbria_cover" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

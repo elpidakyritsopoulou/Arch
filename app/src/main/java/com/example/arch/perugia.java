@@ -12,7 +12,7 @@ public class perugia extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.assisi);
+        setContentView(R.layout.perugia);
 
         Button backbutton = (Button) findViewById(R.id.backbutton);
         Button readmore = (Button) findViewById(R.id.button);
@@ -27,7 +27,7 @@ public class perugia extends AppCompatActivity {
         readmore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(perugia.this, athens_monuments.class));
+                startActivity(new Intent(perugia.this, perugia_monuments.class));
             }
         });
     }
