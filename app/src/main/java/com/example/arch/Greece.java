@@ -39,6 +39,13 @@ public class Greece extends AppCompatActivity {
             @Override
             public void onClick(View v) { startActivity(new Intent(Greece.this, athens.class)); }
         });
+
+        ImageView thessalonikiphoto = (ImageView) findViewById(R.id.thessalonikiphoto);
+        thessalonikiphoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { startActivity(new Intent(Greece.this, thessaloniki.class)); }
+        });
+
     }
 
 

@@ -74,5 +74,25 @@
             android:name=".rio_antirion_bridge"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".thessalonikimonuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".whitetower"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".rotonda"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".kamara"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".thessaloniki"
+            android:exported="true">
+        </activity>
     </application>
 </manifest>

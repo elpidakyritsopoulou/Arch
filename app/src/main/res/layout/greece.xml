@@ -77,10 +77,10 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/thessalonikiphoto"
                 android:layout_width="310dp"
                 android:layout_height="196dp"
-                android:src="@drawable/thessaloniki" />
+                android:src="@drawable/thessaloniki"/>
 
             <TextView
                 android:id="@+id/textView12"

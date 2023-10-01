@@ -53,9 +53,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Thessaloniki"
+            android:text="Athens"
             android:textColor="@color/orange"
-            android:textSize="60sp" />
+            android:textSize="70sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -65,9 +65,9 @@
         <ImageView
             android:id="@+id/patrascover"
             android:layout_width="match_parent"
-            android:layout_height="301dp"
+            android:layout_height="535dp"
             android:layout_weight="1"
-            android:src="@drawable/thessaloniki" />
+            android:src="@drawable/athenscover" />
 
         <Space
             android:layout_width="match_parent"
@@ -79,9 +79,9 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Thessaloniki is the most important administrative, cultural and business centre in northern Greece, and the second largest city in Greece.
-A medium-sized city located on the sea, with a population of over 1.1 million in its metropolitan area.
-It is bordered by the Aegean Sea, an hour from Mount Olympus and half an hour from magnificent beaches, with a short flight from the capitals of the Balkan, Mediterranean and all of Europe."
+            android:text="Athens has been the capital of Greece since 1834 and is the country's largest and most densely populated city. The Athens basin, including Piraeus, has a population of 3,059,764 inhabitants. The name of the city of Athens comes from the patron goddess Athena. It is located in Attica, in eastern Central Greece, and is one of the oldest cities in the world, with its recorded history dating back to 3,200 BC.
+The legacy of the classical era is still evident in the city, represented by ancient monuments and works of art, the most famous of which is the Parthenon, considered an emblematic monument of ancient Western civilization. Roman and Byzantine monuments still remain in the city, as well as a small number of Ottoman monuments, while in its historical core there are elements that reflect the historical continuity of the city.
+"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -90,7 +90,8 @@ It is bordered by the Aegean Sea, an hour from Mount Olympus and half an hour fr
             android:layout_height="34dp" />
 
         <Button
-            android:id="@+id/readmore"            android:layout_width="wrap_content"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Read more"

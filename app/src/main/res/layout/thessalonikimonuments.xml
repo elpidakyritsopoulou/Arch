@@ -46,7 +46,7 @@
                 android:layout_height="42dp" />
 
             <TextView
-                android:id="@+id/acropoli"
+                android:id="@+id/whitetowertext"
                 android:layout_width="match_parent"
                 android:layout_height="201dp"
                 android:gravity="center_horizontal"
@@ -54,7 +54,7 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/acropolis"
+                android:id="@+id/whitetower"
                 android:layout_width="359dp"
                 android:layout_height="276dp"
                 android:src="@drawable/lefkos4" />
@@ -68,7 +68,7 @@
                 android:textSize="40dp" />
 
             <ImageView
-                android:id="@+id/herodusatticus"
+                android:id="@+id/rotonda"
                 android:layout_width="match_parent"
                 android:layout_height="225dp"
                 android:src="@drawable/rotonda_cover" />
@@ -82,7 +82,7 @@
                 android:textSize="45dp" />
 
             <ImageView
-                android:id="@+id/panathenaic_stadium1"
+                android:id="@+id/kamara"
                 android:layout_width="363dp"
                 android:layout_height="275dp"
                 android:src="@drawable/kamara_cover" />
