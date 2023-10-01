@@ -58,14 +58,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Murcia"
+                android:text="Maratea"
                 android:textSize="45dp" />
 
             <ImageView
                 android:id="@+id/murciaphoto"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/thessaloniki"
+                android:src="@drawable/maratea"
                 />
 
             <TextView
@@ -73,14 +73,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Santiago de Compostela"
+                android:text="Assisi"
                 android:textSize="45sp" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/tripolis"
+                android:src="@drawable/assisi"
+                />
+
+            <TextView
+                android:id="@+id/perugia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Perugia"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/perugia_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/perugia"
                 />
 
         </LinearLayout>
