@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_background"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange_background"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/Greece"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Granada Monuments "
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
+
+            <TextView
+                android:id="@+id/laalhambratext"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:gravity="center_horizontal"
+                android:text="La Alhambra"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/laalhambra"
+                android:layout_width="359dp"
+                android:layout_height="276dp"
+                android:src="@drawable/laalhambracover" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Cathedral of Granada"
+                android:textSize="40dp" />
+
+            <ImageView
+                android:id="@+id/cathedral"
+                android:layout_width="357dp"
+                android:layout_height="225dp"
+                android:src="@drawable/cathedral_of_granadacover" />
+
+            <TextView
+                android:id="@+id/albacintext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="The Albaicin"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/albacin"
+                android:layout_width="363dp"
+                android:layout_height="275dp"
+                android:src="@drawable/the_albaic_ncover" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

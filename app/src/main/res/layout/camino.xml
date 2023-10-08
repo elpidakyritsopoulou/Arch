@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:backgroundTint="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Camino de Santiago"
+            android:textColor="@color/orange"
+            android:textSize="34sp" />
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:layout_width="910dp"
+                android:layout_height="202dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="442dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/camino1" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="361dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/camino2" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/camino3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="The Camino de Santiago, also known as the Way of St. James, is a renowned pilgrimage of medieval origin that sees pilgrims’ journey to the Cathedral of Santiago de Compostela in Galicia in the northwest of Spain. Legend has it that the remains of the Apostle St. James the Great were buried in the Cathedral and discovered by a shepherd in the 9th century. The city of Santiago is named after St. James: Santiago de Compostela means St. James of the Field of Stars. If you’re a history buff, make sure you discover the history of the Camino. Due to the enduring popularity of the Camino de Santiago and the many Camino routes, they have been listed as a UNESCO World Heritage Site since 1993."
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="116dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/link1"
+                android:layout_width="51dp"
+                android:layout_height="45dp"
+                android:background="@drawable/link_512"
+                android:gravity="left|bottom"></ImageButton>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_background">
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:contentDescription="@string/Greece"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/car_ui_icon_arrow_back"
+        android:onClick="startSecondActivity"/>
+
+    <ScrollView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange_background"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="SPAIN "
+                android:textColor="@color/orange"
+                android:textSize="70sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Granada"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/granadaphoto"
+                android:layout_width="295dp"
+                android:layout_height="201dp"
+                android:src="@drawable/granada" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Zaragoza"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/zaragozaphoto"
+                android:layout_width="308dp"
+                android:layout_height="214dp"
+                android:src="@drawable/zaragoza" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Murcia"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/murciaphoto"
+                android:layout_width="310dp"
+                android:layout_height="196dp"
+                android:src="@drawable/murcia"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Santiago de Compostela"
+                android:textSize="45sp" />
+
+            <ImageView
+                android:id="@+id/santiagocompostelaphoto"
+                android:layout_width="322dp"
+                android:layout_height="211dp"
+                android:src="@drawable/santiago" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
