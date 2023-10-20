@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Limassol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Limassol"
+            android:textColor="@color/orange"
+            android:textSize="70sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+
+        <ImageView
+            android:id="@+id/nicosiacover"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_weight="1"
+            android:src="@drawable/limassol" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Limassol is the second largest city in Cyprus and the southernmost in Europe. Its population amounts to 100,952 inhabitants within the municipal limits and to approximately 180,000 in the wider urban area. Known among the cities of Cyprus for its rich nightlife and cultural tradition, Limassol is also the largest port of the island and one of the largest in the Eastern Mediterranean. It has seen rapid growth, especially after 1974, when the other important port of Cyprus, Famagusta, was lost due to the Turkish invasion. "
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Read more"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</ScrollView>

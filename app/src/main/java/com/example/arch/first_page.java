@@ -19,8 +19,8 @@ public class first_page extends frontPage {
 
         ImageView logo = (ImageView) findViewById(R.id.ImageViewAthens);
         ImageView logoItaly = (ImageView) findViewById(R.id.ImageViewItaly);
+        ImageView logocyprus = (ImageView) findViewById(R.id.logoCyprus);
         ImageView logoSpain = (ImageView) findViewById(R.id.ImageViewSpain);
-
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,6 +39,13 @@ public class first_page extends frontPage {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(first_page.this, Spain.class));
+            }
+        });
+
+        logocyprus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(first_page.this, Cyprus.class));
             }
         });
     }

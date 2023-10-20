@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/larnaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Larnaka"
+            android:textColor="@color/orange"
+            android:textSize="70sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+
+        <ImageView
+            android:id="@+id/larnakacover"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_weight="1"
+            android:src="@drawable/larnaka" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Larnaka is a city on the southeast coast of Cyprus. It is the successor city of ancient Kitio, one of the important points of ancient Cyprus, birthplace among others of the ancient philosopher Zeno. Today it is the third largest city in Cyprus. Larnaka has an international airport, the main and largest airport in Cyprus. It is considered by many to be the most natural and the most beautiful city in Cyprus with 2 natural lakes (Aliki and Lake Oroklinis) but also with an abundance of monuments."
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Read more"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</ScrollView>

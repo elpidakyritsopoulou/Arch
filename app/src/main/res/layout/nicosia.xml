@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Nicosia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Nicosia"
+            android:textColor="@color/orange"
+            android:textSize="70sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+
+        <ImageView
+            android:id="@+id/nicosiacover"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_weight="1"
+            android:src="@drawable/nicosia" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Nicosia is the divided capital city of the Republic of Cyprus. The northern part of the city (North Nicosia) is still under Turkish occupation, so Nicosia is the only remaining divided capital in Europe. It is situated on the banks of the River Pedieos and constitutes Cyprus’ financial capital and main international business center. The historic center of Nicosia today is located within the great medieval walls built by the Venetians. These walls are a trademark of the city, with its bastions and gates used to house important city buildings such as the City Hall and other buildings. "
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Read more"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</ScrollView>

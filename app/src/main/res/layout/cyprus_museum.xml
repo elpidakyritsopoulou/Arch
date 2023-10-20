@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:backgroundTint="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Nicosia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="The Cyprus Museum"
+            android:textColor="@color/orange"
+            android:textSize="34sp" />
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cyprus_museum1" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cyprus_museum2" />
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content">
+                </Space>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cyprus_museum3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="The Cyprus Museum is the island’s main and largest archaeological museum and charts the development of Cyprus’ civilization from the Neolithic Age to the Early Byzantine period (7th century).
+The museum’s collections consist of pottery, jewellery, sculpture, coins, copper objects, and other artifacts, all exhibited in chronological order in the various museum galleries. Pieces typical of Cypriot culture - and of particularly important artistic, archaeological and historical value - include the cross-shaped idol of the Chalcolithic period, Early Bronze Age pottery from Vouni, Late Bronze Age golden jewellery from Egkomi, and the 1st century BC statue of Aphrodite of Soloi.
+"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/link1"
+                android:layout_width="51dp"
+                android:layout_height="45dp"
+                android:background="@drawable/link_512"
+                android:gravity="left|bottom"
+                android:text="@string/acropolis_links" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                 />
+            <ImageButton
+                android:id="@+id/link2"
+                android:layout_width="51dp"
+                android:layout_height="45dp"
+                android:background="@drawable/link_512"
+                android:gravity="left|bottom"
+                android:text="@string/acropolis_links" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

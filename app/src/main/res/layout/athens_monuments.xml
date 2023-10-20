@@ -33,7 +33,7 @@
                 app:icon="@drawable/car_ui_icon_arrow_back" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/Nicosia"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"

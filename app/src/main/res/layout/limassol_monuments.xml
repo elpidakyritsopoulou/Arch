@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_background"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange_background"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <TextView
+                android:id="@+id/Nicosia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Limassol Monuments "
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
+
+            <TextView
+                android:id="@+id/kouriontext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Kourion Archaeological Site"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/kourion"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/kourion_cover" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Limassol Medieval Castle"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/limassolcastlephoto"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/limassol_castle_cover" />
+
+            <TextView
+                android:id="@+id/amanthustext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Amathus Archaeological Site"
+                android:textSize="45dp" />
+
+            <ImageView
+                android:id="@+id/amanthus"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/amanthus_cover" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

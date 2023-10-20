@@ -240,6 +240,73 @@
             android:name=".Murcia_monuments"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".Cyprus"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".nicosia"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".nicosia_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Church_moutoulla"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".The_Cyprus_Museum"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Archaeological_Site_of_Tamassos"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".limassol"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".limassol_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Amathus_Archaeological_Site"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Limassol_Medieval_Castle"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Kourion_Archaeological_Site"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Larnaka"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".larnaka_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Larnaka_medieval_castle"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Larnaka_museum"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Church_of_Saint_Lazarus"
+            android:exported="true">
+        </activity>
+
+
+
 
 
     </application>

@@ -18,9 +18,10 @@
             android:id="@+id/logo"
             android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:outlineAmbientShadowColor="#CACACA"
             android:src="@drawable/logo"
-            tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck"></ImageView>
+            tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck" />
+
+
 
         <TextView
             android:id="@+id/textView"
@@ -33,20 +34,16 @@
             android:textSize="30dp"
             tools:ignore="HardcodedText,SpUsage" />
 
-        <ImageView
-            android:id="@+id/ImageViewAthens"
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:contentDescription="@string/todo"
-            android:outlineAmbientShadowColor="#CACACA"
-            android:src="@drawable/athenscover">
+            android:layout_height="30dp">
 
-        </ImageView>
+        </Space>
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/greece"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:text="Greece"
@@ -55,16 +52,15 @@
             tools:ignore="HardcodedText,SpUsage" />
 
         <ImageView
-            android:id="@+id/ImageViewItaly"
-            android:layout_width="320dp"
+            android:id="@+id/ImageViewAthens"
+            android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:contentDescription="TODO"
-            android:outlineAmbientShadowColor="#CACACA"
-            android:src="@drawable/italy"
-            tools:ignore="ContentDescription,HardcodedText"></ImageView>
+            android:src="@drawable/athenscover">
+
+        </ImageView>
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/italy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
@@ -75,22 +71,49 @@
             tools:ignore="HardcodedText,SpUsage" />
 
         <ImageView
-            android:id="@+id/ImageViewSpain"
-            android:layout_width="358dp"
+            android:id="@+id/ImageViewItaly"
+            android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:src="@drawable/spain"
-            tools:ignore="ContentDescription"></ImageView>
+            android:src="@drawable/italy"
+            />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/spain"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:text="Spain"
             android:textColor="@color/orange"
             android:textSize="30dp"
             tools:ignore="HardcodedText,SpUsage" />
+           />
+
+        <ImageView
+            android:id="@+id/ImageViewSpain"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/spain"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/cyprus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="Cyprus"
+            android:textColor="@color/orange"
+            android:textSize="30dp"
+            tools:ignore="HardcodedText,SpUsage" />
+        />
+
+        <ImageView
+            android:id="@+id/logoCyprus"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/cyprus"
+            tools:ignore="ContentDescription" />
 
 
     </LinearLayout>
