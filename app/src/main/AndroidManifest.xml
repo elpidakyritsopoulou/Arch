@@ -304,6 +304,26 @@
             android:name=".Church_of_Saint_Lazarus"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".paphos"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".paphos_monuments"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".paphos_park"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".paphos_castle"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Tombs_of_the_Kings"
+            android:exported="true">
+        </activity>
 
 
 

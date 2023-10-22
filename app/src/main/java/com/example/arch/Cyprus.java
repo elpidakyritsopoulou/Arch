@@ -44,12 +44,12 @@ public class Cyprus extends AppCompatActivity {
             @Override
             public void onClick(View v) { startActivity(new Intent(Cyprus.this, Larnaka.class)); }
         });
-//
-//        ImageView corfuphoto = (ImageView) findViewById(R.id.corfuphoto);
-//        corfuphoto.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) { startActivity(new Intent(Cyprus.this, corfu.class)); }
-//        });
+
+        ImageView paphosphoto = (ImageView) findViewById(R.id.paphosphoto);
+        paphosphoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { startActivity(new Intent(Cyprus.this, paphos.class)); }
+        });
 
 
     }

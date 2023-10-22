@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:backgroundTint="@color/orange_background"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal"
+            tools:ignore="ExtraText">
+
+            >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:contentDescription="@string/patras"
+                android:onClick="startSecondActivity"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/car_ui_icon_arrow_back" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="76dp"
+                android:layout_height="71dp"
+                android:layout_gravity="right|top|fill_vertical"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/paphos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Paphos Castle (Medieval Fort)"
+            android:textColor="@color/orange"
+            android:textSize="34sp" />
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:layout_width="910dp"
+                android:layout_height="202dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/paphos_castle1" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/paphos_castle2" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="550dp"
+                    android:layout_height="190dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/paphos_castle3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Paphos Castle was originally a Byzantine fortress built to protect the port. The original Byzantine fortress was destroyed in the earthquake of 1222. It was rebuilt and expanded by the Lusignans in the 13th century. It is a castle consisting of a complex of two towers, the ruins of which are located 80 meters east of the Castle, right at the entrance of the port. The towers were destroyed after a strong earthquake in 1491, but their ruins are still visible.
+Nowadays, the castle is used as a tourist attraction and occasionally has thematic exhibitions.
+"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="138dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/link1"
+                android:layout_width="51dp"
+                android:layout_height="48dp"
+                android:background="@drawable/link_512"
+                android:gravity="left|bottom"></ImageButton>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
