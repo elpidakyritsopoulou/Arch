@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Murcia Monuments"
+                android:text="@string/murcia_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Teatro Romano de Cartagena"
+                android:text="@string/teatro_romano_de_cartagena"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Fortess of Sun in Lorca"
+                android:text="@string/fortess_of_sun_in_lorca"
                 android:textSize="40dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Jumilla's Castle"
+                android:text="@string/Jumilla_s_castle"
                 android:textSize="45dp" />
 
             <ImageView

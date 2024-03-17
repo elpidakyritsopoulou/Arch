@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="ITALY "
+                android:text="@string/Italy"
                 android:textColor="@color/orange"
                 android:textSize="70sp" />
 
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Matera"
+                android:text="@string/matera"
                 android:textSize="45dp" />
 
             <ImageView
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Maratea"
+                android:text="@string/maratea"
                 android:textSize="45dp" />
 
             <ImageView
@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Assisi"
+                android:text="@string/Assisi"
                 android:textSize="45dp" />
 
             <ImageView
@@ -87,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Perugia"
+                android:text="@string/perugia"
                 android:textSize="45sp" />
 
             <ImageView

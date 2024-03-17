@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Limassol Medieval Castle"
+            android:text="@string/limassol_medieval_castle"
             android:textColor="@color/orange"
             android:textSize="37sp" />
 
@@ -104,9 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Limassol Medieval Castle is situated in the center of the town next to the old port. The castle was built in the 13th century on the site of an earlier Byzantine castle and has been converted today into a museum. It is the town's most popular sightseeing destination because, according to fame, the castle stands on the site where Richard the Lionheart married Berengaria of Navarre and crowned her Queen of England in 1191.
-Throughout the years, the fort suffered the assaults of many invaders. Finally, in 1590, the Ottomans rebuilt the fort in its current form.
-"
+            android:text="@string/limassol_medieval_castle_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Cathedral of Granada"
+            android:text="@string/cathedral_of_granada"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Granada Cathedral, also known as the Cathedral of the Incarnation, is an impressive religious monument located in the city of Granada, Spain. Built in the Renaissance style, it combines both Gothic and Renaissance elements. Construction began in 1523 and lasted for over 180 years. The facade stands out with its stone details and sculptures. The interior is vast and filled with religious art and ornate decorations. The Royal Chapel houses the tombs of the Catholic Monarchs, Queen Isabella I and King Ferdinand II. The bell tower offers panoramic views of the city and the Alhambra. It is an important cultural and religious symbol of Granada."
+            android:text="@string/cathedral_of_granada_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

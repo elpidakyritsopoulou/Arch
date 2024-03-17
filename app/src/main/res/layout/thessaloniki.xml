@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Thessaloniki"
+            android:text="@string/thessaloniki"
             android:textColor="@color/orange"
             android:textSize="60sp" />
 
@@ -79,9 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Thessaloniki is the most important administrative, cultural and business centre in northern Greece, and the second largest city in Greece.
-A medium-sized city located on the sea, with a population of over 1.1 million in its metropolitan area.
-It is bordered by the Aegean Sea, an hour from Mount Olympus and half an hour from magnificent beaches, with a short flight from the capitals of the Balkan, Mediterranean and all of Europe."
+            android:text="@string/thessaloniki_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

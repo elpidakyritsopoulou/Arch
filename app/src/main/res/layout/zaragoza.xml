@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Zaragoza"
+            android:text="@string/zaragoza"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,9 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Do you know a town called Cesaraugusta? No? Then perhaps you have heard of Zaragoza nowadays. Cesaraugusta, in honor of Emperor Caesar Augustus, is in fact the first name given to the city when the Romans first settled on the banks of the Ebro river in the 1st century. After the Romans, Zaragoza was the land of many peoples such as the Suebi and Visigoths, until the domination of the Arabs in the 8th century.
-In 1118, after being conquered by King Alfonso I el Batallador, the city became the capital of the Kingdom of Aragon. Today Zaragoza is the fifth most populous city in Spain and still the capital of Aragon.
-"
+            android:text="@string/zaragoza_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

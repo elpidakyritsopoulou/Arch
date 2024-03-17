@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Palacio de la Aljafería"
+            android:text="@string/palacio_de_la_aljafer_a"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -103,9 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Palacio de la Alajferia, from the era of Los Reinos de Tafas in the 11th century, is one of the best-preserved Muslim fortresses in Spain. Initially, the name was 'Palacio de la Alegría' because it was built as a recreational residence for the Muslim kings. In its thousand years of history, however, the Palacio has also been a prison of the Inquisition, the Palacio de los Reyes Catolicos, and a barracks. Since 2001, it has been named Patrimonio de la Humanidad el arte mudéjar de Aragón by UNESCO.
-The tower that stands out on the wall is Torre del Trovador, a relatively recent name that owes its origins to the legend that inspired A. G. Gutiérrez's 'El Trovador'.
-"
+            android:text="@string/palacio_de_la_aljafer_a_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

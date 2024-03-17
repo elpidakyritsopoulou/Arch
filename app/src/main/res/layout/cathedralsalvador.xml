@@ -54,7 +54,7 @@
             android:layout_width="374dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="La Catedral del Salvador en su Epifanía (SEO)"
+            android:text="@string/la_catedral_del_salvador_en_su_epifan_a_seo"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Cathedral of the Savior in its Epiphany of Zaragoza, was the first cathedral of the city of Zaragoza. It was built on the remains of the ancient Roman Forum of Caesaraugusta, above the Visigothic church and above the ancient Great Mosque of Saraqusta, so that today we can see an incredible combination of styles, from Romanesque to neoclassical. Attached to the SEO, there is the most photographed wall of the city (it has been declared a World Heritage Site by Unesco), it is part of the Parish Church of St. Michael the Archangel. It was built in 1374 and is composed of several parts in masonry, masonry, porticoes, ceramics and decorations of bright colors."
+            android:text="@string/la_catedral_del_salvador_en_su_epifan_a_seo_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

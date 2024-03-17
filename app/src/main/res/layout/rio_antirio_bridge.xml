@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Rion-Antirion Bridge"
+            android:text="@string/Rion_antirion_bridge"
             android:textColor="@color/orange"
             android:textSize="60sp" />
 
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Rio–Antirrio Bridge , officially the Charilaos Trikoupis Bridge, is one of the world's longest multi-span cable-stayed bridges and longest of the fully suspended type. It crosses the Gulf of Corinth near Patras, linking the town of Rio on the Peloponnese peninsula to Antirrio on mainland Greece by road. It opened one day before the Athens 2004 Summer Olympics, on 12 August 2004, and was used to transport the Olympic flame."
+            android:text="@string/rion_antirion_bridge_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

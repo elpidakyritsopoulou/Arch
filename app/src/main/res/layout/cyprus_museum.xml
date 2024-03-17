@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Cyprus Museum"
+            android:text="@string/the_cyprus_museum"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -109,9 +109,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Cyprus Museum is the island’s main and largest archaeological museum and charts the development of Cyprus’ civilization from the Neolithic Age to the Early Byzantine period (7th century).
-The museum’s collections consist of pottery, jewellery, sculpture, coins, copper objects, and other artifacts, all exhibited in chronological order in the various museum galleries. Pieces typical of Cypriot culture - and of particularly important artistic, archaeological and historical value - include the cross-shaped idol of the Chalcolithic period, Early Bronze Age pottery from Vouni, Late Bronze Age golden jewellery from Egkomi, and the 1st century BC statue of Aphrodite of Soloi.
-"
+            android:text="@string/the_cyprus_museum_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Fortess of the Sun in Lorca"
+            android:text="@string/fortess_of_the_sun_in_lorca"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 

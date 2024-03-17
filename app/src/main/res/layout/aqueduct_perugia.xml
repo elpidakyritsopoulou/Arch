@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Roman Aqueduct in Perugia"
+            android:text="@string/the_roman_aqueduct_in_perugia"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,11 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Fontana Maggiore in Perugia was once fed by this Roman aqueduct.
-The aqueduct was built in 1245 and it was an extraordinary work: without using pumps, it was still able to bring water to a steep and uneven city like Perugia. It is about 4km long.
-In the middle of 1800s, the aqueduct stopped its work as it was too expensive. Today, still, it offers one of the most beautiful promenades in Italy.
-The most characteristic part is from Porta Sant'Angelo (near the Cathedral and the Fontana Maggiore) with a bridge supported by a dozen bays with large arches and low, colourful houses.
-"
+            android:text="@string/the_roman_aqueduct_in_perugia_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

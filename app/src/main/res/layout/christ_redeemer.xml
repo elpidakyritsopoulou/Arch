@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Statue of the Christ the Redeemer"
+            android:text="@string/the_statue_of_the_christ_the_redeemer"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Carrara marble statue of Christ the Redeemer is 21 meters high, with a 19-meter span, placed atop a mountain near Santuario di San Biagio. Preserving relics since 732 AD, it's Italy's tallest and Europe's third-largest Christ statue. In 1963, Count Stefano Rivetti di Valcervo commissioned the statue inspired by Rio de Janeiro's Christ the Redeemer. Sculpted by Bruno Innocenti, Maratea's Christ is younger and more cheerful, with raised arms at a 45-degree angle and a unique face. It replaced a 1907 war memorial, honoring lives lost during the 1806 invasion of Naples. The statue symbolizes the region's history and Christian culture."
+            android:text="@string/the_statue_of_the_christ_the_redeemer_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

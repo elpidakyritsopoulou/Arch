@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Nicosia"
+            android:text="@string/Nicosia"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Nicosia is the divided capital city of the Republic of Cyprus. The northern part of the city (North Nicosia) is still under Turkish occupation, so Nicosia is the only remaining divided capital in Europe. It is situated on the banks of the River Pedieos and constitutes Cyprus’ financial capital and main international business center. The historic center of Nicosia today is located within the great medieval walls built by the Venetians. These walls are a trademark of the city, with its bastions and gates used to house important city buildings such as the City Hall and other buildings. "
+            android:text="@string/nicosia_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

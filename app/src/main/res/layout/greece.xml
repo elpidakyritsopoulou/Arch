@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="GREECE "
+                android:text="@string/Ellada"
                 android:textColor="@color/orange"
                 android:textSize="70sp" />
 
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Patras"
+                android:text="@string/Patras"
                 android:textSize="45dp" />
 
             <ImageView
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Athens"
+                android:text="@string/Athens"
                 android:textSize="45dp" />
 
             <ImageView
@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Thessaloniki"
+                android:text="@string/Thessaloniki"
                 android:textSize="45dp" />
 
             <ImageView
@@ -87,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Corfu"
+                android:text="@string/Corfu"
                 android:textSize="45sp" />
 
             <ImageView

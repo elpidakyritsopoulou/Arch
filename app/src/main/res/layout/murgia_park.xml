@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Murgia Park"
+            android:text="@string/The_murgia_park"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Murgia Materana Park, created in 1990, was originally known as the Parco Regionale Archeologico Storico Naturale delle Chiese Rupestri del Materano (Regional Archaeological Historical Natural Park of the Rock Churches of the Matera Region)."
+            android:text="@string/murgia_park_text_1"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -119,7 +119,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="This unique park features soft limestone called and holds significant historical value. It includes Palaeolithic caves like the Bat Cave, Neolithic, Bronze, and Iron Age villages (Murgecchia, Murgia Timone, and Trasanello), showcasing prehistoric human presence, mainly shepherds and herdsmen. The park boasts over 150 rock churches, each with distinct architecture and iconography, dating back to the early Middle Ages. Additionally, it boasts a diverse and wild nature, with approximately 1,200 botanical species, including rare ones."
+            android:text="@string/murgia_park_text_2"
             android:textSize="12sp"
             android:textStyle="bold" />
 

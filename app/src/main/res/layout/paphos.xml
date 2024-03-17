@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Paphos"
+            android:text="@string/paphos"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Paphos is a city in the southwestern part of Cyprus, the capital of the province of the same name and one of the most important ancient kingdoms of the island. Among other things, it was also famous as a center of worship of the goddess Aphrodite. The city is divided into two levels: Upper Paphos, also known as Ktima, which is the commercial center of the city, and Kato Paphos, which is located lower and along the beaches and is the island's tourist destination. The entire archaeological site of Paphos has been under the protection of UNESCO since 1980."
+            android:text="@string/paphos_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

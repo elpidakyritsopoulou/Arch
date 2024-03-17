@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Albacin"
+            android:text="@string/the_albacin"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Albaicín, also known as Albayzín (from Arabic: ٱلْبَيّازِينْ, romanized: al-Bayyāzīn), is a district of Granada, in the autonomous community of Andalusia, Spain. It is centered around a hill on the north side of the Darro River which passes through the city. The neighbourhood is notable for its historic monuments and for largely retaining its medieval street plan dating back to the Nasrid period (13th to 15th centuries), although it nonetheless went through many physical and demographic changes after the end of the Reconquista in 1492. It was declared a World Heritage Site in 1994, as an extension of the historic site of the nearby Alhambra."
+            android:text="@string/albacin_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

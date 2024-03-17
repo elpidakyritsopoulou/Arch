@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Basilica of San Francesco"
+            android:text="@string/Basilica_of_san_francesco"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,9 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Basilica of San Francesco is to be found in Assisi, in Umbria, along with other Franciscan sites. The basilica was built under the direction of Brother Elias, vicar general and architect of the order, starting in 1228, just two years after the saint's death, as a place designed to receive his remains.
-It is built into the side of a hill and comprises two churches (known as the Upper Church and the Lower Church) and a crypt, where the remains of the saint are interred. The Upper and Lower Churches are decorated with frescoes by numerous late medieval painters from the Roman and Tuscan schools.
-"
+            android:text="@string/basilica_of_san_francesco_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

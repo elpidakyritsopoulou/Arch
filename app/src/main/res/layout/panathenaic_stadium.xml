@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Panathenaic Stadium"
+            android:text="@string/Panathenaic_stadium"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,10 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Panathenaic Stadium of Athens, or Kallimarmaro, which hosted the first modern Olympic Games in 1896, is located on the site of an ancient Greek Stadium and for many centuries hosted the organization of gymnastic games, athletics as we would say today.
-Its history dates back to 330 BC and it is considered the oldest operating stadium in the world with an age of over 2300 years.
-It is also the only stadium in the world in which three Olympic Games have been held to date (1896, 1906, 2004), and the only one in the world that is made entirely of white Penteli marble from quarries opened exclusively for its construction.
-"
+            android:text="@string/panathenaic_stadium_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

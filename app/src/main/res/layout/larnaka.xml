@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Larnaka"
+            android:text="@string/Larnaka"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Larnaka is a city on the southeast coast of Cyprus. It is the successor city of ancient Kitio, one of the important points of ancient Cyprus, birthplace among others of the ancient philosopher Zeno. Today it is the third largest city in Cyprus. Larnaka has an international airport, the main and largest airport in Cyprus. It is considered by many to be the most natural and the most beautiful city in Cyprus with 2 natural lakes (Aliki and Lake Oroklinis) but also with an abundance of monuments."
+            android:text="@string/larnaka_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

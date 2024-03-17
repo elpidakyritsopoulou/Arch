@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Corfu"
+            android:text="@string/corfu"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Corfu  or Kerkyra  is a Greek island in the Ionian Sea, of the Ionian Islands,] and, including its small satellite islands, forms the margin of the northwestern frontier of Greece. The island is part of the Corfu regional unit, and is administered by three municipalities with the islands of Othonoi, Ereikoussa, and Mathraki. The principal city of the island (pop. 32,095) is also named Corfu. Corfu is home to the Ionian University."
+            android:text="@string/corfu_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Rotonda, Thessaloniki"
+            android:text="@string/rotonda_thessaloniki"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -104,11 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The impressive Rotunda, a domed circular building of the 4th century, is one of the UNESCO World Heritage Sites (since 1988) in Thessaloniki.
-The Rotunda belongs to the pericentric buildings and owes its name to its circular shape. It was built during the reign of Caesar Galerius, around 306 AD, as a temple of Zeus or Cabeir or, in other cases, as his Mausoleum.
-The magnificent monument is 29.80 metres high, 24.50 metres in diameter and the width of the walls is 6.30 metres. The lower part of the inner wall is formed in eight rectangular niches with arches decorated with mosaics. The interior of the monument impresses with the feeling of a large space with a huge dome.
-
-"
+            android:text="@string/rotonda_thessaloniki_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

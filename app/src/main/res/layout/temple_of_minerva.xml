@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Temple of Minerva"
+            android:text="@string/Temple_of_minerva"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Temple of Minerva is an ancient Roman building, situated in the very city centre in Assisi. It was built during the first century and then converted into the church of Santa Maria della Minerva in 1539. It was renovated in the 17th century in the Baroque style, but the façade is still the original Roman columns and architrave dating back to the first century BC."
+            android:text="@string/temple_of_minerva_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

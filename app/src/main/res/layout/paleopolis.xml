@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Paleopolis"
+            android:text="@string/Paleopolis_text"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -98,9 +98,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Paleopolis is the area of ancient Corfu, located at the southeastern end of the city .
-The habitation in Paleopolis, which was the core of the ancient city of Corfu, begins at the end of the 8th century BC, when the Corinthian settlers arrived in the area. It was then abandoned in the Middle Ages, due to its destruction by barbaric raids, and its inhabitants founded the modern city of Corfu. The ancient city extends from the Halikiopoulos lake to the west and reaches the bay of Garitsa to the east.   At the eastern end of the ancient market the visitor meets part of the ancient port facilities, while further south is a bath complex of Roman times (the best preserved building of the time in the area).
-"
+            android:text="@string/paleopolis_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

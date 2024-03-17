@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Patras Monuments "
+                android:text="@string/patras_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Cathedral of Saint Andrew"
+                android:text="@string/Cathedral_of_saint_andrew"
                 android:textSize="45dp" />
 
             <ImageView
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Roman Odeon"
+                android:text="@string/roman_odeon"
                 android:textSize="45dp" />
 
             <ImageView
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Rion-Antirion Bridge"
+                android:text="@string/rion_antirion_bridge"
                 android:textSize="45dp" />
 
             <ImageView

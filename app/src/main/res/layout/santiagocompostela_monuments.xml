@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Santiago de Compostela Monuments"
+                android:text="@string/santiago_de_compostela_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Cathedral of Santiago de Compostela"
+                android:text="@string/Cathedral_of_santiago_de_compostela"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Plaza del Obradoiro"
+                android:text="@string/Plaza_del_obradoiro"
                 android:textSize="40dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Camino de Santiago "
+                android:text="@string/Camino_de_santiago"
                 android:textSize="45dp" />
 
             <ImageView

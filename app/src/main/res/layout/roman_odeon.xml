@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Roman Odeon"
+            android:text="@string/Roman_odeon"
             android:textColor="@color/orange"
             android:textSize="60sp" />
 
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Roman Odeon is located on the west side of Patra. It was built before the visit of Pausanias who rated it with the odeon of Herodes Atticus in Athens, as the most impressive of all the Odeons in Greece. It was rediscovered in 1889, and has been heavily restored since, including the new marble seating. The Odeon of Ancient Patrai was severely destroyed by successive invasions, wars and earthquakes. It was almost buried under the remains of other buildings and ground.  "
+            android:text="@string/roman_odeon_text_1"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Odeon seats approximately 2300 spectators. After the establishment of the Patra International Festival held during the summer months, the Ancient Odeon constitutes the main venue, welcoming many top Greek and foreign performers."
+            android:text="@string/roman_odeon_text_2"
             android:textSize="12sp"
             android:textStyle="bold" />
 

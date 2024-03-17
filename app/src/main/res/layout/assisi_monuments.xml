@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Assisi Monuments "
+                android:text="@string/assisi_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Basilica of San Francesco"
+                android:text="@string/basilica_of_san_francesco"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Woods of San Francesco"
+                android:text="@string/the_woods_of_san_francesco"
                 android:textSize="45dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Temple of Minerva"
+                android:text="@string/temple_of_minerva"
                 android:textSize="45dp" />
 
             <ImageView

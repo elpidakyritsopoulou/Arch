@@ -54,7 +54,7 @@
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Plaza del Obradoiro"
+            android:text="@string/plaza_del_obradoiro"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Obradoiro, the pilgrimage center of Santiago de Compostela the monumental center of Santiago de Compostela witnesses the history of an ancient city: Plaza del Obradoiro (a word that describes the workplace of the craftsmen) is one of the most beautiful and renowned squares in Spain and the monumental center of the an ancient city of Santiago de Compostela. It comprises several emblematic buildings of the city, spectators of its long history, that fuse different architectural styles of various epochs, such as Baroque, Gothic, Renaissance or neoclassical, collecting the cultural legacy of more than 700 years of history."
+            android:text="@string/plaza_del_obradoiro_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

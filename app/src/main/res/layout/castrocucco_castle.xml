@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Castrocucco Castle"
+            android:text="@string/castrocucco_castle"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The origin of Castrocucco Castle is shrouded in mystery, possibly dating back to the 9th century, as mentioned in a 1079 bull by Alfano I, bishop of Salerno. Some historians link it to the defense of the ancient Greek city Blanda Julia, which later became Matera. Abandoned in the 17th century, the castle's condition is deteriorating, yet remnants of the enclosure walls, about twenty buildings, a watchtower, and the Church of San Pietro with crypts and ancient paintings are still distinguishable. Its strategic perch defended against sea-borne Saracen raids, protecting both the area and Maratea. Although under the Ministry of Cultural Heritage's protection since 2005, locals seek restoration to preserve this historical gem."
+            android:text="@string/castrocucco_castle_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

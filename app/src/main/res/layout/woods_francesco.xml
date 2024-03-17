@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Woods of San Francesco"
+            android:text="@string/The_woods_of_san_francesco"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Woods of San Francesco, a path of 64 hectares and 800 years of history, stretches for two and a half kilometres among hornbeam, oak trees, forest land, farmland and ancient works of man. The route descends in hairpin bends towards the Tescio river and the Galli Bridge dating back to 1356, all the way to the valley floor where you can admire the remains of the complex of Santa Croce. What remains of the religious building are the renovated hospital facilities, the Romanesque church, the windmill and the tower, each one with its own history to remember and to tell."
+            android:text="@string/the_woods_of_san_francesco_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

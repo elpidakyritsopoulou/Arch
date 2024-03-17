@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Santiago de Compostela "
+            android:text="@string/santiago_de_compostela"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -73,15 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="34dp" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text=";;;;;;"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+
 
 
         <Space

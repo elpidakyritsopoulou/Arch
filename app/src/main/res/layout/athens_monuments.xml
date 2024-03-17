@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Athens Monuments "
+                android:text="@string/athens_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Acropolis"
+                android:text="@string/acropoli"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Odeon of Herodus Atticus"
+                android:text="@string/odeon_of_herodus_atticus"
                 android:textSize="45dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Panathenaic Stadium"
+                android:text="@string/panathenaic_stadium"
                 android:textSize="45dp" />
 
             <ImageView

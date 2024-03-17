@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Camino de Santiago"
+            android:text="@string/camino_de_santiago"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Camino de Santiago, also known as the Way of St. James, is a renowned pilgrimage of medieval origin that sees pilgrims’ journey to the Cathedral of Santiago de Compostela in Galicia in the northwest of Spain. Legend has it that the remains of the Apostle St. James the Great were buried in the Cathedral and discovered by a shepherd in the 9th century. The city of Santiago is named after St. James: Santiago de Compostela means St. James of the Field of Stars. If you’re a history buff, make sure you discover the history of the Camino. Due to the enduring popularity of the Camino de Santiago and the many Camino routes, they have been listed as a UNESCO World Heritage Site since 1993."
+            android:text="@string/camino_de_santiago_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

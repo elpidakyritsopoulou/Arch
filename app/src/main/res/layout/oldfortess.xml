@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Old Fortess"
+            android:text="@string/Old_fortess"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -104,11 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Old Fortress of Corfu is one of the most impressive fortifications in Europe.
-The Old Fortress was constructed by the Venetians in the 15th century and was connected to the land by a movable, wooden bridge. In 1819, the British replaced this bridge with the present stable pathway, which is 60 m long and stands 15 m above the fosse.
-On the eastern side of the fortress there is the church of Saint George, built by the Venetians  according to the Doric style.
-Two stone stairs lead to a high spot, where there is a beautiful polygonal well of 1732. The highest point of the fortress needs about 20 minutes walking up to a tall clock tower.
-"
+            android:text="@string/old_fortess_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

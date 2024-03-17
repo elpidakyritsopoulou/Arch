@@ -21,7 +21,7 @@ public class patras extends AppCompatActivity {
         setContentView(R.layout.patras);
 
         Button backbutton = (Button) findViewById(R.id.backbutton);
-        Button readmore = (Button) findViewById(R.id.button);
+        Button readmore = (Button) findViewById(R.id.readmore);
 
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override

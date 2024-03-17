@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Church of Saint Lazarus"
+            android:text="@string/church_of_saint_lazarus"
             android:textColor="@color/orange"
             android:textSize="37sp" />
 
@@ -103,9 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The church of Agios Lazaros is located in the town center, and is one of the most remarkable examples of Byzantine architecture in Cyprus. The church lies over the tomb of the saint.
-A fire in 1970 damaged much of the interior, including extensive damage to a section of the iconostasis. The iconostasis has been partially restored and was re-plated with gold between 1972 and 1974. During the subsequent renovations of the church, on November 2, 1972, human remains were discovered in a marble sarcophagus under the altar, and were identified as part of the saint's relics.
-"
+            android:text="@string/church_of_saint_lazarus_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

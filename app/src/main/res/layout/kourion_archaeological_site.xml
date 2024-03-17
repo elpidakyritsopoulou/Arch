@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Kourion Archaeological Site"
+            android:text="@string/kourion_archaeological_site"
             android:textColor="@color/orange"
             android:textSize="37sp" />
 
@@ -104,9 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Kourion was an important ancient Greek city-state on the southwestern coast of Cyprus. The earliest evidence of settlement in the broader area of Kourion dates to the Neolithic period (5500-3900 B.C.), whilst the most ancient remains in the general area of the ancient city are associated with settlements and tombs of the Middle and Late Bronze Age. The most important monuments at the site are:
-The Agora, the House of Achilles, the House of the Gladiators, the Theatre, the Baths and the Complex of Eustolios, the Early Christian Basilica, the Sanctuary of Apollo Hylates, the Stadium, and the Small Basilica.
-"
+            android:text="@string/kourion_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

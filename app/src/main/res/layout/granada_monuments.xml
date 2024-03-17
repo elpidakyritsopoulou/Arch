@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Granada Monuments "
+                android:text="@string/granada_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="74dp"
                 android:gravity="center_horizontal"
-                android:text="La Alhambra"
+                android:text="@string/la_alhambra"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Cathedral of Granada"
+                android:text="@string/Cathedral_of_granada"
                 android:textSize="40dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Albaicin"
+                android:text="@string/the_albaicin"
                 android:textSize="45dp" />
 
             <ImageView

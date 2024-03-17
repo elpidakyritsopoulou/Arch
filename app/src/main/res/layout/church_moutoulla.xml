@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Church of Panagia (Our Lady) tou Moutoulla"
+            android:text="@string/church_of_panagia_our_lady_tou_moutoulla"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Panagia of Moutoulla is a small orthodox Christian church of the Frankish period in Cyprus. It is located on the southern outskirts of the mountainous village of Moutoullas (Nicosia District), in the mountains of Marathasa of the Troodos mountain range. Built, according to the foundational inscription, in 1280 in the type of the road-roofed church and decorated with frescoes that continue the older carved tradition and incorporate western influences, the Panagia of Moutoullas is an important example of late Byzantine architecture and art in Cyprus. Due to its importance it has been declared a World Heritage Site by UNESCO."
+            android:text="@string/church_of_panagia_our_lady_tou_moutoulla_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

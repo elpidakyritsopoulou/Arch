@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Patras "
+            android:text="@string/Patra"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Patras is the largest city in the Peloponnese and the third largest in Greece, after Athens and Thessaloniki, with a population of 173.600 inhabitants, while the population of the Municipality of Patras is 215.922 inhabitants according to the 2021 census. "
+            android:text="@string/patra_text_1"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The wider metropolitan area includes approximately 305,000 inhabitants. Patras is the capital of the Regional Unit of Achaia, the Region of Western Greece, and the seat of the municipality of the same name. "
+            android:text="@string/patra_text_2"
             android:textSize="12sp"
             android:textStyle="bold" />
 

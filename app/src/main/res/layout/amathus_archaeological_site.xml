@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Amathus Archaeological Site"
+            android:text="@string/amathus_archaeological_site"
             android:textColor="@color/orange"
             android:textSize="37sp" />
 
@@ -104,10 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Amathus is one of the significant ancient city-kingdoms of Cyprus where, according to mythology, Greek hero Theseus left the pregnant Ariadne to be attended by local women. It was also an important site of worship of the Goddess Aphrodite.
-There are various archaeological finds at the site, including the Agora, the public baths, the Temple of Aphrodite, early Christian basilicas and several tombs.
-The Agora is located in the lower town. In ancient times, it was the traditional hub for commercial and political activities, and the buildings surrounding it, played an important role in the daily life of the city.
-"
+            android:text="@string/amathus_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

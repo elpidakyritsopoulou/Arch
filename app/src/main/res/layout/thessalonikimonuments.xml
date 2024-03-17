@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Thessaloniki Monuments "
+                android:text="@string/thessaloniki_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="201dp"
                 android:gravity="center_horizontal"
-                android:text="White Tower of Thessaloniki"
+                android:text="@string/white_tower_of_thessaloniki"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Rotonda,Thessaloniki"
+                android:text="@string/Rotonda_thessaloniki"
                 android:textSize="40dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Arch of Galerius/Kamara"
+                android:text="@string/Arch_of_galerius_kamara"
                 android:textSize="45dp" />
 
             <ImageView

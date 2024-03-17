@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Archaeological Site of Tamassos"
+            android:text="@string/Archaeological_site_of_tamassos"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Tamassos was a city-kingdom in ancient Cyprus, one of the ten kingdoms of Cyprus. The city-state prospered mainly because of its mines, from which metals (mostly copper, Cyprus's chief export in the ancient world) were extracted. Sporadic excavations between 1970 and 1990 in the outer area resulted in the discovery of many artifacts as well as parts of the original city dating from the Archaic, Classical, and Hellenistic eras. The visible sections of this large and important archaeological site also include the site of the temple of Aphrodite, the two majestic royal tombs, and other graves. "
+            android:text="@string/archaeological_site_of_tamassos_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

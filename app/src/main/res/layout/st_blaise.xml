@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Basilica of St Blaise"
+            android:text="@string/the_basilica_of_st_blaise"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Basilica of San Biagio, located on Maratea's highest point, houses the patron saint's remains. Its origins are unclear, but it likely started as a Basilian monastery that later became a church in 732 AD when it housed Saint Blaise's relics. The strategic location led to military fortifications under the Lombards and became the first refuge for Blanda's inhabitants, forming Maratea's initial community."
+            android:text="@string/the_basilica_of_st_blaise_text_1"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Legend tells of Saint Blaise's relics arriving during the 8th-century iconoclastic persecutions, accompanied by a dazzling halo visible to Maratea's residents. The Sanctuary witnessed the miracle of the Manna, water flowing from the relic urn, collected and distributed to the needy. On May 3, 1941, the Sanctuary gained Basilica status."
+            android:text="@string/the_basilica_of_st_blaise_text_2"
             android:textSize="12sp"
             android:textStyle="bold" />
 

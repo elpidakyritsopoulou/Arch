@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Basílica de Nuestra Señora del Pilar"
+            android:text="@string/bas_lica_de_nuestra_se_ora_del_pilar"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -103,10 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="According to a very old tradition, the Basilica was built over the pillar on which the Virgin Mary leaned at the moment of her apparition to Saint James on 2nd January 40 AD. This is why the Basilica is one of the most important Marian centers in the world.
-The Basilica you see now is not the one built after the legend but, due to fires and demolitions, the present one dates back to the end of the 17th century.
-The four towers are called: Torre de Santiago (the oldest), Nuestra Señora del Pilar, Torre de San Francisco de Borja, and its bride Torre Leonor de Salas.
-"
+            android:text="@string/bas_lica_de_nuestra_se_ora_del_pilar_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

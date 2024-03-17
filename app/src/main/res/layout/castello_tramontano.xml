@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="The Castello Tramontano"
+            android:text="@string/the_castello_tramontano"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The castle, built in Aragonese style, has a central tower and two lower round side towers, crenellated and equipped with buckles. King Ferdinand II of Naples promised the Materrani that the town would no longer be ceded to feudal lords. Count Giovani Carlo Tramontano, entrusted with the county in 1946, imposed heavy taxes to fund the castle's construction (25,000 ducats). The castle overlooked the city from a hill, aimed at controlling surrounding land rather than defending the city. Disgruntled citizens staged a coup against the Count, leaving the castle unfinished. Some restoration was done in 2008, making it an ideal venue for cultural and musical events."
+            android:text="@string/castello_tramontano_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

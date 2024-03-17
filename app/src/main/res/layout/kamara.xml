@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Arch of Galerius/Kamara"
+            android:text="@string/arch_of_galerius_kamara"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -104,8 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Arch of Galerius  or Kamara  and the Rotunda are neighbouring early 4th-century AD monuments in the city of Thessaloniki, in the region of Central Macedonia in northern Greece. As an outstanding example of early Byzantine art and architecture, in addition to the importance of the Rotunda as one of the earliest Christian monuments in the Eastern Roman Empire, both sites were inscribed on the UNESCO World Heritage List n 1988 as part of the Paleochristian and Byzantine monuments of Thessaloniki.
-"
+            android:text="@string/arch_of_galerius_kamara_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

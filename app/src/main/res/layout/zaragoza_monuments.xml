@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Zaragoza Monuments"
+                android:text="@string/zaragoza_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Basílica de Nuestra Señora del Pilar "
+                android:text="@string/Basilica_de_nuestra_se_ora_del_pilar"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="La Catedral del Salvador en su Epifanía (SEO)"
+                android:text="@string/La_catedral_del_salvador_en_su_epifan_a_seo"
                 android:textSize="40dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Palacio de la Aljafería"
+                android:text="@string/Palacio_de_la_aljafer_a"
                 android:textSize="45dp" />
 
             <ImageView

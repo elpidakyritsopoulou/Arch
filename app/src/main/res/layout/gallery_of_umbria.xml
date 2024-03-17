@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="National Gallery of Umbria"
+            android:text="@string/national_gallery_of_umbria"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,12 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Along Corso Vannucci, one of the main streets of the city, the top floor of the Priori Palace has housed the National Gallery of Umbria since 1878.
-The National Gallery hosts one of the most complete, extensive, and richest art collections in the entire region.
-The artworks are exhibited on the upper floors of Perugia’s Palazzo dei Priori, seat of the City Council since the Middle Ages and the only Italian public building to house a large national museum.
-The exhibition spaces occupy two floors and the collection comprises the greatest representation of the Umbrian School of painting, ranging from the 13th to the 19th century. The collection is presented in 40 exhibition rooms in the Palazzo. On the second floor of the Gallery, there is an exhibition space for temporary collections, changed several times a year.
-Here you can appreciate the works of important artists, such as Piero della Francesca, Perugino, and Pintoricchhio, and many others.
-"
+            android:text="@string/national_gallery_of_umbria_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Limassol"
+            android:text="@string/Limassol"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Limassol is the second largest city in Cyprus and the southernmost in Europe. Its population amounts to 100,952 inhabitants within the municipal limits and to approximately 180,000 in the wider urban area. Known among the cities of Cyprus for its rich nightlife and cultural tradition, Limassol is also the largest port of the island and one of the largest in the Eastern Mediterranean. It has seen rapid growth, especially after 1974, when the other important port of Cyprus, Famagusta, was lost due to the Turkish invasion. "
+            android:text="@string/limassol_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

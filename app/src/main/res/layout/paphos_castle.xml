@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Paphos Castle (Medieval Fort)"
+            android:text="@string/paphos_castle_medieval_fort"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,9 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Paphos Castle was originally a Byzantine fortress built to protect the port. The original Byzantine fortress was destroyed in the earthquake of 1222. It was rebuilt and expanded by the Lusignans in the 13th century. It is a castle consisting of a complex of two towers, the ruins of which are located 80 meters east of the Castle, right at the entrance of the port. The towers were destroyed after a strong earthquake in 1491, but their ruins are still visible.
-Nowadays, the castle is used as a tourist attraction and occasionally has thematic exhibitions.
-"
+            android:text="@string/paphos_castle_medieval_fort_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

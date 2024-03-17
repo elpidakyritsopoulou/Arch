@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Paphos Monuments "
+                android:text="@string/paphos_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Tombs of the Kings"
+                android:text="@string/tombs_of_the_kings"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Archaeological Park of Kato Paphos (Nea Paphos)"
+                android:text="@string/archaeological_park_of_kato_paphos_nea_paphos"
                 android:textSize="45dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Paphos Castle (Medieval Fort)"
+                android:text="@string/Paphos_castle_medieval_fort"
                 android:textSize="45dp" />
 
             <ImageView

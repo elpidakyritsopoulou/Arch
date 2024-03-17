@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Perugia Monuments "
+                android:text="@string/perugia_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="IV November Square"
+                android:text="@string/Iv_november_square"
                 android:textSize="45dp" />
 
             <ImageView
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Roman Aqueduct in Perugia"
+                android:text="@string/The_roman_aqueduct_in_perugia"
                 android:textSize="45dp" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="National Gallery of Umbria"
+                android:text="@string/National_gallery_of_umbria"
                 android:textSize="45dp" />
 
             <ImageView

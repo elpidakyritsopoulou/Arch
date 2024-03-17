@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Cathedral of Saint Andrew "
+            android:text="@string/cathedral_of_saint_andrew"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,13 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Archaeological Museum of Patras is one of the most important museums in the country. It was built in 2008 to designs by architect Theofanis Bobotis. The impressive building of the museum is located at the northern entrance of the city and is a model of architectural elegance.  Its exterior, in complete harmony with the surrounding area, charms every passerby. A spherical dome covered with titanium sheets dominates an artificial lake, signifying the relationship of the city of Patras with the liquid element.
- It has a total area of 5,955 square metres and has three large halls for the permanent exhibition, one hall for temporary exhibitions, modern reception and public service areas, an amphitheatre, a refreshment room, conservation laboratories, storage rooms for antiquities and an open-air area, which also serves as a parking area for visitors' vehicles.
-The three halls with their respective sections shed light on the burial customs, private and public life of the people of antiquity. The permanent exhibition follows the display mode of all modern museums in the world, i.e. many of the exhibits are not enclosed in cases, but stand freely in the space.
-Panoramic routes allow you to tour the museum in a short time, while modern technology (virtual museum) allows you to communicate with other cultural sites around the world. In addition, continuous projections on video walls within the exhibition space complement the exhibits.
-The highly dynamic design of the exhibition and the way the objects are projected will capture your attention and stimulate your interest in learning.
-
-"
+            android:text="@string/cathedral_of_saint_andrew_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

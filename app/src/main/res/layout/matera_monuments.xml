@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Matera Monuments "
+                android:text="@string/matera_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Sassi"
+                android:text="@string/the_sassi"
                 android:textSize="45dp" />
 
             <ImageView
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Castello Tramontano"
+                android:text="@string/The_castello_tramontano"
                 android:textSize="45dp" />
 
             <ImageView
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Murgia Park"
+                android:text="@string/the_murgia_park"
                 android:textSize="45dp" />
 
             <ImageView

@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="CYPRUS "
+                android:text="@string/cyprus"
                 android:textColor="@color/orange"
                 android:textSize="70sp" />
 
@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Nicosia"
+                android:text="@string/nicosia"
                 android:textSize="45dp" />
 
             <ImageView
@@ -58,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Limassol"
+                android:text="@string/limassol"
                 android:textSize="45dp" />
 
             <ImageView
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Larnaka"
+                android:text="@string/larnaka"
                 android:textSize="45dp" />
 
             <ImageView

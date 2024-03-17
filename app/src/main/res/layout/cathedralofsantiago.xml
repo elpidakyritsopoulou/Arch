@@ -54,7 +54,7 @@
             android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Cathedral of Santiago de Compostela"
+            android:text="@string/cathedral_of_santiago_de_compostela"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Santiago de Compostela Arch Cathedral Basilica (Spanish and Galician: Catedral Basilica de Santiago de Compostela) is part of the Metropolitan Archdiocese of Santiago de Compostela and is an integral component of the Santiago de Compostela World Heritage Site in Galicia, Spain. The cathedral is the reputed burial place of Saint James the Great, one of the apostles of Jesus Christ. It is also among the remaining churches in the world built over the tomb of an apostle, the other ones being St Peter's Basilica in Vatican City, St Thomas Cathedral Basilica, Chennai in India and Basilica of St. John in Izmir, Turkey."
+            android:text="@string/cathedral_of_santiago_de_compostela_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

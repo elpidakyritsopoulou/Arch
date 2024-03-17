@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Larnaka District Archaeological Museum"
+            android:text="@string/Larnaka_district_archaeological_museum"
             android:textColor="@color/orange"
             android:textSize="37sp" />
 
@@ -103,10 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Larnaka District Archaeological Museum houses a large collection of archaeological finds from the whole district of Larnaka.
-Exhibits include artifacts from the Neolithic period, the Copper Era and the Archaic, Classical, Hellenistic and Roman periods. Faience (tin-glazed pottery), ivory and alabaster pieces showcase Cyprus’ commercial and international ties with different countries during antiquity.
-Aside from the large collection of local exhibits, the museum also displays some unique items of Egyptian, Mycenaean, Phoenician, Assyrian and Persian origin that were found in the region of Larnaka, but may have been imported from the other great civilizations of antiquity close to the island.
-"
+            android:text="@string/larnaka_district_archaeological_museum_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Maratea Monuments "
+                android:text="@string/maratea_monuments"
                 android:textColor="@color/orange"
                 android:textSize="60sp" />
 
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Statue of the Christ the Redeemer"
+                android:text="@string/The_statue_of_the_christ_the_redeemer"
                 android:textSize="45dp" />
 
             <ImageView
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="The Basilica of St Blaise"
+                android:text="@string/The_basilica_of_st_blaise"
                 android:textSize="45dp" />
 
             <ImageView
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
-                android:text="Castrocucco Castle"
+                android:text="@string/Castrocucco_castle"
                 android:textSize="45dp" />
 
             <ImageView

@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Tombs of the Kings"
+            android:text="@string/Tombs_of_the_kings"
             android:textColor="@color/orange"
             android:textSize="37sp" />
 
@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Tombs of the Kings is a large necropolis lying about two kilometers north of Paphos harbor in Cyprus. In 1980, it was designated a UNESCO World Heritage Site. The underground tombs, many of which date back to the 4th century BC, are carved out of solid rock, and are thought to have been the burial sites of Paphitic aristocrats and high officials up to the third century AD. Some of the tombs feature Doric columns and frescoed walls. Archaeological excavations are still being carried out at the site."
+            android:text="@string/tombs_of_the_kings_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

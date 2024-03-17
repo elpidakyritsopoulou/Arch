@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Granada"
+            android:text="@string/granada"
             android:textColor="@color/orange"
             android:textSize="70sp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Granada, a city in southern Spain, harbors an exceptional cultural heritage in its cobbled streets. With its iconic jewel, the Alhambra, a Moorish palace with stunning gardens and Arab architecture, contrasting with the majesty of the Renaissance-style Cathedral. Its historical neighborhoods, like the Albaicín, preserve the essence of its Moorish and medieval past. The Muslim influence is reflected in the gastronomy, while the Cathedral of Granada, a masterpiece of Spanish Renaissance, stands out for its architectural splendor. Granada is also a melting pot of culture, with festivals, flamenco, and a bohemian atmosphere that inspires artists and poets. An enriching legacy that captivates all visitors."
+            android:text="@string/granada_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

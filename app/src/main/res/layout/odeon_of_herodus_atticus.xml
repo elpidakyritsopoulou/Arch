@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Odeon of Herodus Atticus"
+            android:text="@string/Odeon_of_herodus_atticus"
             android:textColor="@color/orange"
             android:textSize="37sp" />
 
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="The Odeon of Herodus Atticus (Herodeion) was the last monumental edifice to be built in antiquity (161 AD) in the Acropolis area and its construction was funded by Herodes Atticus in memory of his Roman wife Aspasia Anna Regillia.  It was used mainly as a venue  for music events and had a capacity of at least 5,000 people. It lasted intact until it was destroyed by the Heruli in 267 AD. The niches on the walls are now vacant, but in antiquity they used to house statues. The audience stands and the orchestra (stage) were restored using Pentelic marble  in the 1950s and the monument has since hosted several cultural events, mainly in the context of the Athens Festival which runs from May through October each year, featuring a variety of acclaimed Greek as well as International performances"
+            android:text="@string/odeon_of_herodus_atticus_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

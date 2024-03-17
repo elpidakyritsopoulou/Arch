@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="IV November Square"
+            android:text="@string/iv_november_square"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,10 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Piazza IV Novembre is a square in the historic center of Perugia, the capital city of the Umbria region.
-The asymmetrical square opens up to the convergence of the five road axes that structure the medieval city and for its scenography it has represented in every era the privileged place of urban functions: here the ancient forum was located and there are preserved monuments connected to the system urban planning of the Etruscan-Roman city.
-This is the most important square in the city of Perugia, where you will find the Fontana Maggiore (the central fountain), the Priori Palace and the Cathedral of San Lorenzo.
-"
+            android:text="@string/iv_november_square_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 

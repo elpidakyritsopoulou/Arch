@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Archaeological Park of Kato Paphos (Nea Paphos)"
+            android:text="@string/Archaeological_park_of_kato_paphos_nea_paphos"
             android:textColor="@color/orange"
             android:textSize="34sp" />
 
@@ -105,9 +105,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:gravity="center"
-            android:text="Kato Paphos Archaeological Park (also Nea Paphos Archaeological Park) contains the major part of the important ancient Greek and Roman city and is located in Paphos, southwest Cyprus.
-Nea Paphos is one of the three components forming the Paphos archaeological complex inscribed on the UNESCO World Heritage List in 1980 for its outstanding mosaics and ancient remains, as well as its historical religious importance. The archaeological site is still being excavated since it is widely believed that there are many treasures still to be discovered.
-"
+            android:text="@string/archaeological_park_of_kato_paphos_nea_paphos_text"
             android:textSize="12sp"
             android:textStyle="bold" />
 
