@@ -2,16 +2,16 @@
 <resources>
     <string name="patras">Patras</string>
     <string name="acropolis_text">The greatest and finest sanctuary of ancient Athens, dedicated primarily to its patron, the goddess Athena, dominates the centre of the modern city from the rocky crag known as the Acropolis. The most celebrated myths of ancient Athens, its greatest religious festivals, earliest cults and several decisive events in the city\'s history are all connected to this sacred precinct. The monuments of the Acropolis stand in harmony with their natural setting and combine different orders and styles of Classical art in a most innovative manner and have influenced art and culture for many centuries. The Acropolis of the fifth century BC is the most accurate reflection of the splendour, power and wealth of Athens at its greatest peak, the golden age of Perikles. Athenians and foreigners alike worked on this project, receiving a salary of one drachma a day. The most important buildings visible on the Acropolis today - that is, the Parthenon, the Propylaia, the Erechtheion and the temple of Athena Nike, were erected during this period under the supervision of the greatest architects, sculptors and artists of their time. The temples on the north side of the Acropolis housed primarily the earlier Athenian cults and those of the Olympian gods, while the southern part of the Acropolis was dedicated to the cult of Athena in her many qualities: as Polias (patron of the city), Parthenos, Pallas, Promachos (goddess of war), Ergane (goddess of manual labour) and Nike (Victory). After the end of the Peloponnesian war in 404 BC and until the first century BC no other important buildings were erected on the Acropolis.</string>
-    <string name="acropolis_links" />
+    <string name="acropolis_links" translatable="false" />
     <string name="acropolis">Acropolis</string>
-    <string name="app_name" />
-    <string name="Greece" />
-    <string name="previous" />
-    <string name="hello_first_fragment" />
-    <string name="next" />
-    <string name="action_settings" />
-    <string name="first_fragment_label" />
-    <string name="second_fragment_label" />
+    <string name="app_name" translatable="false" />
+    <string name="Greece" >Greece</string>
+    <string name="previous" translatable="false" />
+    <string name="hello_first_fragment" translatable="false" />
+    <string name="next" translatable="false" />
+    <string name="action_settings" translatable="false" />
+    <string name="first_fragment_label" translatable="false" />
+    <string name="second_fragment_label" translatable="false" />
     <string name="the_albacin">The Albacin</string>
     <string name="albacin_text">The Albaicín, also known as Albayzín (from Arabic: ٱلْبَيّازِينْ, romanized: al-Bayyāzīn), is a district of Granada, in the autonomous community of Andalusia, Spain. It is centered around a hill on the north side of the Darro River which passes through the city. The neighbourhood is notable for its historic monuments and for largely retaining its medieval street plan dating back to the Nasrid period (13th to 15th centuries), although it nonetheless went through many physical and demographic changes after the end of the Reconquista in 1492. It was declared a World Heritage Site in 1994, as an extension of the historic site of the nearby Alhambra.</string>
     <string name="amathus_archaeological_site">Amathus Archaeological Site</string>
