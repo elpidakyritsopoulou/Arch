@@ -34,13 +34,7 @@
             android:textSize="30dp"
             tools:ignore="HardcodedText,SpUsage" />
 
-        <Button
-            android:id="@+id/changelanguage"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Change Language">
 
-        </Button>
 
         <Space
             android:layout_width="match_parent"

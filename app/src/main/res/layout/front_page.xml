@@ -6,12 +6,23 @@
     android:layout_height="wrap_content"
     android:background="@color/orange_background">
 
+
+    <Button
+        android:id="@+id/changelanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_language"
+        android:background="@color/orange_background">
+    </Button>
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="563dp"
         app:srcCompat="@drawable/logo">
+
     </ImageView>
+
 
     <ImageView
         android:id="@+id/EE_logo"
@@ -21,7 +32,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="57dp"
-        android:layout_marginTop="87dp"
         android:layout_marginEnd="55dp"
         android:layout_marginBottom="0dp"
         app:srcCompat="@drawable/ee_logo" />
