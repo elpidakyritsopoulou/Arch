@@ -324,10 +324,5 @@
             android:name=".Tombs_of_the_Kings"
             android:exported="true">
         </activity>
-
-
-
-
-
     </application>
 </manifest>

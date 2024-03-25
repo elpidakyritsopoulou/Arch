@@ -229,6 +229,7 @@
     <string name="La_catedral_del_salvador_en_su_epifan_a_seo" tools:ignore="MissingTranslation">La Catedral del Salvador en su Epifanía (SEO)</string>
     <string name="Palacio_de_la_aljafer_a" tools:ignore="MissingTranslation">Palacio de la Aljafería</string>
     <string name="change_language" translatable="false">Change Language</string>
+    <string name="select_country">Select Country</string>
 
 
 </resources>
