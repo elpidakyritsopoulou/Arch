@@ -26,7 +26,7 @@ public class frontPage extends AppCompatActivity {
         setContentView(R.layout.front_page);
 
         ActionBar actionBar = getSupportActionBar();
-//        actionBar.setTitle("Arch");
+//       actionBar.setTitle("Arch");
         Button changeLang = findViewById(R.id.changelanguage);
         changeLang.setOnClickListener(new View.OnClickListener() {
             @Override
