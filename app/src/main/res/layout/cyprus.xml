@@ -37,7 +37,7 @@
                 android:gravity="center_horizontal"
                 android:text="@string/cyprus"
                 android:textColor="@color/orange"
-                android:textSize="70sp" />
+                android:textSize="50sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -46,12 +46,19 @@
                 android:gravity="center_horizontal"
                 android:text="@string/nicosia"
                 android:textSize="45dp" />
-
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="40dp"
+                app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/nicosiaphoto"
                 android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/nicosia" />
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/textView13"
@@ -61,11 +68,19 @@
                 android:text="@string/limassol"
                 android:textSize="45dp" />
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="40dp"
+                app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/limassolphoto"
                 android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/limassol_castle_cover" />
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/textView14"
@@ -74,12 +89,19 @@
                 android:gravity="center_horizontal"
                 android:text="@string/larnaka"
                 android:textSize="45dp" />
-
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="40dp"
+                app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/larnakaphoto"
                 android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/larnaka"/>
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/textView12"
@@ -88,12 +110,19 @@
                 android:gravity="center_horizontal"
                 android:text="Paphos"
                 android:textSize="45sp" />
-
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="8dp"
+                app:cardCornerRadius="40dp"
+                app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/paphosphoto"
                 android:layout_width="match_parent"
-                android:layout_height="280dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/paphos" />
+            </androidx.cardview.widget.CardView>
 
 
 
