@@ -7,17 +7,35 @@
     android:background="@color/orange_background">
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/changelanguage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/orange_background"
-            android:text="@string/change_language"></Button>
+    <ImageView
+        android:id="@+id/changelanguage"
+        android:layout_width="68dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/language" />
+</RelativeLayout>
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/changelanguage"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/orange_background"-->
+<!--            android:text="@string/Change_language">-->
+<!--        </Button>-->
 
         <ImageView
             android:id="@+id/logo"
@@ -26,6 +44,9 @@
             app:srcCompat="@drawable/logo">
 
         </ImageView>
+
+
+
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
