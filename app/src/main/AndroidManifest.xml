@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Arch"
         tools:targetApi="s"
-        tools:ignore="ExtraText">
+        tools:ignore="ExtraText"
+        android:configChanges="locale">
         <activity
             android:name=".frontPage"
             android:exported="true"

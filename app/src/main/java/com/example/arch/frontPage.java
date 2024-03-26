@@ -12,8 +12,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -28,7 +31,27 @@ public class frontPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        loadLocale(); // Load the saved locale
         setContentView(R.layout.front_page);
+        ActionBar actionBar = getSupportActionBar();
+//       actionBar.setTitle("Arch");
+        Button changeLang = findViewById(R.id.changelanguage);
+        changeLang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showChangeLanguageDialog();
+            }
+        });
+
+        ImageView logo = findViewById(R.id.logo);
+        logo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(frontPage.this, first_page.class));
+            }
+        });
+
+
 
         autoCompleteTextView = findViewById(R.id.auto_complete_txt);
         adapterItems = new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, item);
@@ -69,7 +92,7 @@ public class frontPage extends AppCompatActivity {
     }
 
     private void showChangeLanguageDialog() {
-        final String[] listItems = {"English", "Greek", "Spanish", "Italian"};
+        final String[] listItems = {"English", "Ελληνικά", "Spanish", "Italian"}; // Greek added here
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(this);
         mBuilder.setTitle("Choose Language");
         mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
@@ -81,7 +104,7 @@ public class frontPage extends AppCompatActivity {
                         langCode = "en";
                         break;
                     case 1:
-                        langCode = "el"; // Corrected language code for Greek
+                        langCode = "el";
                         break;
                     case 2:
                         langCode = "es";
@@ -91,6 +114,12 @@ public class frontPage extends AppCompatActivity {
                         break;
                 }
                 setLocale(langCode); // Set the selected language
+                Locale locale = new Locale(langCode);
+                Locale.setDefault(locale);
+                Configuration config = new Configuration();
+                config.locale = locale;
+                getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+
                 dialogInterface.dismiss();
                 recreate(); // Recreate the activity to apply the language change
             }
@@ -99,6 +128,13 @@ public class frontPage extends AppCompatActivity {
         AlertDialog mDialog = mBuilder.create();
         mDialog.show();
     }
+
+
+//    AlertDialog mDialog = mBuilder.create();
+//        mDialog.show();
+//    }
+
+
 
     private void setLocale(String lang) {
         // Save selected language to SharedPreferences
