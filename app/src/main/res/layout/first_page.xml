@@ -95,7 +95,7 @@
             android:layout_height="fill_parent"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/Italy"/>
+            android:src="@drawable/italy"/>
         </androidx.cardview.widget.CardView>
 
 
