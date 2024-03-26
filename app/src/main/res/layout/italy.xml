@@ -56,8 +56,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/materaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/matera" />
             </androidx.cardview.widget.CardView>
 
@@ -78,8 +80,10 @@
 
             <ImageView
                 android:id="@+id/marateaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/maratea" />
             </androidx.cardview.widget.CardView>
 
@@ -100,8 +104,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/assisiphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/assisi" />
             </androidx.cardview.widget.CardView>
 
@@ -121,8 +127,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/perugiaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/perugia" />
             </androidx.cardview.widget.CardView>
 

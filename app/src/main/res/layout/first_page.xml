@@ -19,7 +19,7 @@
         <ImageView
             android:id="@+id/logo"
             android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_height="match_parent"
             android:src="@drawable/logo"
             tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck" />
 
@@ -63,8 +63,10 @@
             app:cardBackgroundColor="#27FFFFFF">
         <ImageView
             android:id="@+id/ImageViewAthens"
-            android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
             android:src="@drawable/athenscover">
         </ImageView>
         </androidx.cardview.widget.CardView>
@@ -80,13 +82,22 @@
             android:textColor="@color/orange"
             android:textSize="30dp"
             tools:ignore="HardcodedText,SpUsage" />
-
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="40dp"
+            app:cardBackgroundColor="#27FFFFFF">
         <ImageView
             android:id="@+id/ImageViewItaly"
-            android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:src="@drawable/italy"
-            />
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/Italy"/>
+        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:id="@+id/spain"
@@ -108,10 +119,12 @@
             app:cardBackgroundColor="#27FFFFFF">
         <ImageView
             android:id="@+id/ImageViewSpain"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
             android:src="@drawable/spain"
-            tools:ignore="ContentDescription" />
+            />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -134,10 +147,12 @@
             app:cardBackgroundColor="#27FFFFFF">
         <ImageView
             android:id="@+id/logoCyprus"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
             android:src="@drawable/cyprus"
-            tools:ignore="ContentDescription" />
+            />
         </androidx.cardview.widget.CardView>
 
 

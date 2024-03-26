@@ -55,8 +55,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/nicosiaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/nicosia" />
             </androidx.cardview.widget.CardView>
 
@@ -77,8 +79,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/limassolphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/limassol_castle_cover" />
             </androidx.cardview.widget.CardView>
 
@@ -98,8 +102,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/larnakaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/larnaka"/>
             </androidx.cardview.widget.CardView>
 
@@ -119,8 +125,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/paphosphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/paphos" />
             </androidx.cardview.widget.CardView>
 

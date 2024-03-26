@@ -56,8 +56,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/granadaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/granada" />
             </androidx.cardview.widget.CardView>
 
@@ -79,8 +81,10 @@
 
                 <ImageView
                     android:id="@+id/zaragozaphoto"
-                    android:layout_width="match_parent"
-                    android:layout_height="1195dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/zaragoza" />
             </androidx.cardview.widget.CardView>
 
@@ -100,8 +104,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/murciaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/murcia"/>
             </androidx.cardview.widget.CardView>
 
@@ -121,8 +127,10 @@
                 app:cardBackgroundColor="#27FFFFFF">
             <ImageView
                 android:id="@+id/santiagocompostelaphoto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/santiago" />
             </androidx.cardview.widget.CardView>
 
