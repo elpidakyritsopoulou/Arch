@@ -365,5 +365,10 @@
             android:name=".kamara"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".CarouselsActivity"
+            android:exported="true">
+        </activity>
+
     </application>
 </manifest>
