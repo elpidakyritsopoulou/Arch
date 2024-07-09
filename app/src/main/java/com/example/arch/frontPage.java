@@ -22,6 +22,8 @@ import java.util.Locale;
 
 public class frontPage extends AppCompatActivity {
 
+
+
     Spinner countrySpinner;
     ArrayAdapter<String> adapterItems;
     String[] items = {"Greece", "Italy", "Spain", "Cyprus"};

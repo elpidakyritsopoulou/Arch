@@ -17,35 +17,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
             android:orientation="horizontal"
             tools:ignore="ExtraText">
 
-            >
-
-            <Button
-                android:id="@+id/backbutton"
-                android:layout_width="52dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:contentDescription="@string/patras"
-                android:onClick="startSecondActivity"
-                app:cornerRadius="50dp"
-                app:icon="@drawable/car_ui_icon_arrow_back" />
-
             <Space
                 android:layout_width="250dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_height="match_parent" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="76dp"
                 android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
+                android:layout_gravity="right|top"
                 android:src="@drawable/logo" />
-
         </LinearLayout>
 
         <TextView
@@ -61,12 +47,10 @@
             android:layout_width="match_parent"
             android:layout_height="34dp" />
 
-
         <ImageView
             android:id="@+id/corfucover"
             android:layout_width="match_parent"
             android:layout_height="344dp"
-            android:layout_weight="1"
             android:src="@drawable/corfu" />
 
         <Space
@@ -91,10 +75,7 @@
             android:id="@+id/readmore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Read more"
             tools:visibility="visible" />
-
     </LinearLayout>
-
 </ScrollView>

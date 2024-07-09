@@ -22,16 +22,6 @@
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
-            <Button
-                android:id="@+id/backbutton"
-                android:layout_width="52dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:contentDescription="@string/Greece"
-                android:onClick="startSecondActivity"
-                app:cornerRadius="50dp"
-                app:icon="@drawable/car_ui_icon_arrow_back" />
-
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"

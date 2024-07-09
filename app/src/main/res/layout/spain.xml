@@ -6,15 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/orange_background">
 
-    <Button
-        android:id="@+id/backbutton"
-        android:layout_width="52dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:contentDescription="@string/Greece"
-        app:cornerRadius="50dp"
-        app:icon="@drawable/car_ui_icon_arrow_back"
-        android:onClick="startSecondActivity"/>
+
 
     <ScrollView
         android:id="@+id/back"

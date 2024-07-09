@@ -21,19 +21,11 @@
             android:layout_height="match_parent"
             android:gravity="top"
             android:orientation="horizontal"
-            tools:ignore="ExtraText">
+            tools:ignore="ExtraText"><![CDATA[
 
             >
 
-            <Button
-                android:id="@+id/backbutton"
-                android:layout_width="52dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:contentDescription="@string/patras"
-                android:onClick="startSecondActivity"
-                app:cornerRadius="50dp"
-                app:icon="@drawable/car_ui_icon_arrow_back" />
+            ]]>
 
             <Space
                 android:layout_width="250dp"
@@ -49,16 +41,15 @@
 
         </LinearLayout>
 
+
         <TextView
             android:id="@+id/Nicosia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/cathedral_of_saint_andrew"
+            android:text="@string/archaeological_museum_of_patras"
             android:textColor="@color/orange"
             android:textSize="34sp" />
-
-
 
         <HorizontalScrollView
             android:id="@+id/gallery"
