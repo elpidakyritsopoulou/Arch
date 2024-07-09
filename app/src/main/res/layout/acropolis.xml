@@ -109,6 +109,12 @@
             android:textSize="12sp"
             android:textStyle="bold" />
 
+        <Button
+            android:id="@+id/location_acropolis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Location" />
+
         <Space
             android:layout_width="match_parent"
             android:layout_height="35dp" />

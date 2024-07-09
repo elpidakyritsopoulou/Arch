@@ -231,6 +231,13 @@
     <string name="change_language" translatable="false">Change Language</string>
     <string name="select_country">Select Country</string>
     <string name="Change_language">Change Language</string>
+    <string-array name="countries_array">
+        <item>Greece</item>
+        <item>Italy</item>
+        <item>Spain</item>
+        <item>Cyprus</item>
+        <!-- Add more countries as needed -->
+    </string-array>
 
 
 </resources>

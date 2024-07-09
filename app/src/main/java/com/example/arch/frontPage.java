@@ -1,7 +1,6 @@
 package com.example.arch;
 
 import android.app.Activity;
-import android.content.ClipData;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,9 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
-import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
@@ -24,9 +22,10 @@ import java.util.Locale;
 
 public class frontPage extends AppCompatActivity {
 
-    AutoCompleteTextView autoCompleteTextView;
+    Spinner countrySpinner;
     ArrayAdapter<String> adapterItems;
-    String[] item = {"Greece", "Italy", "Spain", "Cyprus"};
+    String[] items = {"Greece", "Italy", "Spain", "Cyprus"};
+    boolean isSpinnerInitialized = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +33,7 @@ public class frontPage extends AppCompatActivity {
         loadLocale(); // Load the saved locale
         setContentView(R.layout.front_page);
         ActionBar actionBar = getSupportActionBar();
-//       actionBar.setTitle("Arch");
+
         ImageView changeLang = findViewById(R.id.changelanguage);
         changeLang.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,23 +50,30 @@ public class frontPage extends AppCompatActivity {
             }
         });
 
+        countrySpinner = findViewById(R.id.country_spinner);
+        adapterItems = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items);
+        adapterItems.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        countrySpinner.setAdapter(adapterItems);
 
-
-        autoCompleteTextView = findViewById(R.id.auto_complete_txt);
-        adapterItems = new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, item);
-
-        autoCompleteTextView.setAdapter(adapterItems);
-
-        autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        countrySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String selectedItem = adapterView.getItemAtPosition(i).toString();
-                Class<?> activityClass = getActivityClass(selectedItem);
-                if (activityClass != null) {
-                    startActivity(new Intent(frontPage.this, activityClass));
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (isSpinnerInitialized) {
+                    String selectedItem = parent.getItemAtPosition(position).toString();
+                    Class<?> activityClass = getActivityClass(selectedItem);
+                    if (activityClass != null) {
+                        startActivity(new Intent(frontPage.this, activityClass));
+                    } else {
+                        Toast.makeText(frontPage.this, "Activity not found for country: " + selectedItem, Toast.LENGTH_SHORT).show();
+                    }
                 } else {
-                    Toast.makeText(frontPage.this, "Activity not found for country: " + selectedItem, Toast.LENGTH_SHORT).show();
+                    isSpinnerInitialized = true;
                 }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                // Do nothing
             }
         });
 
@@ -128,13 +134,6 @@ public class frontPage extends AppCompatActivity {
         AlertDialog mDialog = mBuilder.create();
         mDialog.show();
     }
-
-
-//    AlertDialog mDialog = mBuilder.create();
-//        mDialog.show();
-//    }
-
-
 
     private void setLocale(String lang) {
         // Save selected language to SharedPreferences

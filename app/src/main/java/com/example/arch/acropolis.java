@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +21,15 @@ public class acropolis extends AppCompatActivity {
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);
         ImageButton link2 = (ImageButton) findViewById(R.id.link2);
         ImageButton link3 = (ImageButton) findViewById(R.id.link3);
+        Button location_acropolis = (Button) findViewById(R.id.location_acropolis);
+
+        String locationUrl = "https://maps.app.goo.gl/hsMYxLAXg2WMJzbj8";
+        location_acropolis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         link1.setOnClickListener(new View.OnClickListener() {

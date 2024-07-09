@@ -1,10 +1,34 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.arch.MainActivity">
+
+    >
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_change_language"
+        android:title="Change Language"
+        android:icon="@drawable/language"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_greece"
+        android:title="Greece"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_italy"
+        android:title="Italy"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_spain"
+        android:title="Spain"
+        android:orderInCategory="400"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cyprus"
+        android:title="Cyprus"
+        android:orderInCategory="500"
         app:showAsAction="never" />
 </menu>
+
