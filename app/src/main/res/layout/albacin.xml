@@ -21,11 +21,18 @@
             android:layout_height="match_parent"
             android:gravity="top"
             android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
+            tools:ignore="ExtraText">
 
-            >
-
-            ]]>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/location_albacin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="16dp"
+                android:src="@drawable/location"
+                android:contentDescription="@string/get_location"
+                app:backgroundTint="@color/orange_background"
+                app:fabSize="mini" />
 
             <Space
                 android:layout_width="250dp"

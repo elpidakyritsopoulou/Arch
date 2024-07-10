@@ -236,6 +236,7 @@
     <string name="greece_carousel">Greece</string>
     <string name="spain_carousel">Spain</string>
     <string name="cyprus_carousel">Cyprus</string>
+    <string name="get_location">Get Location</string>
     <string-array name="countries_array">
         <item>Greece</item>
         <item>Italy</item>
