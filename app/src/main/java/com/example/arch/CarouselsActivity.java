@@ -45,10 +45,10 @@ public class CarouselsActivity extends AppCompatActivity implements CountryAdapt
 
     private void initializeCountryCityMap() {
         countryCityMap = new HashMap<>();
-        countryCityMap.put("Greece", Arrays.asList("Athens", "Thessaloniki", "Corfu"));
-        countryCityMap.put("Italy", Arrays.asList("Matera", "Maratea", "Assisi"));
-        countryCityMap.put("Spain", Arrays.asList("Granada", "Zaragoza", "Murcia"));
-        countryCityMap.put("Cyprus", Arrays.asList("Nicosia", "Limassol", "Paphos"));
+        countryCityMap.put("Greece", Arrays.asList("Athens", "Patras", "Thessaloniki", "Corfu"));
+        countryCityMap.put("Italy", Arrays.asList("Matera", "Maratea", "Assisi", "Perugia"));
+        countryCityMap.put("Spain", Arrays.asList("Granada", "Zaragoza", "Murcia", "Santiago de Compostela"));
+        countryCityMap.put("Cyprus", Arrays.asList("Nicosia", "Limassol", "Larnaka", "Paphos"));
     }
 
     @Override

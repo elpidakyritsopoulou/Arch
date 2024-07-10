@@ -34,6 +34,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class patras extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -141,11 +143,10 @@ public class patras extends AppCompatActivity {
         setContentView(R.layout.patras);
 
 
-        Button readmore = (Button) findViewById(R.id.readmore);
+        FloatingActionButton readMore = findViewById(R.id.readmore);
 
 
-
-        readmore.setOnClickListener(new View.OnClickListener() {
+        readMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(patras.this, patras_monuments.class));

@@ -1,6 +1,5 @@
 package com.example.arch;
 
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -14,11 +13,12 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.Locale;
 
@@ -125,14 +125,14 @@ public class albacin extends AppCompatActivity {
         return context.createConfigurationContext(configuration);
     }
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
+        loadLocale();
         setContentView(R.layout.albacin);
 
-
-        ImageButton link1 = (ImageButton) findViewById(R.id.link1);
-         Button location_albacin = (Button) findViewById(R.id.location_albacin);
+        ImageButton link1 = findViewById(R.id.link1);
+        FloatingActionButton location_albacin = findViewById(R.id.location_albacin);
 
         String locationUrl = "https://maps.app.goo.gl/4xFwN3zk4vz7b6LS9";
         location_albacin.setOnClickListener(new View.OnClickListener() {
@@ -143,24 +143,15 @@ public class albacin extends AppCompatActivity {
         });
 
         link1.setOnClickListener(new View.OnClickListener() {
-
+            @Override
             public void onClick(View view) {
                 goLink("https://www.albaicin-granada.com/");
-
             }
-
         });
-
-
     }
+
     private void goLink(String s) {
         Uri uri = Uri.parse(s);
         startActivity(new Intent(Intent.ACTION_VIEW, uri));
-    };
-
-
+    }
 }
-
-
-
-

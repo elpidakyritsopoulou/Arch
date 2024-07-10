@@ -29,6 +29,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.net.URL;
 
 public class saint_andrew extends AppCompatActivity {
@@ -137,6 +139,15 @@ public class saint_andrew extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.saint_andrew);
 
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/eRb8MbcHSo9WkjuSA";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
     ImageButton link1 = (ImageButton) findViewById(R.id.link1);

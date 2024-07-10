@@ -1,6 +1,5 @@
 package com.example.arch;
 
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,15 +12,56 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import java.util.Locale;
 
 public class acropolis extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        loadLocale();
+        setContentView(R.layout.acropolis);
+
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        ImageButton link1 = findViewById(R.id.link1);
+        ImageButton link2 = findViewById(R.id.link2);
+        ImageButton link3 = findViewById(R.id.link3);
+        com.google.android.material.floatingactionbutton.FloatingActionButton location_acropolis = findViewById(R.id.location_acropolis);
+
+        String locationUrl = "https://maps.app.goo.gl/hsMYxLAXg2WMJzbj8";
+        location_acropolis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
+
+        link1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                goLink("https://www.visitgreece.gr/experiences/culture/archaeological-sites-and-monuments/acropolis-of-athens/");
+            }
+        });
+
+        link2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                goLink("https://whc.unesco.org/en/list/404/");
+            }
+        });
+
+        link3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                goLink("https://www.theacropolismuseum.gr/en/");
+            }
+        });
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -34,7 +74,6 @@ public class acropolis extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                // Handle the Up button behavior (back to the previous activity)
                 finish();
                 return true;
             case R.id.action_greece:
@@ -80,12 +119,6 @@ public class acropolis extends AppCompatActivity {
                         break;
                 }
                 setLocale(langCode);
-                Locale locale = new Locale(langCode);
-                Locale.setDefault(locale);
-                Configuration config = new Configuration();
-                config.locale = locale;
-                getResources().updateConfiguration(config, getResources().getDisplayMetrics());
-
                 dialogInterface.dismiss();
                 recreate();
             }
@@ -99,6 +132,12 @@ public class acropolis extends AppCompatActivity {
         SharedPreferences.Editor editor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
         editor.putString("My_Lang", lang);
         editor.apply();
+
+        Locale locale = new Locale(lang);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getResources().updateConfiguration(config, getResources().getDisplayMetrics());
     }
 
     public void loadLocale() {
@@ -124,64 +163,8 @@ public class acropolis extends AppCompatActivity {
         return context.createConfigurationContext(configuration);
     }
 
-    protected void onCreate(Bundle savedInstanceState) {
-
-
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.acropolis);
-
-
-
-
-        ImageButton link1 = (ImageButton) findViewById(R.id.link1);
-        ImageButton link2 = (ImageButton) findViewById(R.id.link2);
-        ImageButton link3 = (ImageButton) findViewById(R.id.link3);
-        Button location_acropolis = (Button) findViewById(R.id.location_acropolis);
-
-        String locationUrl = "https://maps.app.goo.gl/hsMYxLAXg2WMJzbj8";
-        location_acropolis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
-            }
-        });
-
-
-        link1.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View view) {
-                goLink("https://www.visitgreece.gr/experiences/culture/archaeological-sites-and-monuments/acropolis-of-athens/");
-
-            }
-
-        });
-
-        link2.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View view) {
-                goLink("https://whc.unesco.org/en/list/404/");
-
-            }
-
-        });
-
-        link3.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View view) {
-                goLink("https://www.theacropolismuseum.gr/en/");
-
-            }
-
-        });
-    }
-    private void goLink(String s) {
-        Uri uri = Uri.parse(s);
+    private void goLink(String url) {
+        Uri uri = Uri.parse(url);
         startActivity(new Intent(Intent.ACTION_VIEW, uri));
-    };
-
-
     }
-
-
-
-
+}

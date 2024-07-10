@@ -22,7 +22,6 @@
             android:orientation="horizontal"
             tools:ignore="ExtraText">
 
-
             <Space
                 android:layout_width="250dp"
                 android:layout_height="match_parent"
@@ -49,7 +48,6 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="34dp" />
-
 
         <ImageView
             android:id="@+id/patrascover"
@@ -86,13 +84,15 @@
             android:layout_width="match_parent"
             android:layout_height="34dp" />
 
-        <Button
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/readmore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Read more"
-            tools:visibility="visible" />
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/monument"
+            app:backgroundTint="@color/orange"
+            app:fabSize="mini" />
 
     </LinearLayout>
 

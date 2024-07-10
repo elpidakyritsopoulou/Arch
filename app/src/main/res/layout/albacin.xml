@@ -1,135 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    android:backgroundTint="@color/orange_background"
-    android:hapticFeedbackEnabled="true"
-    android:orientation="horizontal">
+    android:background="@color/orange_background"
+    tools:context=".albacin">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText">
-
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/location_albacin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end|bottom"
-                android:layout_margin="16dp"
-                android:src="@drawable/location"
-                android:contentDescription="@string/get_location"
-                app:backgroundTint="@color/orange_background"
-                app:fabSize="mini" />
-
-            <Space
-                android:layout_width="250dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="76dp"
-                android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
-                android:src="@drawable/logo" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/the_albacin"
-            android:textColor="@color/orange"
-            android:textSize="34sp" />
-
-
-
-        <HorizontalScrollView
-            android:id="@+id/gallery"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center">
 
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="top">
 
-                android:layout_width="910dp"
-                android:layout_height="202dp"
-                android:orientation="horizontal">
-
-
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="442dp"
-                    android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/the_albaic_n1" />
+                <Space
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent" />
 
                 <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="361dp"
-                    android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/the_albaic_n2" />
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="550dp"
-                    android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/the_albaic_n3" />
+                    android:id="@+id/imageView2"
+                    android:layout_width="76dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/logo"
+                    android:contentDescription="@string/app_name" />
 
             </LinearLayout>
-        </HorizontalScrollView>
 
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/the_albacin"
+                android:textColor="@color/orange"
+                android:textSize="34sp" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="@string/albacin_text"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+            <HorizontalScrollView
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="116dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="442dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/the_albaic_n1"
+                        android:contentDescription="@string/the_albacin" />
 
-            <ImageButton
-                android:id="@+id/link1"
-                android:layout_width="51dp"
-                android:layout_height="45dp"
-                android:background="@drawable/link_512"
-                android:gravity="left|bottom"></ImageButton>
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="361dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/the_albaic_n2"
+                        android:contentDescription="@string/the_albacin" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="550dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/the_albaic_n3"
+                        android:contentDescription="@string/the_albacin" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/albacin_text"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/link1"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                     />
+
+            </LinearLayout>
 
         </LinearLayout>
+    </ScrollView>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/location_albacin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/location"
+        android:contentDescription="@string/get_location"
+        app:backgroundTint="@color/orange"
+        app:fabSize="mini" />
 
-
-    </LinearLayout>
-
-
-
-</ScrollView>
+</RelativeLayout>

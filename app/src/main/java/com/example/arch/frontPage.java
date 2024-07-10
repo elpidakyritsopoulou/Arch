@@ -22,8 +22,6 @@ import java.util.Locale;
 
 public class frontPage extends AppCompatActivity {
 
-
-
     Spinner countrySpinner;
     ArrayAdapter<String> adapterItems;
     String[] items = {"Greece", "Italy", "Spain", "Cyprus"};
@@ -78,6 +76,9 @@ public class frontPage extends AppCompatActivity {
                 // Do nothing
             }
         });
+
+        // Initialize spinner flag to false after setting the adapter
+        isSpinnerInitialized = false;
 
         // Load saved language
         loadLocale();

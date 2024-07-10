@@ -18,6 +18,8 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class Odeon_of_Herodus_Atticus extends AppCompatActivity {
@@ -132,7 +134,15 @@ public class Odeon_of_Herodus_Atticus extends AppCompatActivity {
         ImageButton link2 = (ImageButton) findViewById(R.id.link2);
         ImageButton link3 = (ImageButton) findViewById(R.id.link3);
 
+        FloatingActionButton location = findViewById(R.id.location);
 
+        String locationUrl = "https://maps.app.goo.gl/WsxKYzx5dYG5p9aY7";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
         link1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {

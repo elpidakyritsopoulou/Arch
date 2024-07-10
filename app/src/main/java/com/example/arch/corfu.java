@@ -16,6 +16,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class corfu extends AppCompatActivity {
@@ -26,7 +28,7 @@ public class corfu extends AppCompatActivity {
         loadLocale(); // Load the saved language preference
         setContentView(R.layout.corfu);
 
-        Button readMore = findViewById(R.id.readmore);
+        FloatingActionButton readMore = findViewById(R.id.readmore);
 
         readMore.setOnClickListener(new View.OnClickListener() {
             @Override

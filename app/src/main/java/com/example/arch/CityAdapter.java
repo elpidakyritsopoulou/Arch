@@ -11,16 +11,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.arch.databinding.AssisiBinding;
-import com.example.arch.databinding.AthensBinding;
-import com.example.arch.databinding.CorfuBinding;
-import com.example.arch.databinding.LimassolBinding;
-import com.example.arch.databinding.MarateaBinding;
-import com.example.arch.databinding.MateraBinding;
-import com.example.arch.databinding.NicosiaBinding;
-import com.example.arch.databinding.PaphosBinding;
-import com.example.arch.databinding.ThessalonikiBinding;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -51,6 +41,10 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
         cityImageMap.put("Nicosia", R.drawable.nicosia);
         cityImageMap.put("Limassol", R.drawable.limassol);
         cityImageMap.put("Paphos", R.drawable.paphos);
+        cityImageMap.put("Patra", R.drawable.patras);
+        cityImageMap.put("Perugia", R.drawable.perugia);
+        cityImageMap.put("Santiago de Compostela", R.drawable.santiago);
+        cityImageMap.put("Larnaka", R.drawable.larnaka);
     }
 
     @NonNull
@@ -64,7 +58,12 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         String city = cityList.get(position);
         holder.cityName.setText(city);
-        holder.cityImage.setImageResource(cityImageMap.get(city));
+
+        Integer imageResource = cityImageMap.get(city);
+        if (imageResource != null) {
+            holder.cityImage.setImageResource(imageResource);
+        }
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,13 +97,25 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
                         intent = new Intent(context, Murcia.class);
                         break;
                     case "Nicosia":
-                        intent = new Intent(context, NicosiaBinding.class);
+                        intent = new Intent(context, nicosia.class);
                         break;
                     case "Limassol":
-                        intent = new Intent(context, LimassolBinding.class);
+                        intent = new Intent(context, limassol.class);
                         break;
                     case "Paphos":
-                        intent = new Intent(context, PaphosBinding.class);
+                        intent = new Intent(context, paphos.class);
+                        break;
+                    case "Patra":
+                        intent = new Intent(context, patras.class);
+                        break;
+                    case "Perugia":
+                        intent = new Intent(context, perugia.class);
+                        break;
+                    case "Santiago de Compostela":
+                        intent = new Intent(context, Santiagocompostela.class);
+                        break;
+                    case "Larnaka":
+                        intent = new Intent(context, Larnaka.class);
                         break;
                     default:
                         intent = null;
@@ -122,7 +133,7 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
         return cityList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView cityName;
         ImageView cityImage;
 

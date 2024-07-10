@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    >
 
     <application
         android:allowBackup="true"
@@ -12,7 +13,8 @@
         android:theme="@style/Theme.Arch"
         tools:targetApi="s"
         tools:ignore="ExtraText"
-        android:configChanges="locale">
+        android:configChanges="locale"
+        >
         <activity
             android:name=".frontPage"
             android:exported="true"
@@ -369,6 +371,5 @@
             android:name=".CarouselsActivity"
             android:exported="true">
         </activity>
-
     </application>
 </manifest>

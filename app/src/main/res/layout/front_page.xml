@@ -23,7 +23,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="0dp"
-                android:src="@drawable/languages" />
+                android:src="@drawable/language" />
         </RelativeLayout>
 
         <ImageView

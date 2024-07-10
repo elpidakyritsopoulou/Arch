@@ -18,6 +18,8 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class Amathus_Archaeological_Site extends AppCompatActivity {
@@ -127,6 +129,15 @@ public class Amathus_Archaeological_Site extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.amathus_archaeological_site);
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/xVXzppE5yknxvU3D8";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

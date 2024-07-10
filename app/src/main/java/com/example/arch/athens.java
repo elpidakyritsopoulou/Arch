@@ -19,6 +19,8 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class athens extends AppCompatActivity {
@@ -128,11 +130,11 @@ public class athens extends AppCompatActivity {
         setContentView(R.layout.athens);
 
 
-        Button readmore = (Button) findViewById(R.id.button);
+        FloatingActionButton readMore = findViewById(R.id.readmore);
 
 
 
-        readmore.setOnClickListener(new View.OnClickListener() {
+        readMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(athens.this, athens_monuments.class));

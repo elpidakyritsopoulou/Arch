@@ -30,6 +30,8 @@ import java.util.Locale;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class rio_antirion_bridge extends AppCompatActivity {
 
     @Override
@@ -139,6 +141,15 @@ public class rio_antirion_bridge extends AppCompatActivity {
 
 
 
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/AyyCc8HQwH1F5Vb6A";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
     ImageButton link1 = (ImageButton) findViewById(R.id.link1);
     ImageButton link2 = (ImageButton) findViewById(R.id.link2);
     ImageButton link3 = (ImageButton) findViewById(R.id.link3);
