@@ -14,68 +14,87 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:padding="16dp"
             tools:ignore="MissingConstraints">
 
             <TextView
                 android:id="@+id/Nicosia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/nicosia_monuments"
                 android:textColor="@color/orange"
-                android:textSize="60sp" />
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/moutoullatext"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Church_of_panagia_our_lady_tou_moutoulla"
-                android:textSize="45dp" />
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
 
             <ImageView
                 android:id="@+id/moutoulla"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
-                android:src="@drawable/moutoulla_cover" />
+                android:src="@drawable/moutoulla_cover"
+                android:scaleType="centerCrop" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/The_cyprus_museum"
-                android:textSize="45dp" />
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
 
             <ImageView
                 android:id="@+id/cyprusmuseum"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
-                android:src="@drawable/cyprus_museum_cover" />
+                android:src="@drawable/cyprus_museum3"
+                android:scaleType="centerCrop" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/tamassostext"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/archaeological_site_of_tamassos"
-                android:textSize="45dp" />
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
 
             <ImageView
                 android:id="@+id/tamassos"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
-                android:src="@drawable/tamassos_cover" />
+                android:src="@drawable/tamassos_cover"
+                android:scaleType="centerCrop" />
 
         </LinearLayout>
     </ScrollView>

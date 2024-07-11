@@ -14,68 +14,84 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:padding="16dp"
             tools:ignore="MissingConstraints">
 
             <TextView
                 android:id="@+id/Nicosia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/thessaloniki_monuments"
                 android:textColor="@color/orange"
-                android:textSize="60sp" />
+                android:textSize="36sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/whitetowertext"
                 android:layout_width="match_parent"
-                android:layout_height="201dp"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/white_tower_of_thessaloniki"
-                android:textSize="45dp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/whitetower"
-                android:layout_width="359dp"
-                android:layout_height="276dp"
-                android:src="@drawable/lefkos4" />
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/white_tower4" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Rotonda_thessaloniki"
-                android:textSize="40dp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/rotonda"
                 android:layout_width="match_parent"
-                android:layout_height="225dp"
-                android:src="@drawable/rotonda_cover" />
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rotonda4" />
 
             <TextView
                 android:id="@+id/panathenaic_stadium"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Arch_of_galerius_kamara"
-                android:textSize="45dp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/kamara"
-                android:layout_width="363dp"
-                android:layout_height="275dp"
-                android:src="@drawable/kamara_cover" />
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kamara4" />
 
         </LinearLayout>
     </ScrollView>

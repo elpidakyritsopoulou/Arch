@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    android:backgroundTint="@color/orange_background"
+    android:background="@color/orange_background"
     android:hapticFeedbackEnabled="true"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,17 +17,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
             android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
-
-            >
-
-            ]]>
+            tools:ignore="ExtraText">
 
             <Space
-                android:layout_width="250dp"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
@@ -36,7 +31,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="76dp"
                 android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
+                android:layout_gravity="end|top"
                 android:src="@drawable/logo" />
 
         </LinearLayout>
@@ -48,48 +43,52 @@
             android:gravity="center_horizontal"
             android:text="@string/church_of_panagia_our_lady_tou_moutoulla"
             android:textColor="@color/orange"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
 
-
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
 
         <HorizontalScrollView
             android:id="@+id/gallery"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1">
 
             <LinearLayout
-
-                android:layout_width="910dp"
-                android:layout_height="202dp"
-                android:orientation="horizontal">
-
-
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="8dp">
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
                     android:src="@drawable/moutoulla1" />
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
                     android:src="@drawable/moutoulla2" />
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
                     android:src="@drawable/moutoulla3" />
 
             </LinearLayout>
         </HorizontalScrollView>
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -98,41 +97,28 @@
             android:fontFamily="casual"
             android:gravity="center"
             android:text="@string/church_of_panagia_our_lady_tou_moutoulla_text"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="8dp" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="35dp" />
+            android:layout_height="16dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            >
+            android:gravity="center">
 
             <ImageButton
                 android:id="@+id/link1"
                 android:layout_width="51dp"
                 android:layout_height="45dp"
                 android:background="@drawable/link_512"
-                android:gravity="left|bottom"
-                android:text="@string/acropolis_links" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-
-
-
+                android:contentDescription="@string/acropolis_links" />
 
         </LinearLayout>
 
-
-
     </LinearLayout>
-
-
-
 </ScrollView>

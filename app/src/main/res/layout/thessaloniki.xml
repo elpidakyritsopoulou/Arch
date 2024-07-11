@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@color/orange_background"
     android:hapticFeedbackEnabled="true"
     android:orientation="vertical">
@@ -17,14 +17,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
-
-            >
-
-            ]]>
+            android:orientation="horizontal">
 
             <Space
                 android:layout_width="250dp"
@@ -35,7 +30,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="76dp"
                 android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
+                android:layout_gravity="right|top"
                 android:src="@drawable/logo" />
 
         </LinearLayout>
@@ -53,12 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="34dp" />
 
-
         <ImageView
             android:id="@+id/patrascover"
             android:layout_width="match_parent"
             android:layout_height="301dp"
-            android:layout_weight="1"
             android:src="@drawable/thessaloniki" />
 
         <Space
@@ -88,7 +81,5 @@
             android:src="@drawable/monument"
             app:backgroundTint="@color/orange"
             app:fabSize="mini" />
-
     </LinearLayout>
-
 </ScrollView>

@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="@string/the_albacin"
+                android:text="@string/amanthus_archaeological_site"
                 android:textColor="@color/orange"
                 android:textSize="34sp" />
 
@@ -58,21 +58,21 @@
                         android:id="@+id/imageView9"
                         android:layout_width="442dp"
                         android:layout_height="190dp"
-                        android:src="@drawable/the_albaic_n1"
-                        android:contentDescription="@string/the_albacin" />
+                        android:src="@drawable/amanthus1"
+                        />
 
                     <ImageView
                         android:id="@+id/imageView7"
                         android:layout_width="361dp"
                         android:layout_height="190dp"
-                        android:src="@drawable/the_albaic_n2"
+                        android:src="@drawable/amanthus2"
                         android:contentDescription="@string/the_albacin" />
 
                     <ImageView
                         android:id="@+id/imageView8"
                         android:layout_width="550dp"
                         android:layout_height="190dp"
-                        android:src="@drawable/the_albaic_n3"
+                        android:src="@drawable/amanthus3"
                         android:contentDescription="@string/the_albacin" />
                 </LinearLayout>
             </HorizontalScrollView>
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:gravity="center"
-                android:text="@string/albacin_text"
+                android:text="@string/amanthus_text"
                 android:textSize="12sp"
                 android:textStyle="bold" />
 
@@ -107,7 +107,7 @@
     </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/location_albacin"
+        android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

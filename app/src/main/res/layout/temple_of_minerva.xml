@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    android:backgroundTint="@color/orange_background"
-    android:hapticFeedbackEnabled="true"
-    android:orientation="horizontal">
+    android:background="@color/orange_background"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,17 +15,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
             android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
-
-            >
-
-            ]]>
+            tools:ignore="ExtraText">
 
             <Space
-                android:layout_width="250dp"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
@@ -48,48 +41,45 @@
             android:gravity="center_horizontal"
             android:text="@string/Temple_of_minerva"
             android:textColor="@color/orange"
-            android:textSize="34sp" />
-
-
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp" />
 
         <HorizontalScrollView
             android:id="@+id/gallery"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1">
 
             <LinearLayout
-
-                android:layout_width="910dp"
-                android:layout_height="202dp"
-                android:orientation="horizontal">
-
-
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="8dp">
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="550dp"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
                     android:src="@drawable/minerva1" />
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="550dp"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
                     android:src="@drawable/minerva2" />
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="550dp"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
                     android:src="@drawable/minerva3" />
 
             </LinearLayout>
         </HorizontalScrollView>
-
 
         <TextView
             android:id="@+id/textView3"
@@ -98,8 +88,10 @@
             android:fontFamily="casual"
             android:gravity="center"
             android:text="@string/temple_of_minerva_text"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp" />
 
         <Space
             android:layout_width="match_parent"
@@ -109,36 +101,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            >
+            android:gravity="center">
 
             <ImageButton
                 android:id="@+id/link1"
                 android:layout_width="51dp"
                 android:layout_height="45dp"
                 android:background="@drawable/link_512"
-                android:gravity="left|bottom"
-                android:text="@string/acropolis_links"></ImageButton>
+                android:contentDescription="@string/acropolis_links" />
 
             <Space
                 android:layout_width="37dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_height="match_parent" />
 
             <ImageButton
                 android:id="@+id/link2"
                 android:layout_width="51dp"
                 android:layout_height="45dp"
                 android:background="@drawable/link_512"
-                android:gravity="center"
-                android:text="@string/acropolis_links"></ImageButton>
-
+                android:contentDescription="@string/acropolis_links" />
 
         </LinearLayout>
 
-
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
 
     </LinearLayout>
-
-
 
 </ScrollView>

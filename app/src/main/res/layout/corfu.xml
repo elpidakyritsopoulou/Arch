@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,6 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
+        android:padding="16dp"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
@@ -23,8 +23,9 @@
             tools:ignore="ExtraText">
 
             <Space
-                android:layout_width="250dp"
-                android:layout_height="match_parent" />
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -41,21 +42,24 @@
             android:gravity="center_horizontal"
             android:text="@string/corfu"
             android:textColor="@color/orange"
-            android:textSize="70sp" />
+            android:textSize="34sp"
+            android:paddingTop="16dp"
+            android:textStyle="bold" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="34dp" />
+            android:layout_height="16dp" />
 
         <ImageView
             android:id="@+id/corfucover"
             android:layout_width="match_parent"
             android:layout_height="344dp"
-            android:src="@drawable/corfu" />
+            android:src="@drawable/corfu"
+            android:layout_marginHorizontal="8dp" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="34dp" />
+            android:layout_height="16dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -64,12 +68,13 @@
             android:fontFamily="casual"
             android:gravity="center"
             android:text="@string/corfu_text"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="8dp" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="34dp" />
+            android:layout_height="16dp" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/readmore"

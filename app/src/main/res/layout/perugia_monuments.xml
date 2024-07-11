@@ -14,22 +14,23 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:padding="16dp"
             tools:ignore="MissingConstraints">
 
             <TextView
                 android:id="@+id/Nicosia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/perugia_monuments"
                 android:textColor="@color/orange"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:paddingBottom="16dp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -38,44 +39,55 @@
             <TextView
                 android:id="@+id/november_squere"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Iv_november_square"
-                android:textSize="45dp" />
+                android:textSize="45dp"
+                android:paddingBottom="16dp" />
 
             <ImageView
                 android:id="@+id/november_square_photo"
-                android:layout_width="360dp"
+                android:layout_width="match_parent"
                 android:layout_height="310dp"
-                android:src="@drawable/november_square_cover" />
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/november_square_cover"
+                android:scaleType="centerCrop"
+                 />
 
             <TextView
                 android:id="@+id/aqueduct_perugia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/The_roman_aqueduct_in_perugia"
-                android:textSize="45dp" />
+                android:textSize="45dp"
+                android:paddingBottom="16dp" />
 
             <ImageView
                 android:id="@+id/aqueduct_perugia_photo"
                 android:layout_width="match_parent"
                 android:layout_height="225dp"
-                android:src="@drawable/aqueduct_rerugia_cover" />
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/aqueduct_rerugia_cover"
+                android:scaleType="centerCrop"
+                 />
 
             <TextView
                 android:id="@+id/umbria"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/National_gallery_of_umbria"
-                android:textSize="45dp" />
+                android:textSize="45dp"
+                android:paddingBottom="16dp" />
 
             <ImageView
                 android:id="@+id/umbriaphoto"
                 android:layout_width="match_parent"
                 android:layout_height="275dp"
-                android:src="@drawable/umbria_cover" />
+                android:src="@drawable/umbria_cover"
+                android:scaleType="centerCrop"
+                 />
 
         </LinearLayout>
     </ScrollView>

@@ -237,6 +237,10 @@
     <string name="spain_carousel">Spain</string>
     <string name="cyprus_carousel">Cyprus</string>
     <string name="get_location">Get Location</string>
+    <string name="albacin_links">albacin_links</string>
+    <string name="amanthus_text">Amathus is one of the significant ancient city-kingdoms of Cyprus where, according to mythology, Greek hero Theseus left the pregnant Ariadne to be attended by local women. It was also an important site of worship of the Goddess Aphrodite.\nThere are various archaeological finds at the site, including the Agora, the public baths, the Temple of Aphrodite, early Christian basilicas and several tombs.\nThe Agora is located in the lower town. In ancient times, it was the traditional hub for commercial and political activities, and the buildings surrounding it, played an important role in the daily life of the city.\n</string>
+    <string name="amanthus_archaeological_site">Amathus Archaeological Site</string>
+    <string name="santiago_de_compostela_text">The Santiago de Compostela Arch Cathedral Basilica (Spanish and Galician: Catedral Basilica de Santiago de Compostela) is part of the Metropolitan Archdiocese of Santiago de Compostela and is an integral component of the Santiago de Compostela World Heritage Site in Galicia, Spain. The cathedral is the reputed burial place of Saint James the Great, one of the apostles of Jesus Christ. It is also among the remaining churches in the world built over the tomb of an apostle, the other ones being St Peter\'s Basilica in Vatican City, St Thomas Cathedral Basilica, Chennai in India and Basilica of St. John in Izmir, Turkey.</string>
     <string-array name="countries_array">
         <item>Greece</item>
         <item>Italy</item>

@@ -8,13 +8,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp"
             android:gravity="center">
 
             <LinearLayout
@@ -44,12 +44,15 @@
                 android:gravity="center_horizontal"
                 android:text="@string/acropolis"
                 android:textColor="@color/orange"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
 
             <HorizontalScrollView
                 android:id="@+id/gallery"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -58,22 +61,27 @@
 
                     <ImageView
                         android:id="@+id/imageView9"
-                        android:layout_width="550dp"
-                        android:layout_height="190dp"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="8dp"
                         android:src="@drawable/acropolis_photo1"
                         android:contentDescription="@string/acropolis" />
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="550dp"
-                        android:layout_height="190dp"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginEnd="8dp"
                         android:src="@drawable/acropolis_photo2"
                         android:contentDescription="@string/acropolis" />
 
                     <ImageView
                         android:id="@+id/imageView8"
-                        android:layout_width="550dp"
-                        android:layout_height="190dp"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/acropolis_photo3"
                         android:contentDescription="@string/acropolis" />
 
@@ -87,8 +95,10 @@
                 android:fontFamily="casual"
                 android:gravity="center"
                 android:text="@string/acropolis_text"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:paddingHorizontal="8dp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -97,7 +107,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center">
 
                 <ImageButton
                     android:id="@+id/link1"
@@ -107,7 +118,7 @@
                     android:contentDescription="@string/acropolis_links" />
 
                 <Space
-                    android:layout_width="37dp"
+                    android:layout_width="16dp"
                     android:layout_height="match_parent" />
 
                 <ImageButton
@@ -118,7 +129,7 @@
                     android:contentDescription="@string/acropolis_links" />
 
                 <Space
-                    android:layout_width="37dp"
+                    android:layout_width="16dp"
                     android:layout_height="match_parent" />
 
                 <ImageButton

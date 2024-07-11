@@ -1,92 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/orange_background"
-    android:hapticFeedbackEnabled="true"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:background="@color/orange_background">
 
-    <LinearLayout
+    <ScrollView
+        android:id="@+id/back"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        android:layout_height="match_parent"
+        android:background="@color/orange_background"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
 
-            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="horizontal"
+                tools:ignore="ExtraText">
 
-            ]]>
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="76dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="right|top|fill_vertical"
+                    android:src="@drawable/logo" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/paphos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/paphos"
+                android:textColor="@color/orange"
+                android:textSize="70sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
 
             <Space
-                android:layout_width="250dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
             <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="76dp"
-                android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
-                android:src="@drawable/logo" />
+                android:id="@+id/paphoscover"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_weight="1"
+                android:src="@drawable/paphos"
+                android:scaleType="centerCrop" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/paphos_text"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/readmore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:src="@drawable/monument"
+                app:backgroundTint="@color/orange"
+                app:fabSize="mini" />
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/paphos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/paphos"
-            android:textColor="@color/orange"
-            android:textSize="70sp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="34dp" />
-
-
-        <ImageView
-            android:id="@+id/paphoscover"
-            android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:layout_weight="1"
-            android:src="@drawable/paphos" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="34dp" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="@string/paphos_text"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="34dp" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Read more"
-            tools:visibility="visible" />
-
-    </LinearLayout>
-
-</ScrollView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

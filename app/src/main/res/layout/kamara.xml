@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,145 +12,136 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints">
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
-
-            >
-
-            ]]>
-
-            <Space
-                android:layout_width="250dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="76dp"
-                android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
-                android:src="@drawable/logo" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/Nicosia"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/arch_of_galerius_kamara"
-            android:textColor="@color/orange"
-            android:textSize="34sp" />
-
-
-
-        <HorizontalScrollView
-            android:id="@+id/gallery"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
 
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="horizontal"
+                tools:ignore="ExtraText">
 
-                android:layout_width="910dp"
-                android:layout_height="202dp"
-                android:orientation="horizontal">
-
-
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="451dp"
-                    android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/kamara1" />
+                <Space
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
 
                 <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="550dp"
-                    android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/kamara2" />
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="550dp"
-                    android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/kamara3" />
+                    android:id="@+id/imageView2"
+                    android:layout_width="76dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="right|top|fill_vertical"
+                    android:src="@drawable/logo" />
 
             </LinearLayout>
-        </HorizontalScrollView>
 
+            <TextView
+                android:id="@+id/Nicosia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/arch_of_galerius_kamara"
+                android:textColor="@color/orange"
+                android:textSize="34sp"
+                android:paddingVertical="16dp" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="@string/arch_of_galerius_kamara_text"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+            <HorizontalScrollView
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="174dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="400dp"
+                        android:layout_height="190dp"
+                        android:layout_marginEnd="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kamara1" />
 
-            <ImageButton
-                android:id="@+id/link1"
-                android:layout_width="51dp"
-                android:layout_height="45dp"
-                android:background="@drawable/link_512"
-                android:gravity="left|bottom"
-                android:text="@string/acropolis_links"></ImageButton>
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="400dp"
+                        android:layout_height="190dp"
+                        android:layout_marginEnd="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kamara2" />
 
-            <Space
-                android:layout_width="37dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="400dp"
+                        android:layout_height="190dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kamara3" />
 
-            <ImageButton
-                android:id="@+id/link2"
-                android:layout_width="51dp"
-                android:layout_height="45dp"
-                android:background="@drawable/link_512"
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
                 android:gravity="center"
-                android:text="@string/acropolis_links"></ImageButton>
+                android:text="@string/arch_of_galerius_kamara_text"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingVertical="16dp" />
 
             <Space
-                android:layout_width="37dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
-            <ImageButton
-                android:id="@+id/link3"
-                android:layout_width="51dp"
-                android:layout_height="45dp"
-                android:background="@drawable/link_512"
-                android:gravity="right|bottom"
-                android:text="@string/acropolis_links"></ImageButton>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/link1"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:gravity="left|bottom"
+                    android:text="@string/acropolis_links" />
+
+                <Space
+                    android:layout_width="37dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/link2"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:gravity="center"
+                    android:text="@string/acropolis_links" />
+
+                <Space
+                    android:layout_width="37dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/link3"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:gravity="right|bottom"
+                    android:text="@string/acropolis_links" />
+            </LinearLayout>
+
         </LinearLayout>
-
-
-
-    </LinearLayout>
     </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -165,6 +155,5 @@
         android:contentDescription="@string/get_location"
         app:backgroundTint="@color/orange"
         app:fabSize="mini" />
-
 
 </RelativeLayout>

@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    android:backgroundTint="@color/orange_background"
-    android:hapticFeedbackEnabled="true"
+    android:background="@color/orange_background"
     android:orientation="horizontal">
 
     <LinearLayout
@@ -14,18 +11,14 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
+        android:padding="16dp"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
-
-            >
-
-            ]]>
+            android:orientation="horizontal">
 
             <Space
                 android:layout_width="250dp"
@@ -41,7 +34,6 @@
 
         </LinearLayout>
 
-
         <TextView
             android:id="@+id/larnaka"
             android:layout_width="match_parent"
@@ -49,45 +41,44 @@
             android:gravity="center_horizontal"
             android:text="@string/larnaka_medieval_castle"
             android:textColor="@color/orange"
-            android:textSize="37sp" />
+            android:textSize="37sp"
+            android:paddingVertical="16dp" />
 
         <HorizontalScrollView
             android:id="@+id/gallery"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="wrap_content">
 
             <LinearLayout
-
-                android:layout_width="910dp"
-                android:layout_height="202dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
 
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="550dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/larnaka_castle1" />
 
                 <ImageView
                     android:id="@+id/imageView7"
                     android:layout_width="550dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/larnaka_castle2" />
 
                 <ImageView
                     android:id="@+id/imageView8"
                     android:layout_width="550dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/larnaka_castle3" />
 
             </LinearLayout>
         </HorizontalScrollView>
-
 
         <TextView
             android:id="@+id/textView3"
@@ -97,33 +88,25 @@
             android:gravity="center"
             android:text="@string/larnaka_medieval_castle_text"
             android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:paddingVertical="16dp" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="138dp" />
+            android:layout_height="16dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/link1"
                 android:layout_width="51dp"
                 android:layout_height="48dp"
                 android:background="@drawable/link_512"
-                android:gravity="left|bottom"></ImageButton>
-
-
+                android:gravity="left|bottom" />
 
         </LinearLayout>
-
-
-
     </LinearLayout>
-
-
-
 </ScrollView>

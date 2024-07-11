@@ -17,6 +17,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class nicosia extends AppCompatActivity {
@@ -126,7 +128,7 @@ public class nicosia extends AppCompatActivity {
         setContentView(R.layout.nicosia);
 
 
-        Button readmore = (Button) findViewById(R.id.button);
+        FloatingActionButton readmore = (FloatingActionButton) findViewById(R.id.button);
 
 
         readmore.setOnClickListener(new View.OnClickListener() {

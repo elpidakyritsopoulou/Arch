@@ -29,6 +29,8 @@ import java.util.Locale;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class paphos extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -136,7 +138,7 @@ public class paphos extends AppCompatActivity {
         setContentView(R.layout.paphos);
 
 
-        Button readmore = (Button) findViewById(R.id.button);
+        FloatingActionButton readmore = (FloatingActionButton) findViewById(R.id.readmore);
 
 
         readmore.setOnClickListener(new View.OnClickListener() {

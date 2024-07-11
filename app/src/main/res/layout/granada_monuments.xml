@@ -14,7 +14,6 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,7 +24,7 @@
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/granada_monuments"
                 android:textColor="@color/orange"
@@ -52,9 +51,9 @@
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="@string/Cathedral_of_granada"
+                android:text="@string/cathedral_of_granada"
                 android:textSize="40dp" />
 
             <ImageView
@@ -66,7 +65,7 @@
             <TextView
                 android:id="@+id/albacintext"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/the_albaicin"
                 android:textSize="45dp" />
@@ -76,7 +75,6 @@
                 android:layout_width="363dp"
                 android:layout_height="275dp"
                 android:src="@drawable/the_albaic_ncover" />
-
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

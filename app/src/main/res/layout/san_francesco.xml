@@ -14,18 +14,16 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
+        android:padding="16dp"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
             android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
-
-            >
-
-            ]]>
+            android:padding="8dp"
+            tools:ignore="ExtraText">
 
             <Space
                 android:layout_width="250dp"
@@ -37,8 +35,8 @@
                 android:layout_width="76dp"
                 android:layout_height="71dp"
                 android:layout_gravity="right|top|fill_vertical"
-                android:src="@drawable/logo" />
-
+                android:src="@drawable/logo"
+                 />
         </LinearLayout>
 
         <TextView
@@ -48,48 +46,46 @@
             android:gravity="center_horizontal"
             android:text="@string/Basilica_of_san_francesco"
             android:textColor="@color/orange"
-            android:textSize="34sp" />
-
-
+            android:textSize="34sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
 
         <HorizontalScrollView
             android:id="@+id/gallery"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1">
 
             <LinearLayout
-
-                android:layout_width="910dp"
-                android:layout_height="202dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
-
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="550dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/san_francesco1" />
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/san_francesco1"
+                    android:scaleType="centerCrop" />
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="550dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/san_francesco2" />
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/san_francesco2"
+                    android:scaleType="centerCrop" />
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="550dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/san_francesco3" />
+                    android:src="@drawable/san_francesco3"
+                    android:scaleType="centerCrop" />
 
             </LinearLayout>
         </HorizontalScrollView>
-
 
         <TextView
             android:id="@+id/textView3"
@@ -99,7 +95,8 @@
             android:gravity="center"
             android:text="@string/basilica_of_san_francesco_text"
             android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:padding="8dp" />
 
         <Space
             android:layout_width="match_parent"
@@ -108,8 +105,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/link1"
@@ -117,7 +113,7 @@
                 android:layout_height="45dp"
                 android:background="@drawable/link_512"
                 android:gravity="left|bottom"
-                android:text="@string/acropolis_links"></ImageButton>
+                android:contentDescription="@string/acropolis_links" />
 
             <Space
                 android:layout_width="37dp"
@@ -130,15 +126,10 @@
                 android:layout_height="45dp"
                 android:background="@drawable/link_512"
                 android:gravity="center"
-                android:text="@string/acropolis_links"></ImageButton>
-
+                android:contentDescription="@string/acropolis_links" />
 
         </LinearLayout>
 
-
-
     </LinearLayout>
-
-
 
 </ScrollView>

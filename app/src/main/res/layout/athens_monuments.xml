@@ -14,68 +14,85 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:padding="16dp"
             tools:ignore="MissingConstraints">
 
             <TextView
                 android:id="@+id/Nicosia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/athens_monuments"
                 android:textColor="@color/orange"
-                android:textSize="60sp" />
+                android:textSize="36sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/acropoli"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/acropoli"
-                android:textSize="45dp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/acropolis"
-                android:layout_width="360dp"
-                android:layout_height="310dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
                 android:src="@drawable/athenswallpaper" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/odeon_of_herodus_atticus"
-                android:textSize="45dp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/herodusatticus"
                 android:layout_width="match_parent"
-                android:layout_height="225dp"
-                android:src="@drawable/odeon_of_herodus_atticus_cover" />
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/odeon_of_herodius_atticus4" />
 
             <TextView
                 android:id="@+id/panathenaic_stadium"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/panathenaic_stadium"
-                android:textSize="45dp" />
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/panathenaic_stadium1"
                 android:layout_width="match_parent"
-                android:layout_height="275dp"
-                android:src="@drawable/panathenaic_stadium_cover" />
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/athens_chm3_photo_3" />
 
         </LinearLayout>
     </ScrollView>

@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="242dp"
             android:layout_weight="1"
-            android:src="@drawable/patracover" />
+            android:src="@drawable/patras_cover" />
 
         <Space
             android:layout_width="match_parent"

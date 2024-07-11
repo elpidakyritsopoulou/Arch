@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,157 +11,154 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints">
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText">
-
-
-            <Space
-                android:layout_width="250dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="76dp"
-                android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
-                android:src="@drawable/logo" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/Nicosia"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/Roman_odeon"
-            android:textColor="@color/orange"
-            android:textSize="60sp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="34dp" />
-
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
 
             <LinearLayout
-
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/roman_odeon1"
-                    android:layout_width="match_parent"
+                <Space
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:src="@drawable/roman_odeon1" />
+                    android:layout_weight="1" />
 
                 <ImageView
-                    android:id="@+id/roman_odeon2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:src="@drawable/roman_odeon2" />
-
-                <ImageView
-                    android:id="@+id/roman_odeon3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:src="@drawable/roman_odeon3" />
+                    android:id="@+id/imageView2"
+                    android:layout_width="76dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="right|top|fill_vertical"
+                    android:src="@drawable/logo"
+                    android:contentDescription="@string/app_name" />
 
             </LinearLayout>
-        </HorizontalScrollView>
 
+            <TextView
+                android:id="@+id/Nicosia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Roman_odeon"
+                android:textColor="@color/orange"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="34dp" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="@string/roman_odeon_text_1"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="8dp">
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="@string/roman_odeon_text_2"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/roman_odeon1"
+                        android:layout_width="300dp"
+                        android:layout_height="180dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/roman_odeon1"
+                        android:scaleType="centerCrop" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="34dp" />
+                    <ImageView
+                        android:id="@+id/roman_odeon2"
+                        android:layout_width="300dp"
+                        android:layout_height="190dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/roman_odeon2"
+                        android:scaleType="centerCrop" />
 
-<!--    </LinearLayout>-->
+                    <ImageView
+                        android:id="@+id/roman_odeon3"
+                        android:layout_width="300dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/roman_odeon3"
+                        android:scaleType="centerCrop" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center"
-        >
+                </LinearLayout>
+            </HorizontalScrollView>
 
-        <ImageButton
-            android:id="@+id/link1"
-            android:layout_width="51dp"
-            android:layout_height="45dp"
-            android:background="@drawable/link_512"
-            android:gravity="left|bottom"
-            android:text="@string/acropolis_links"></ImageButton>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
-        <Space
-            android:layout_width="37dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/roman_odeon_text_1"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="8dp" />
 
-        <ImageButton
-            android:id="@+id/link2"
-            android:layout_width="51dp"
-            android:layout_height="45dp"
-            android:background="@drawable/link_512"
-            android:gravity="center"
-            android:text="@string/acropolis_links"></ImageButton>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/roman_odeon_text_2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="8dp" />
 
-        <Space
-            android:layout_width="37dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
-        <ImageButton
-            android:id="@+id/link3"
-            android:layout_width="51dp"
-            android:layout_height="45dp"
-            android:background="@drawable/link_512"
-            android:gravity="right|bottom"
-            android:text="@string/acropolis_links"></ImageButton>
-    </LinearLayout>
-</LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/link1"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:contentDescription="@string/acropolis_links" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/link2"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:contentDescription="@string/acropolis_links" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/link3"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:contentDescription="@string/acropolis_links" />
+
+            </LinearLayout>
+
+        </LinearLayout>
     </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

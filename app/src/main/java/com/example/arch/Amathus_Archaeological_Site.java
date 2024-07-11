@@ -129,6 +129,7 @@ public class Amathus_Archaeological_Site extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.amathus_archaeological_site);
+
         FloatingActionButton location = findViewById(R.id.location);
 
         String locationUrl = "https://maps.app.goo.gl/xVXzppE5yknxvU3D8";
@@ -147,7 +148,7 @@ public class Amathus_Archaeological_Site extends AppCompatActivity {
         link1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
-                goLink("http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/D20ED526826AB796C225719B00374A92 ");
+                goLink("http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/D20ED526826AB796C225719B00374A92");
 
             }
 

@@ -17,6 +17,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class limassol extends AppCompatActivity {
@@ -125,7 +127,7 @@ public class limassol extends AppCompatActivity {
         setContentView(R.layout.limassol);
 
 
-        Button readmore = (Button) findViewById(R.id.button);
+        FloatingActionButton readmore = (FloatingActionButton) findViewById(R.id.readmore);
 
 
         readmore.setOnClickListener(new View.OnClickListener() {

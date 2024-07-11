@@ -14,67 +14,86 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:padding="16dp"
             tools:ignore="MissingConstraints">
 
             <TextView
                 android:id="@+id/Paphos"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/paphos_monuments"
                 android:textColor="@color/orange"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/oldfortesstext"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/tombs_of_the_kings"
-                android:textSize="45dp" />
+                android:textSize="45sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/kingstombs"
-                android:layout_width="360dp"
-                android:layout_height="267dp"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/kings_tombs_cover" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/katopaphostext"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/archaeological_park_of_kato_paphos_nea_paphos"
-                android:textSize="45dp" />
+                android:textSize="45sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/katopaphos"
                 android:layout_width="match_parent"
                 android:layout_height="225dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/paphos_park_cover" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
             <TextView
                 android:id="@+id/paphoscastletext"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="@string/Paphos_castle_medieval_fort"
-                android:textSize="45dp" />
+                android:text="@string/paphos_castle_medieval_fort"
+                android:textSize="45sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/paphoscastle"
-                android:layout_width="346dp"
+                android:layout_width="match_parent"
                 android:layout_height="275dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/paphos_castle_cover" />
 
         </LinearLayout>
