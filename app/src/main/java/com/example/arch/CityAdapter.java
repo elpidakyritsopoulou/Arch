@@ -2,6 +2,7 @@ package com.example.arch;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,8 @@ import java.util.Map;
 
 public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
 
+    private static final String TAG = "CityAdapter";
+
     private List<String> cityList;
     private Map<String, Integer> cityImageMap;
     private Context context;
@@ -30,6 +33,7 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
     private void initializeCityImageMap() {
         cityImageMap = new HashMap<>();
         cityImageMap.put("Athens", R.drawable.athens1);
+        cityImageMap.put("Patras", R.drawable.patrasgr);
         cityImageMap.put("Thessaloniki", R.drawable.thessaloniki);
         cityImageMap.put("Corfu", R.drawable.corfu);
         cityImageMap.put("Matera", R.drawable.matera);
@@ -41,7 +45,6 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
         cityImageMap.put("Nicosia", R.drawable.nicosia);
         cityImageMap.put("Limassol", R.drawable.limassol);
         cityImageMap.put("Paphos", R.drawable.paphos);
-        cityImageMap.put("Patra", R.drawable.patras);
         cityImageMap.put("Perugia", R.drawable.perugia);
         cityImageMap.put("Santiago de Compostela", R.drawable.santiago);
         cityImageMap.put("Larnaka", R.drawable.larnaka);
@@ -62,6 +65,10 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
         Integer imageResource = cityImageMap.get(city);
         if (imageResource != null) {
             holder.cityImage.setImageResource(imageResource);
+            Log.d(TAG, "Setting image for city: " + city + " with resource ID: " + imageResource);
+        } else {
+//            holder.cityImage.setImageResource(R.drawable.placeholder); // Optional: Placeholder image
+            Log.e(TAG, "Image resource for " + city + " is null");
         }
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -71,6 +78,9 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
                 switch (city) {
                     case "Athens":
                         intent = new Intent(context, athens.class);
+                        break;
+                    case "Patras":
+                        intent = new Intent(context, patras.class);
                         break;
                     case "Thessaloniki":
                         intent = new Intent(context, thessaloniki.class);
@@ -105,9 +115,6 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
                     case "Paphos":
                         intent = new Intent(context, paphos.class);
                         break;
-                    case "Patra":
-                        intent = new Intent(context, patras.class);
-                        break;
                     case "Perugia":
                         intent = new Intent(context, perugia.class);
                         break;
@@ -117,6 +124,9 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {
                     case "Larnaka":
                         intent = new Intent(context, Larnaka.class);
                         break;
+//                    case "Patra":
+//                        intent = new Intent(context, patras.class);
+//                        break;
                     default:
                         intent = null;
                         break;

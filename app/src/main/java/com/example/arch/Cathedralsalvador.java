@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Locale;
 
+
 public class Cathedralsalvador extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -125,7 +126,17 @@ public class Cathedralsalvador extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.plaza);
+        setContentView(R.layout.cathedralsalvador);
+
+        com.google.android.material.floatingactionbutton.FloatingActionButton location_acropolis = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/h3qMmLnDPAZvez6CA";
+        location_acropolis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

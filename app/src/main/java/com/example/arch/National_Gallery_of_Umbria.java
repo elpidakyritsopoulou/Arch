@@ -18,6 +18,8 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class National_Gallery_of_Umbria extends AppCompatActivity {
@@ -127,6 +129,16 @@ public class National_Gallery_of_Umbria extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_of_umbria);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/DvDFnAVZQNbjCFvj7";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
     }

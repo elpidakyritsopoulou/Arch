@@ -29,6 +29,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class The_Murgia_Park extends AppCompatActivity {
 
     @Override
@@ -136,6 +138,16 @@ public class The_Murgia_Park extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.murgia_park);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/zkWrYKLSUHoawwq29";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

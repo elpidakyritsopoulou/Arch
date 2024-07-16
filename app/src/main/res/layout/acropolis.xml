@@ -21,12 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="top">
-
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                android:gravity="end">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -34,14 +29,13 @@
                     android:layout_height="71dp"
                     android:src="@drawable/logo"
                     android:contentDescription="@string/app_name" />
-
             </LinearLayout>
 
             <TextView
                 android:id="@+id/Nicosia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
+                android:gravity="center"
                 android:text="@string/acropolis"
                 android:textColor="@color/orange"
                 android:textSize="34sp"
@@ -84,7 +78,6 @@
                         android:scaleType="centerCrop"
                         android:src="@drawable/acropolis_photo3"
                         android:contentDescription="@string/acropolis" />
-
                 </LinearLayout>
             </HorizontalScrollView>
 
@@ -100,15 +93,12 @@
                 android:paddingTop="16dp"
                 android:paddingHorizontal="8dp" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="35dp" />
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:paddingTop="16dp">
 
                 <ImageButton
                     android:id="@+id/link1"
@@ -139,8 +129,17 @@
                     android:background="@drawable/link_512"
                     android:contentDescription="@string/acropolis_links" />
 
-            </LinearLayout>
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent" />
 
+                <ImageButton
+                    android:id="@+id/facebook_link"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/facebook_icon"
+                    android:contentDescription="Facebook Page" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

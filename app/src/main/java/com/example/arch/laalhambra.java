@@ -126,6 +126,16 @@ public class laalhambra extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.laalhambra);
 
+        com.google.android.material.floatingactionbutton.FloatingActionButton location_acropolis = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/emNKHFrBCPfjE8eG9";
+        location_acropolis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
+
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);
 

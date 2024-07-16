@@ -1,54 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange_background">
+    android:background="@android:color/white"
+    android:padding="16dp">
 
+    <!-- EE Logo at the Top Left -->
+    <ImageView
+        android:id="@+id/EE_logo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ee_logo"
+        android:contentDescription="EE Logo" />
+
+    <!-- Language Change Icon at the Top Right -->
+    <ImageView
+        android:id="@+id/changelanguage"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/language"
+        android:contentDescription="Change Language" />
+
+    <!-- Centered Content (Logo) -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="80dp">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:id="@+id/changelanguage"
-                android:layout_width="68dp"
-                android:layout_height="44dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="0dp"
-                android:src="@drawable/language" />
-        </RelativeLayout>
-
+        <!-- Logo Image -->
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/logo"
-            android:layout_gravity="center" />
+            android:contentDescription="Logo"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
 
-        <Spinner
-            android:id="@+id/country_spinner"
-            style="@style/Widget.AppCompat.Spinner.Underlined"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:spinnerMode="dropdown" />
+    <!-- Enter Button -->
+    <Button
+        android:id="@+id/carouselsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/support"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:text="ENTER"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:elevation="4dp" />
+
+    <!-- Support TextView (Simulating the text below the button) -->
+    <TextView
+        android:id="@+id/support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/social_links"
+        android:layout_marginBottom="16dp"
+        android:text="Supported by the Cultural Programme of the European Union"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <!-- Social Media Links -->
+    <LinearLayout
+        android:id="@+id/social_links"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <ImageView
-            android:id="@+id/EE_logo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="57dp"
-            android:layout_marginEnd="55dp"
-            android:layout_marginBottom="0dp"
-            android:layout_gravity="end"
-            app:srcCompat="@drawable/ee_logo" />
+            android:id="@+id/facebook_link"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/facebook_icon"
+            android:contentDescription="Facebook"
+            android:layout_marginEnd="16dp"
+            android:onClick="openFacebook" />
+
+        <ImageView
+            android:id="@+id/linkedin_link"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/linkedin_icon"
+            android:contentDescription="LinkedIn"
+            android:layout_marginEnd="16dp"
+            android:onClick="openLinkedIn" />
+
+        <ImageView
+            android:id="@+id/website_link"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/website_icon"
+            android:contentDescription="Website"
+            android:onClick="openWebsite" />
+
     </LinearLayout>
 </RelativeLayout>

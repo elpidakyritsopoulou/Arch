@@ -18,6 +18,8 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class Limassol_Medieval_Castle extends AppCompatActivity {
@@ -125,6 +127,16 @@ public class Limassol_Medieval_Castle extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.limassol_medieval_castle);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/j36jYycJfukaP7k1A";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

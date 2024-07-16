@@ -23,6 +23,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 public class The_Cyprus_Museum extends AppCompatActivity {
 
@@ -131,6 +133,16 @@ public class The_Cyprus_Museum extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cyprus_museum);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/oZL7kbASw6EwwvAUA";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

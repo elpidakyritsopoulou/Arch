@@ -30,6 +30,8 @@ import java.util.Locale;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class paphos_park extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -136,6 +138,16 @@ public class paphos_park extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.paphos_park);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/e2u1xeRWfPfW61uT8";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

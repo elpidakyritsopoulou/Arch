@@ -6,26 +6,17 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Spinner;
-import android.widget.Toast;
-
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Locale;
 
 public class frontPage extends AppCompatActivity {
-
-    Spinner countrySpinner;
-    ArrayAdapter<String> adapterItems;
-    String[] items = {"Greece", "Italy", "Spain", "Cyprus"};
-    boolean isSpinnerInitialized = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,54 +41,31 @@ public class frontPage extends AppCompatActivity {
             }
         });
 
-        countrySpinner = findViewById(R.id.country_spinner);
-        adapterItems = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items);
-        adapterItems.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        countrySpinner.setAdapter(adapterItems);
-
-        countrySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        Button carouselsButton = findViewById(R.id.carouselsButton);
+        carouselsButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (isSpinnerInitialized) {
-                    String selectedItem = parent.getItemAtPosition(position).toString();
-                    Class<?> activityClass = getActivityClass(selectedItem);
-                    if (activityClass != null) {
-                        startActivity(new Intent(frontPage.this, activityClass));
-                    } else {
-                        Toast.makeText(frontPage.this, "Activity not found for country: " + selectedItem, Toast.LENGTH_SHORT).show();
-                    }
-                } else {
-                    isSpinnerInitialized = true;
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                // Do nothing
+            public void onClick(View v) {
+                startActivity(new Intent(frontPage.this, CarouselsActivity.class));
             }
         });
-
-        // Initialize spinner flag to false after setting the adapter
-        isSpinnerInitialized = false;
 
         // Load saved language
         loadLocale();
     }
 
-    // Method to map country names to activity classes
-    private Class<?> getActivityClass(String country) {
-        switch (country) {
-            case "Greece":
-                return Greece.class;
-            case "Italy":
-                return Italy.class;
-            case "Spain":
-                return Spain.class;
-            case "Cyprus":
-                return Cyprus.class;
-            default:
-                return null;
-        }
+    public void openFacebook(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/profile.php?id=100088077619385"));
+        startActivity(browserIntent);
+    }
+
+    public void openLinkedIn(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/company/archeu/"));
+        startActivity(browserIntent);
+    }
+
+    public void openWebsite(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://arch-erasmusproject.eu"));
+        startActivity(browserIntent);
     }
 
     private void showChangeLanguageDialog() {

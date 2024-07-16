@@ -18,6 +18,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class Granada extends AppCompatActivity {
@@ -127,7 +129,7 @@ public class Granada extends AppCompatActivity {
         setContentView(R.layout.granada);
 
 
-        Button readmore = (Button) findViewById(R.id.readmore);
+        FloatingActionButton readmore = (FloatingActionButton) findViewById(R.id.readmore);
 
 
 

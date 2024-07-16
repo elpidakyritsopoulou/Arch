@@ -127,6 +127,16 @@ public class cathedral extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cathedral);
 
+        com.google.android.material.floatingactionbutton.FloatingActionButton location_acropolis = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/hm1kpSJ1VibRJfJQA";
+        location_acropolis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
+
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);
 

@@ -28,7 +28,8 @@
                 android:gravity="center_horizontal"
                 android:text="@string/santiago_de_compostela_monuments"
                 android:textColor="@color/orange"
-                android:textSize="60sp"
+                android:textSize="34sp"
+                android:textStyle="bold"
                 android:paddingTop="16dp"
                 android:paddingBottom="8dp" />
 
@@ -42,7 +43,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Cathedral_of_santiago_de_compostela"
-                android:textSize="45dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp" />
 
@@ -68,7 +70,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Plaza_del_obradoiro"
-                android:textSize="40dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp" />
 
@@ -94,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Camino_de_santiago"
-                android:textSize="45dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp" />
 

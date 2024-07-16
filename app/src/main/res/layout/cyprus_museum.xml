@@ -1,4 +1,4 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,144 +7,150 @@
     android:hapticFeedbackEnabled="true"
     android:orientation="vertical">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="16dp"
-        tools:ignore="MissingConstraints">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText">
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="horizontal"
+                tools:ignore="ExtraText">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="76dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="right|top|fill_vertical"
+                    android:src="@drawable/logo" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Nicosia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/the_cyprus_museum"
+                android:textColor="@color/orange"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:paddingTop="16dp" />
 
             <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="76dp"
-                android:layout_height="71dp"
-                android:layout_gravity="right|top|fill_vertical"
-                android:src="@drawable/logo" />
+            <HorizontalScrollView
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
 
-        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="8dp">
 
-        <TextView
-            android:id="@+id/Nicosia"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/the_cyprus_museum"
-            android:textColor="@color/orange"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            android:paddingTop="16dp" />
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/cyprus_museum1" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="16dp" />
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/cyprus_museum2" />
 
-        <HorizontalScrollView
-            android:id="@+id/gallery"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/cyprus_museum_cover" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/the_cyprus_museum_text"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="8dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingHorizontal="8dp">
+                android:gravity="center">
 
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="300dp"
-                    android:layout_height="200dp"
-                    android:layout_marginEnd="8dp"
-                    android:src="@drawable/cyprus_museum1" />
+                <ImageButton
+                    android:id="@+id/link1"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:contentDescription="@string/acropolis_links" />
 
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="300dp"
-                    android:layout_height="200dp"
-                    android:layout_marginEnd="8dp"
-                    android:src="@drawable/cyprus_museum2" />
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
 
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="300dp"
-                    android:layout_height="200dp"
-                    android:src="@drawable/cyprus_museum_cover" />
+                <ImageButton
+                    android:id="@+id/link2"
+                    android:layout_width="51dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/link_512"
+                    android:contentDescription="@string/acropolis_links" />
 
             </LinearLayout>
-        </HorizontalScrollView>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="16dp" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="@string/the_cyprus_museum_text"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            android:paddingHorizontal="8dp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="16dp" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-            <ImageButton
-                android:id="@+id/link1"
-                android:layout_width="51dp"
-                android:layout_height="45dp"
-                android:background="@drawable/link_512"
-                android:contentDescription="@string/acropolis_links" />
 
             <Space
-                android:layout_width="10dp"
-                android:layout_height="match_parent" />
-
-            <ImageButton
-                android:id="@+id/link2"
-                android:layout_width="51dp"
-                android:layout_height="45dp"
-                android:background="@drawable/link_512"
-                android:contentDescription="@string/acropolis_links" />
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
 
         </LinearLayout>
+    </ScrollView>
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="32dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/location"
+        app:backgroundTint="@color/orange"
+        app:fabSize="mini" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/location_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="16dp"
-            android:src="@drawable/location"
-            app:backgroundTint="@color/orange"
-            app:fabSize="mini" />
-
-    </LinearLayout>
-
-</ScrollView>
+</RelativeLayout>

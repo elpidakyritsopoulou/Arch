@@ -29,6 +29,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class Teatro extends AppCompatActivity {
 
     @Override
@@ -136,6 +138,16 @@ public class Teatro extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.teatro);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/Z3jWm5yHThXUjXif6";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

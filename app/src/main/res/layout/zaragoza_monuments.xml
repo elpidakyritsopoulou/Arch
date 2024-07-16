@@ -14,68 +14,93 @@
         android:background="@color/orange_background"
         android:visibility="visible">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
+            android:padding="16dp"
             tools:ignore="MissingConstraints">
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/zaragoza_monuments"
                 android:textColor="@color/orange"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:elevation="4dp" />
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="24dp" />
 
             <TextView
                 android:id="@+id/laalhambratext"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Basilica_de_nuestra_se_ora_del_pilar"
-                android:textSize="45dp" />
+                android:textSize="45dp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:elevation="4dp" />
 
             <ImageView
                 android:id="@+id/basilica"
-                android:layout_width="359dp"
+                android:layout_width="match_parent"
                 android:layout_height="276dp"
-                android:src="@drawable/basilicacover" />
+                android:layout_marginTop="16dp"
+                android:src="@drawable/basilicacover"
+                android:scaleType="centerCrop"
+                android:elevation="2dp" />
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/La_catedral_del_salvador_en_su_epifan_a_seo"
-                android:textSize="40dp" />
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_marginTop="24dp"
+                android:elevation="4dp" />
 
             <ImageView
                 android:id="@+id/cathedralsalvador"
-                android:layout_width="357dp"
+                android:layout_width="match_parent"
                 android:layout_height="225dp"
-                android:src="@drawable/lacatedraldelsavadomcover" />
+                android:layout_marginTop="16dp"
+                android:src="@drawable/lacatedraldelsavadomcover"
+                android:scaleType="centerCrop"
+                android:elevation="2dp"
+                 />
 
             <TextView
                 android:id="@+id/palaciotext"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:text="@string/Palacio_de_la_aljafer_a"
-                android:textSize="45dp" />
+                android:textSize="45dp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_marginTop="24dp"
+                android:elevation="4dp" />
 
             <ImageView
                 android:id="@+id/palacio"
-                android:layout_width="363dp"
+                android:layout_width="match_parent"
                 android:layout_height="275dp"
-                android:src="@drawable/palaciocover" />
+                android:layout_marginTop="16dp"
+                android:src="@drawable/palaciocover"
+                android:scaleType="centerCrop"
+                android:elevation="2dp"
+                />
 
         </LinearLayout>
     </ScrollView>

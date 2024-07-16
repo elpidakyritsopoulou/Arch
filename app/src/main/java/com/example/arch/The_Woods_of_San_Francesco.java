@@ -29,6 +29,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class The_Woods_of_San_Francesco extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -135,6 +137,16 @@ public class The_Woods_of_San_Francesco extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.woods_francesco);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/RWztCsYJ3gUmS9Ks8";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

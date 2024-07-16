@@ -19,6 +19,8 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class Church_moutoulla extends AppCompatActivity {
@@ -127,6 +129,16 @@ public class Church_moutoulla extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.church_moutoulla);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/Uv7wVcp4WApY3UNm9";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

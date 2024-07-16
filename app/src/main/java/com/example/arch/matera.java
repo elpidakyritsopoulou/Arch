@@ -17,6 +17,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class matera extends AppCompatActivity {
@@ -126,7 +128,7 @@ public class matera extends AppCompatActivity {
         setContentView(R.layout.matera);
 
 
-        Button readmore = (Button) findViewById(R.id.button);
+        FloatingActionButton readmore = (FloatingActionButton) findViewById(R.id.readmore);
 
 
 

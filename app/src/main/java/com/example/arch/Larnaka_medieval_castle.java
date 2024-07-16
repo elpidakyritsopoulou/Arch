@@ -18,6 +18,8 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.util.Locale;
 
 public class Larnaka_medieval_castle extends AppCompatActivity {
@@ -126,6 +128,16 @@ public class Larnaka_medieval_castle extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.larnaka_medieval_castle);
+
+        FloatingActionButton location = findViewById(R.id.location);
+
+        String locationUrl = "https://maps.app.goo.gl/j3rmbt1cd4cmeDjy7";
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl)));
+            }
+        });
 
 
         ImageButton link1 = (ImageButton) findViewById(R.id.link1);

@@ -16,7 +16,6 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import java.util.Locale;
 
@@ -28,12 +27,12 @@ public class acropolis extends AppCompatActivity {
         loadLocale();
         setContentView(R.layout.acropolis);
 
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ImageButton link1 = findViewById(R.id.link1);
         ImageButton link2 = findViewById(R.id.link2);
         ImageButton link3 = findViewById(R.id.link3);
+        ImageButton facebookLink = findViewById(R.id.facebook_link);
         com.google.android.material.floatingactionbutton.FloatingActionButton location_acropolis = findViewById(R.id.location_acropolis);
 
         String locationUrl = "https://maps.app.goo.gl/hsMYxLAXg2WMJzbj8";
@@ -59,6 +58,12 @@ public class acropolis extends AppCompatActivity {
         link3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 goLink("https://www.theacropolismuseum.gr/en/");
+            }
+        });
+
+        facebookLink.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                goLink("https://www.facebook.com/theacropolismuseum");
             }
         });
     }
@@ -167,4 +172,5 @@ public class acropolis extends AppCompatActivity {
         Uri uri = Uri.parse(url);
         startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
+
 }

@@ -132,7 +132,7 @@ public class Amathus_Archaeological_Site extends AppCompatActivity {
 
         FloatingActionButton location = findViewById(R.id.location);
 
-        String locationUrl = "https://maps.app.goo.gl/xVXzppE5yknxvU3D8";
+        String locationUrl = "https://maps.app.goo.gl/W8GvjByxu4BTktPB6";
         location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

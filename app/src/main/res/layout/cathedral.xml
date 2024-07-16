@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    android:backgroundTint="@color/orange_background"
+    android:background="@color/orange_background"
     android:hapticFeedbackEnabled="true"
-    android:orientation="horizontal">
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,14 +21,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
-            android:orientation="horizontal"
-            tools:ignore="ExtraText"><![CDATA[
-
-            >
-
-            ]]>
+            android:orientation="horizontal">
 
             <Space
                 android:layout_width="250dp"
@@ -48,47 +46,56 @@
             android:gravity="center_horizontal"
             android:text="@string/cathedral_of_granada"
             android:textColor="@color/orange"
-            android:textSize="34sp" />
-
-
+            android:textSize="34sp"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:elevation="4dp" />
 
         <HorizontalScrollView
             android:id="@+id/gallery"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
 
             <LinearLayout
-
-                android:layout_width="910dp"
-                android:layout_height="202dp"
-                android:orientation="horizontal">
-
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="442dp"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/cathedral_of_granada1" />
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/cathedral_of_granada1"
+                    android:scaleType="centerCrop"
+                    android:elevation="2dp"
+                     />
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="361dp"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/cathedral_of_granada2" />
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/cathedral_of_granada2"
+                    android:scaleType="centerCrop"
+                    android:elevation="2dp"
+                    />
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="550dp"
+                    android:layout_width="300dp"
                     android:layout_height="190dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/cathedral_of_granada3" />
+                    android:src="@drawable/cathedral_of_granada3"
+                    android:scaleType="centerCrop"
+                    android:elevation="2dp"
+                     />
 
             </LinearLayout>
         </HorizontalScrollView>
-
 
         <TextView
             android:id="@+id/textView3"
@@ -98,7 +105,10 @@
             android:gravity="center"
             android:text="@string/cathedral_of_granada_text"
             android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:elevation="4dp" />
 
         <Space
             android:layout_width="match_parent"
@@ -107,22 +117,32 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/link1"
                 android:layout_width="51dp"
                 android:layout_height="45dp"
                 android:background="@drawable/link_512"
-                android:gravity="left|bottom"></ImageButton>
+                android:gravity="left|bottom" />
 
         </LinearLayout>
 
-
-
     </LinearLayout>
 
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/location"
+        android:contentDescription="@string/get_location"
+        app:backgroundTint="@color/orange"
+        app:fabSize="mini" />
 
 
-</ScrollView>
+</RelativeLayout>
