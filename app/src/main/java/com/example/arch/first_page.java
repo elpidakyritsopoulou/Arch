@@ -131,15 +131,6 @@ public class first_page extends frontPage {
         ImageView logoSpain = (ImageView) findViewById(R.id.ImageViewSpain);
 
 
-        Button carouselsButton = findViewById(R.id.carouselsButton);
-
-        carouselsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(first_page.this, CarouselsActivity.class);
-                startActivity(intent);
-            }
-        });
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
